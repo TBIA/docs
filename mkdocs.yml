@@ -1,4 +1,4 @@
-site_name: TBIA Docs
+site_name: TBIA Documentations 公開文件
 nav:
   - Getting Started: index.md
   - Full Example: example.md
@@ -15,6 +15,8 @@ nav:
     - 文件指引草稿: TBIA 文件 Guidelines（草稿）.md
 theme:
   name: 'material'
+  logo: assets/logo_top.svg
+  favicon: assets/favicon-32x32.png
   palette:
     primary: 'green'
   custom_dir: overrides
