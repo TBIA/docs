@@ -1,7 +1,6 @@
 #  TBIA 文件工作小組 - 測試文件系統POC
 
-網頁 (Website)
-https://moogoo78.github.io/try-docs/
+網頁 (Website): [TBIA Documentations 公開文件](https://tbia.github.io/docs/)
 
 文件工具: [MkDocs](https://www.mkdocs.org/), [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
