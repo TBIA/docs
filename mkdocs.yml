@@ -11,8 +11,8 @@ nav:
   - 寫作業:
     - 來寫作業囉: 來寫作業囉.md
     - 暑假作業: 暑假最後一天才在寫暑期作業的me.md
-  - 文件模板的作業:
-  - 文件指引的作業:
+  #- 文件模板的作業:
+  #- 文件指引的作業:
 theme:
   name: 'material'
   logo: assets/logo_top.svg
