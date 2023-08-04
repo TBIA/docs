@@ -6,7 +6,7 @@
 
 ![original](https://user-images.githubusercontent.com/31880136/230522523-7f82ab10-10f6-46b9-bbc2-5f80bfc6a5ea.jpg)
 
-## **版權說明 Colophon**（必填，除「封面圖片」以外）
+## **版權說明 Colophon**（必填，僅「封面圖片」可以選填）
 ### 建議引用方式 Suggested Citation（必填）
 作者A、作者B、作者C。某件事的操作指引。第二版。TBIA秘書處：臺北。
 
