@@ -6,8 +6,8 @@
 
 ![original](https://user-images.githubusercontent.com/31880136/230522523-7f82ab10-10f6-46b9-bbc2-5f80bfc6a5ea.jpg)
 
-## **版權說明 Colophon**
-### 建議引用方式 Suggested Citation
+## **版權說明 Colophon**（必填，除「封面圖片」以外）
+### 建議引用方式 Suggested Citation（必填）
 作者A、作者B、作者C。某件事的操作指引。第二版。TBIA秘書處：臺北。
 
 ### 作者 Authors
@@ -33,7 +33,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2023年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
 
 ---
-## **前言 Preface**
+## **前言 Preface**（選填）
 
 ### 引言 Epigraph
 > After having put my shoes on and let my thoughts wander, I am sure of one thing – to put one foot in front of the other is one of the most important things we do.
@@ -61,7 +61,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 一對斯氏繡眼在空中翩翩起舞。這對翠綠色的小生靈，在我們的叫法中曾被稱作綠繡眼。它們嬉戲著，發出悅耳的叫聲，劃過天空。
 
 ---
-## **致謝 Acknowledegments**
+## **致謝 Acknowledegments**（必填）
 這份正式聲明是對直接對您的工作作出貢獻的個人和機構的一份致意。這是一個簡單的感激之情，而非奉獻或過於情感化的感言。您應該考慮列出以下人員和機構：
 
 * 提供指導的人
@@ -81,7 +81,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 在列出您打算感謝其貢獻的個人時，只使用他們的名字，不要加上頭銜。例如，只寫 娜烏西卡，而不是 風之谷王國第11代公主娜烏西卡。
 
 ---
-## **附錄一：範例**
+## **附錄一：範例**（選填）
 附錄只是文件中帶有「特殊章節」標題的部份內文。
 
 將支持您的分析、驗證您的結論或探討相關觀點的非必要信息放在附錄中。範例可能包括：
@@ -95,7 +95,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 * 軟體安裝說明
 
 ---
-## **詞彙表 Glossary**
+## **詞彙表 Glossary**（選填）
 #### decimal degrees 十進制度
 以單個實數表示的度數（例如 -22.343456°）。注意，赤道以南的緯度為負值，本初子午線以西至 -180 度的經度也為負值。
 
@@ -109,4 +109,4 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 指資料擁有者與需求者間之發佈與取得、傳遞與接收，包含但不限於透過網際網路發佈結構化資料之電子檔、及透過API（Application Programming Interface，應用程式介面）進行資料請求與回應。
 
 ---
-## **引用文獻 References**
+## **引用文獻 References**（選填）
