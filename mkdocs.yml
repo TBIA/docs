@@ -3,13 +3,13 @@ nav:
   #- Getting Started: index.md
   #- Full Example: example.md
   #- Try Try See: trytrysee.md
-  - 指引與模板:
-    - TBIA文件指引（草稿）: TBIA 文件 Guidelines（草稿）.md
-    - TBIA文件模板（草稿）: TBIA 文件模板（草稿）.md
-  - 現有文件:
-    - 生物多樣性敏感資料開放作業原則（草案）: 敏感資料開放作業原則試做.md
-    - TBIA 共同願景（草案）做: TBIA 共同願景（草案）.md
-  - 測試:
+  - 指引與模板(in progress):
+    - TBIA文件指引(in progress): TBIA 文件 Guidelines（草稿）.md
+    - TBIA文件模板(in progress): TBIA 文件模板（草稿）.md
+  - 公開文件(in progress):
+    - 生物多樣性敏感資料開放作業原則(in progress): 敏感資料開放作業原則試做.md
+    - TBIA 共同願景(in progress): TBIA 共同願景（草案）.md
+  - 測試(playing in chaos):
     - 來寫作業囉: 來寫作業囉.md
     - 暑假作業: 暑假最後一天才在寫暑期作業的me.md
     - 語法測試: index-test.md
