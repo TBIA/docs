@@ -4,15 +4,17 @@
 
 本文件亦有[PDF版本](https://tbiadata.tw/media/resources/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96.pdf)。
 
-## **版權說明 Colophon**（必填，僅「封面圖片」可以選填）
-### 建議引用方式 Suggested Citation（必填）
+![image](https://github.com/TBIA/docs/assets/31880136/2ca0c482-d9b7-480c-b96f-f4bf11cdcd1a)
+
+## **版權說明 Colophon**
+### 建議引用方式 Suggested Citation
 中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。生物多樣性領域資料標準。第1.0版。臺灣生物多樣性資訊聯盟秘書處:臺北。
 
 ### 作者 Authors
 中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署
 
 ### 貢獻者 Contributors
-臺灣生物多樣性資訊聯盟的資料庫串連與資料發佈工作小組為本文件的這個版本做出了貢獻。該工作小組的召集人為行政院農業委員會特有生物研究保育中心的吳世鴻；副召集人為中央研究院生物多樣性研究中心的劉頸儀。
+臺灣生物多樣性資訊聯盟的資料庫串連與資料發佈工作小組為本文件的這個版本做出了貢獻。該工作小組的召集人為行政院農業委員會特有生物研究保育中心的吳世鴻；副召集人為中央研究院生物多樣性研究中心的劉璟儀；工作小組成員包括：王浥璋、李思賢、沈玉婷、俞佑錚、柯智仁、倪旻萱、許鈺琇、郭貴嵐、陳冠伃、楊蕙禎、鍾惠名（依筆劃排序）。
 
 ### 授權方式 Licence
 本文件《生物多樣性領域資料標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
@@ -26,7 +28,7 @@
 最初基於資料庫串連與資料發佈工作小組的《[生物出現紀錄資料共享指引](https://hackmd.io/@oOKtv9CNRuKvI6IqXZGf9w/BJNm-7XNv)》。
 
 ### 封面圖片
-筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2023年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
+小啄木（*Yungipicus canicapillus*），高雄市，臺灣。2023年 redbirdwu 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/145477232) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 
 ---
 ## **前言 Preface**
