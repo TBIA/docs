@@ -22,7 +22,7 @@ theme:
   logo: assets/logo_top.svg
   favicon: assets/favicon-32x32.png
   palette:
-    primary: 'green'
+    primary: custom
   custom_dir: overrides
 
 plugins:
@@ -40,3 +40,5 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - stylesheets/extra.css
