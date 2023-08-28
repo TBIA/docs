@@ -8,7 +8,7 @@
 
 ## **版權說明 Colophon**（必填，僅「封面圖片」可以選填）
 ### 建議引用方式 Suggested Citation（必填）
-作者A、作者B、作者C。某件事的操作指引。第二版。TBIA秘書處：臺北。
+作者A、作者B、作者C。某件事的操作指引。第二版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 作者A、作者B、作者C
@@ -30,7 +30,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 最初基於早期出版物《某件事的操作指引》。
 
 ### 封面圖片
-筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2023年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
+筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2022年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
 
 ---
 ## **前言 Preface**（必填）
