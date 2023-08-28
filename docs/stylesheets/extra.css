@@ -1,0 +1,13 @@
+:root {
+  --md-primary-fg-color:        #76A578;
+  --md-primary-fg-color--light: #304237;
+  --md-primary-fg-color--dark:  #3F5146;
+}
+
+h2 {
+  color: #417991;
+}
+
+a:link, visited, hover, active{
+  color: #E2A460;
+}
