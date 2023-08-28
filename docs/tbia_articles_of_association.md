@@ -3,8 +3,6 @@
 
 本文件亦有[PDF版本]([待補連結](https://tbiadata.tw/media/resources/%E8%87%BA%E7%81%A3%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E8%B3%87%E8%A8%8A%E8%81%AF%E7%9B%9F%E7%AB%A0%E7%A8%8B.pdf))。
 
-![image](https://github.com/TBIA/docs/assets/31880136/89d7edd0-c32d-4b1c-8615-80e57adba8dd)
-
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
 臺灣生物多樣性資訊聯盟。臺灣生物多樣性資訊聯盟章程。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
@@ -23,9 +21,6 @@
 
 ### 文件版本控制 Document Control
 第一版，2022年9月21日（臺灣生物多樣性資訊聯盟第一次委員會通過）。
-
-### 封面圖片
-台灣冷杉（*Abies kawakamii*），臺灣。2021年 linscott 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/83893712) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 
 ---
 ## **前言 Preface**（必填？）
