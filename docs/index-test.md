@@ -1,5 +1,10 @@
 # Welcome to MkDocs
 
+## 測試註腳
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+
+---
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 tbia rocks !
@@ -28,3 +33,9 @@ yyoo
         ...       # Other markdown pages, images and other files.
 
 {{ macros_info() }}
+
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[^2]:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.

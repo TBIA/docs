@@ -27,7 +27,7 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 
 ## 給文件作者們的指引 Guidelines for document authors
 
-我們在這個系統採用的文件編碼語法是[Python-Markdown語法](https://python-markdown.github.io/#goals)。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。
+我們在這個系統採用的文件編碼語法是[Python-Markdown語法](https://python-markdown.github.io/#goals)。我們採用這個語法的原因是因為TBIA文件網站是以MkDocs(Python)工具透過Markdown文件生成HTML。
 
 我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。
 
@@ -38,7 +38,7 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 4. 確認完成後公開發佈。
 
 ## 舊文件的「去任務化」 'Decommissioning' old documents
-> 文件版本的更新 = 舊文件的去任務化或刪除的程序 
+> 文件版本的更新 = 舊文件的去任務化或刪除的程序
 
 ## 技術指引 Technical guidance
 > 這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於[MarkDown語法大全
@@ -48,14 +48,8 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 #### Markdown語法
 
 ##### 字體大小
+
 字體大小的示範
-
-># H1
->## H2
->### H3
->#### H4
->##### H5
-
 
 ```
 # H1
@@ -195,7 +189,6 @@ __斜粗2__
 <網址或mail>
 ```
 
-
 ##### 分隔線
 1.
 
@@ -297,7 +290,7 @@ int main(){
 \`內容`
 
 
-### 核取方塊
+##### 核取方塊
 > - [ ] 不勾選
 > - [x] 勾選
 
@@ -315,11 +308,47 @@ int main(){
 \+任意符號
 ```
 
+#### MkDocs 語法
+
+##### 註腳(footnote)
+
+
+    Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+
+
+註腳內容
+
+    [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    [^2]:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+        nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+        massa, nec semper lorem quam in massa.
+
+
+參考MkDocs文件: [Footnotes - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
+
 ### 給編輯們
+
+#### 文件原始檔案
+
+原始檔案指的是純文字格式(plan text files)或是影像檔案，目前存放於[https://github.com/tbia/docs](https://github.com/tbia/docs)。
+
+#### 文件版本號
+
+待完成
+
+#### 文件發布
+
+待完成
+
 ### 本文件網站的軟體架構
 
+- Git: 版本管理
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): 靜態文件網頁產生工具ex
+- Docker 
+
+
 ## 給TBIA工程師們的資訊 Informationn for TBIA developers
-> 這裡要寫給思賢或思賢的後繼者看的，以目前來說就是如何維護與管理Mkdocs本身的軟體程式碼
 
 ### 文件架構
 
