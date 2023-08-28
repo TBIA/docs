@@ -6,27 +6,24 @@
 
 ## **版權說明 Colophon**（必填，僅「封面圖片」可以選填）
 ### 建議引用方式 Suggested Citation（必填）
-作者A、作者B、作者C。某件事的操作指引。第二版。TBIA秘書處:臺北。
+中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。生物多樣性領域資料標準。第1.0版。臺灣生物多樣性資訊聯盟秘書處:臺北。
 
-本文件亦有[PDF版本](我是超連結)。
 ### 作者 Authors
-作者A、作者B、作者C
+中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署
 
 ### 貢獻者 Contributors
-哪裡的誰誰誰和哪裡的誰誰誰為本文件的這個版本做出了貢獻。
+臺灣生物多樣性資訊聯盟的資料庫串連與資料發佈工作小組為本文件的這個版本做出了貢獻。該工作小組的召集人為行政院農業委員會特有生物研究保育中心的吳世鴻；副召集人為中央研究院生物多樣性研究中心的劉頸儀。
 
 ### 授權方式 Licence
-本文件《某件事的操作指引》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
+本文件《生物多樣性領域資料標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-TO-DO 待作事項:在發佈前要先給此版本的文件一個DOI
+本文件尚待建立此版本的永久統一資源標籤。
 
 ### 文件版本控制 Document Control
-第三版，2023年4月。
+第1.0版，2022年7月。
 
-第二版，2021年3月，由作者A和作者B撰寫。
-
-最初基於早期出版物《某件事的操作指引》。
+最初基於資料庫串連與資料發佈工作小組的《[生物出現紀錄資料共享指引](https://hackmd.io/@oOKtv9CNRuKvI6IqXZGf9w/BJNm-7XNv)》。
 
 ### 封面圖片
 筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2023年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
