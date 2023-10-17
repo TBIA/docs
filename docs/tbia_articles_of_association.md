@@ -1,5 +1,5 @@
 # 臺灣生物多樣性資訊聯盟章程
-作者一 - communication@tbiadata.tw | 作者二 - 版本 {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+作者一 - tbianoti@gmail.com version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
 本文件亦有[PDF版本](https://github.com/TBIA/docs/blob/cbf04484c1f6435ca207838cf258f2191bca525a/docs/assets/%E8%87%BA%E7%81%A3%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E8%B3%87%E8%A8%8A%E8%81%AF%E7%9B%9F%E7%AB%A0%E7%A8%8B.pdf)。
 
