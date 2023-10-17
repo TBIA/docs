@@ -258,17 +258,23 @@ int main(){
 
 
 ##### 圖片
-![圖片](https://tbiadata.tw/assets/images/abimg1.svg "游標顯示內容")
+文件中使用的圖片請先上傳至本repository的assets資料夾。
+
+上傳時請注意檔案名稱不要與既有檔案重複。
+
+文件中的使用語法範例如下：
 
 ```
+![特性分析類別圖](./assets/特性分析類別圖.png)
+![圖片](https://tbiadata.tw/assets/images/abimg1.svg "游標顯示內容")
 ![圖片名稱](連結 "游標顯示內容")
 ```
 
 
 ##### 帶有連結的圖片
-[![圖片](https://tbiadata.tw/assets/images/abimg1.svg)](https://tbiadata.tw/)
 
 ```md
+[![圖片](https://tbiadata.tw/assets/images/abimg1.svg)](https://tbiadata.tw/)
 [![圖片](圖片網址)](連結網址)
 ```
 
