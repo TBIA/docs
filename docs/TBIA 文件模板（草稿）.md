@@ -6,7 +6,8 @@
 
 ![original](https://user-images.githubusercontent.com/31880136/230522523-7f82ab10-10f6-46b9-bbc2-5f80bfc6a5ea.jpg)
 
-## **版權說明 Colophon**（必填，僅「封面圖片」可以選填）
+---
+## **版權說明 Colophon**（必填）
 ### 建議引用方式 Suggested Citation（必填）
 作者A、作者B、作者C。某件事的操作指引。第二版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
@@ -29,26 +30,23 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 
 最初基於早期出版物《某件事的操作指引》。
 
-### 封面圖片
-筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2022年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
-
 ---
-## **前言 Preface**（必填）
+## **前言 Preface**（選填）
 
-### 引言 Epigraph（選填）
+### 引言 Epigraph
 引言是一段從其他作品、名人名言或經典語句中選取的短篇引述。引言的選用不僅能對全文的主題或調性做出預示，同時也可以為讀者建立某種情境或期待。引言可以選自詩詞、文學作品、聖經、法典，或者哲學、科學等範疇的名言。它的選用應該與全文的主題息息相關，或者對文章的主旨提供一種隱晦卻又獨特的觀照角度。值得注意的是，一個好的引言通常具有深度與暗示性，能激起讀者的思考，並帶領他們進入作者所構築的文本世界。然而，引言的選擇與使用都需要謹慎。對於讀者而言，引言是他們與作品的第一次接觸，因此一個恰到好處的引言，有時能對讀者的閱讀體驗產生深遠的影響。引言的格式如下：
 > After having put my shoes on and let my thoughts wander, I am sure of one thing – to put one foot in front of the other is one of the most important things we do.
 — Erling Kagge
 
-### 摘要 Abstract（建議必填）
+### 摘要 Abstract
 摘要是對全文內容的精煉摘取，目的在於讓讀者迅速瞭解整份文件的主要內容，從而決定是否需要閱讀全文。摘要應該清楚、簡練、客觀，並具有獨立性，即使讀者不閱讀全文，也能從摘要中獲得主要資訊。摘要的建議長度在200到500字之間。
 
-### 前言 Preface（選填）
+### 前言 Preface
 前言是用來介紹文件的背景、撰寫過程、目的或動機、以及與讀者可能感興趣的其他相關資訊。前言可以被視為作者與讀者之間的一種對話，一種初步的交流，因此通常寫得比較親切且個人化。在前言中，作者可能會提到他們為什麼選擇撰寫該主題，該文件的發起事件是什麼，過程中遇到的主要挑戰，以及他們希望讀者從文件中得到什麼。此外，作者還可以用前言來感謝那些在文件產製過程中提供幫助的人，如夥伴、導師、研究參與者、資助者等。
 
 前言與摘要有所不同，摘要主要提供文章的總結，較偏向客觀和學術，而前言則更偏向主觀和個人。
 
-### 致謝 Acknowledgements（建議必填）
+### 致謝 Acknowledgements
 這份正式聲明是對直接對您的工作作出貢獻的個人和機構的一份致意。這是一個簡單的感激之情，而非奉獻或過於情感化的感言。您應該考慮列出以下人員和機構：
 
 * 提供指導的人
@@ -69,7 +67,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 
 致謝也可以放在文件的最後面。
 
-### 獻詞 Dedication（選填）
+### 獻詞 Dedication
 獻給我們敬愛的老麥。
 
 ---
@@ -111,3 +109,8 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 
 ---
 ## **引用文獻 References**（選填）
+
+---
+## **封面圖片**（選填）
+筆筒樹（*Sphaeropteris lepifera*），臺東縣達仁鄉，臺灣。2022年 mutolisp 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/153297614) 所拍攝的照片，採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權。
+
