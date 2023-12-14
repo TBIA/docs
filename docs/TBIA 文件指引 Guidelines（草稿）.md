@@ -8,19 +8,17 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 本指引的目標則是提供撰寫TBIA文件的綱要與素材。透過提供一套具有一致性（consistent）、可靠性（reliable）、可再用性（reusable），以及版本管理特性（versioned）的綱要與素材，讓TBIA文件的建立與更新流程變得簡易順暢。藉此並逐步建立社群對文件的信任，以促成更廣大的採納與使用。
 
 ### 現有文件
-臺灣生物多樣性資訊聯盟秘書處。2022。臺灣生物多樣性資訊聯盟章程。第一版。臺灣生物多樣性資訊聯盟，臺北。https://tbia.github.io/docs/tbia_articles_of_association/
+沈玉婷、柯智仁、郭姿蒨、張俊怡、劉璟儀。2021。臺灣生物多樣性資訊行動倡議2021-2025。臺灣生物多樣性資訊聯盟，臺北。[URI連結待補](https://tbiadata.tw/assets/pdf/TBIA%20%E6%89%8B%E5%86%8A-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E8%B3%87%E8%A8%8A%E8%A1%8C%E5%8B%95%E5%80%A1%E8%AD%B0-%E9%96%B1%E8%AE%80%E7%89%88_compressed.pdf)。
 
-沈玉婷、柯智仁、郭姿蒨、張俊怡、劉璟儀。2021。臺灣生物多樣性資訊行動倡議2021-2025。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/TBIA%20%E6%89%8B%E5%86%8A-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E8%B3%87%E8%A8%8A%E8%A1%8C%E5%8B%95%E5%80%A1%E8%AD%B0-%E9%96%B1%E8%AE%80%E7%89%88_compressed.pdf)。
+作者待補。2021。生物多樣性領域資料標準。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/2_%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96.pdf)。
 
-TBIA資料串連工作小組。2021。生物多樣性領域資料標準。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/2_%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96.pdf)。
+作者待補。2021。生物多樣性敏感資料開放作業原則（草稿）。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/3_%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E6%95%8F%E6%84%9F%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E4%BD%9C%E6%A5%AD%E5%8E%9F%E5%89%87%EF%BC%88%E8%8D%89%E6%A1%88%EF%BC%89.pdf)。
 
-柯智仁。2021。生物多樣性敏感資料開放作業原則（草稿）。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/3_%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E6%95%8F%E6%84%9F%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E4%BD%9C%E6%A5%AD%E5%8E%9F%E5%89%87%EF%BC%88%E8%8D%89%E6%A1%88%EF%BC%89.pdf)。
+作者待補。2021。TBIA共同願景。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/TBIA%20%E5%85%B1%E5%90%8C%E9%A1%98%E6%99%AF(%E8%8D%89%E6%A1%88).pdf)。
 
-TBIA願景工作小組。2021。TBIA共同願景。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/TBIA%20%E5%85%B1%E5%90%8C%E9%A1%98%E6%99%AF(%E8%8D%89%E6%A1%88).pdf)。
+柯智仁。2021。敏感資料釋出流程。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/5_%E6%95%8F%E6%84%9F%E8%B3%87%E6%96%99%E9%87%8B%E5%87%BA%E6%B5%81%E7%A8%8B.pdf)。
 
-柯智仁。2021。敏感資料釋出流程。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/5_%E6%95%8F%E6%84%9F%E8%B3%87%E6%96%99%E9%87%8B%E5%87%BA%E6%B5%81%E7%A8%8B.pdf)。
-
-臺灣生物多樣性資訊聯盟。2021。TBIA Logo及主視覺設計。臺灣生物多樣性資訊聯盟，臺北。（URI連結待補）[PDF](https://tbiadata.tw/assets/pdf/TBIA%20logo%E5%8F%8A%E4%B8%BB%E8%A6%96%E8%A6%BA%E8%A8%AD%E8%A8%88.pdf)。
+作者待補。2021。TBIA Logo及主視覺設計。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/TBIA%20logo%E5%8F%8A%E4%B8%BB%E8%A6%96%E8%A6%BA%E8%A8%AD%E8%A8%88.pdf)。
 
 ## 社群同儕審查程序 Community peer-review process
 > 說明文件在發佈前會經歷哪些程序，有時候只是經過秘書處而已
@@ -80,15 +78,25 @@ TBIA願景工作小組。2021。TBIA共同願景。臺灣生物多樣性資訊�
 ##### 字體效果
 
 *斜體字*
+
 **粗體字**
+
 ***斜粗體***
+
 ~~刪除線~~
+
 _斜體2_
+
 __斜粗2__
+
 正常^上標^
+
 正常~下標~
+
 ++底線++
+
 ==螢光標記==
+
 
 ```
 *斜體字*
@@ -484,7 +492,7 @@ docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 ---
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-柯智仁、李金穎、李思賢、張俊怡。TBIA 文件指引。草稿。臺灣生物多樣性資訊聯盟秘書處：臺北。
+柯智仁。TBIA 文件 Guidelines。草稿。TBIA秘書處：臺北。
 
 ### 作者 Authors
 柯智仁、李金穎、李思賢、張俊怡
