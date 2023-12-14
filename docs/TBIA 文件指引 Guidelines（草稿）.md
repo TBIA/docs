@@ -303,6 +303,49 @@ int main(){
 [![圖片](圖片網址)](連結網址)
 ```
 
+##### 調整圖片大小、文字對齊
+
+```markdown title="寬度: 200"
+![標題](./assets/my-awesome-image.jpg){ width="200" }
+```
+![noti](./assets/noti-figure.png){ width="200" }
+
+
+```markdown title="左邊文繞圖(float:left)"
+![標題](./assets/my-awesome-image.jpg){ align=left }
+text content 內文
+```
+![左邊漂浮](./assets/logo_top.svg){ align=left }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+```markdown title="右邊文繞圖(float:right)"
+![標題](./assets/my-awesome-image.jpg){ align=right }
+text content 內文
+```
+
+![右邊漂浮的noti](./assets/logo_top.svg){ align=right }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+!!! note
+
+    沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用下面標題文字的語法(標題可以省略)
+
+
+```markdown title="圖片加標題文字"
+<figure markdown>
+  ![Image title](./assets/noti-figure.png)
+  <figcaption>ha</figcaption>
+</figure>
+```
+
+<figure markdown>
+  ![Image title](./assets/noti-figure.png){ width="400" }
+  <figcaption>可愛的noti陪你度過美好的一天</figcaption>
+</figure>
 
 ##### 表格
 ---
