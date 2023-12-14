@@ -65,7 +65,7 @@
 
 
 <p align="center">
-    <img src="./assets/國家級生物多樣性網絡建構之未來願景.png">
+    <img src="../assets/國家級生物多樣性網絡建構之未來願景.png">
     <br/>
     圖 1 國家級生物多樣性網絡建構之未來願景
 </p>
@@ -168,7 +168,7 @@ f. 名詞說明引用自「生物多樣性敏感資料開放作業原則」。<b
 
 
 <p align="center">
-    <img src="./assets/特性分析類別圖.png">
+    <img src="../assets/特性分析類別圖.png">
     <br/>
     圖 2 特性分析類別圖
 </p>
@@ -182,7 +182,7 @@ f. 名詞說明引用自「生物多樣性敏感資料開放作業原則」。<b
 
 
 <p align="center">
-    <img src="./assets/應用綱要結構類別.png">
+    <img src="../assets/應用綱要結構類別.png">
     <br/>
     圖 3 應用綱要結構類別
 </p>
