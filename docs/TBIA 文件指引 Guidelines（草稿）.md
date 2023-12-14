@@ -61,12 +61,13 @@ TBIA願景工作小組。2021。TBIA共同願景。臺灣生物多樣性資訊�
 ##### 字體大小
 字體大小的示範
 
+<!--
 ># H1
 >## H2
 >### H3
 >#### H4
 >##### H5
-
+-->
 
 ```
 # H1
@@ -385,7 +386,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
  - [x] 勾選
 ```
 
-
 ##### 跳脫字元
 
 \```
@@ -393,6 +393,39 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ```
 \+任意符號
 ```
+
+#### Markdown擴充語法
+
+原本Markdown支援的語法有限，無法處理比較複雜的文件排版，這邊使用的MkDocs系統支援[Python Markdown Extensions](https://facelessuser.github.io/pymdown-extensions/)，擴增了許多Markdown語法的功能，詳細參考 [Python Markdown Extensions - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/)。
+
+##### admonition (警告文字框)
+
+```
+!!! note
+    You should note that the title will be automatically capitalized.
+```
+
+!!! note
+    You should note that the title will be automatically capitalized.
+
+
+```
+!!! danger "Don't try this at home"
+```
+
+!!! danger "Don't try this at home"
+    ...
+
+```
+!!! important ""
+    This is an admonition box without a title.
+```
+
+!!! important ""
+    This is an admonition box without a title.
+
+```
+
 
 ### 給編輯們
 ### 本文件網站的軟體架構
