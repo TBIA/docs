@@ -432,11 +432,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 !!! important ""
     This is an admonition box without a title.
 
-```
-
 
 ### 給編輯們
+> （待撰寫）
+
 ### 本文件網站的軟體架構
+> （不確定需不需要）
 
 ## 給TBIA工程師們的資訊 Informationn for TBIA developers
 > 這裡要寫給思賢或思賢的後繼者看的，以目前來說就是如何維護與管理Mkdocs本身的軟體程式碼
@@ -492,22 +493,22 @@ docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 ---
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-柯智仁。TBIA 文件 Guidelines。草稿。TBIA秘書處：臺北。
+柯智仁、李金穎、李思賢、張俊怡。TBIA 文件指引。草稿。TBIA秘書處：臺北。
 
 ### 作者 Authors
 柯智仁、李金穎、李思賢、張俊怡
 
 ### 貢獻者 Contributors
-XXX為本文件的這個版本做出了貢獻。
+TBIA文件工作小組為本文件的這個版本做出了貢獻。
 
 ### 授權方式 Licence
-本文件《TBIA 文件 Guidelines》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
+本文件《TBIA 文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
+本文件尚待建立永久統一資源標籤。
 
 ### 文件版本控制 Document Control
-草稿，2023年5月。
+草稿，2024年1月。
 
 ### 封面圖片
 臺灣蒲公英（*Taraxacum formosanum*），新北市，臺灣。2019年 jodyhsieh 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/147691207) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW) 授權。
