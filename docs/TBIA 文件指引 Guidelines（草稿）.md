@@ -278,16 +278,13 @@ int main(){
 
 文件中的使用語法範例如下：
 
-
-```
+```md
 ![圖片名稱](圖片位置連結 "游標顯示內容")
 ```
 
-
 若希望圖片及下方說明文字置中，可參考下列語法範例：
 
-
-```
+```html
 <p align="center">
     <img src="圖片位置連結">
     <br/>
@@ -302,9 +299,6 @@ int main(){
 ##### 帶有連結的圖片
 [![圖片](./assets/logo_top.svg)](https://tbiadata.tw/)
 
-```md
-[![圖片](圖片網址)](連結網址)
-```
 
 ##### 調整圖片大小、文字對齊
 
@@ -335,20 +329,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 !!! note
 
-    沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用下面標題文字的語法(標題可以省略)
+    沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。
 
 
-```markdown title="圖片加標題文字"
-<figure markdown>
-  ![Image title](./assets/noti-figure.png)
-  <figcaption>ha</figcaption>
-</figure>
-```
-
-<figure markdown>
-  ![Image title](./assets/noti-figure.png){ width="400" }
-  <figcaption>可愛的noti陪你度過美好的一天</figcaption>
-</figure>
 
 ##### 表格
 ---
