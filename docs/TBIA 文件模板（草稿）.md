@@ -1,8 +1,11 @@
 # TBIA 文件模板
 
-臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+!!! note
+    本模板可供作者撰寫新的文件時，全文複製至新的MD黨開始撰寫。
 
-本文件亦有[PDF版本](我是超連結)。
+作者 - xxxx@xxxmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+
+本文件亦有[PDF版本](我是超連結)。（選填）
 
 ![original](https://user-images.githubusercontent.com/31880136/230522523-7f82ab10-10f6-46b9-bbc2-5f80bfc6a5ea.jpg)
 
