@@ -1,5 +1,5 @@
 # **TBIA文件指引**
-臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
 
 ![large](https://github.com/moogoo78/try-docs/assets/31880136/14e217b8-45bc-4eb3-b663-2cf0b09ecf85)
