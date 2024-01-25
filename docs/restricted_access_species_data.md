@@ -173,5 +173,4 @@ VU、NEN，以及 NCR）。
 * 提供紀錄精度 / PrecisionDataProvided（或可使用 dataPrecision）
 * 原始紀錄精度 / PrecisionDataStored（或可使用 coordinateUncertaintyinMeters）
 
-### 致謝 Acknowledgements
-這段也可以放在文件的最後面。
+
