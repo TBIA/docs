@@ -95,7 +95,7 @@ TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
 
 ---
 ## **詞彙表 Glossary**（選填）
-#### decimal degrees 十進制度
+#### 十進制度 decimal degrees
 以單個實數表示的度數（例如 -22.343456°）。注意，赤道以南的緯度為負值，本初子午線以西至 -180 度的經度也為負值。
 
 #### 資料模糊化 data generalizatoin
