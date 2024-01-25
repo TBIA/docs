@@ -1,4 +1,4 @@
-# **TBIA 文件模板**
+# TBIA 文件模板
 
 臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
