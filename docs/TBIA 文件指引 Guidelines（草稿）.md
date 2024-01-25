@@ -18,11 +18,6 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 
 作者待補。2021。TBIA共同願景。出版者待補。出版地點待補。[URI連結待補](https://tbiadata.tw/assets/pdf/TBIA%20%E5%85%B1%E5%90%8C%E9%A1%98%E6%99%AF(%E8%8D%89%E6%A1%88).pdf)。
 
-## 社群同儕審查程序 Community peer-review process
-> 說明文件在發佈前會經歷哪些程序，有時候只是經過秘書處而已
-
-在TBIA文件發佈以前會先經過社群同儕審查的程序。這個程序的原則是在審查過程中保持作者與審查者匿名，以鼓勵在審查的過程中促成開放、誠懇的意見交流，並聚焦在具建設性的評論意見。
-
 ## 給文件作者們的指引 Guidelines for document authors
 
 我們在這個系統採用的文件編碼語法是[Python-Markdown語法](https://python-markdown.github.io/#goals)。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。
@@ -36,7 +31,7 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 4. 確認完成後公開發佈。
 
 ## 舊文件的「去任務化」 'Decommissioning' old documents
-> 文件版本的更新 = 舊文件的去任務化或刪除的程序 
+> （本程序待建立）
 
 ## 技術指引 Technical guidance
 > 這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於[MarkDown語法大全
