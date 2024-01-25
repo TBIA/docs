@@ -1,7 +1,7 @@
 # TBIA 文件模板
 
 !!! note
-    本模板可供作者撰寫新的文件時，全文複製至新的MD黨開始撰寫。
+    本模板可供作者撰寫新的文件時，全文複製至新的MD檔開始撰寫。
 
 作者 - xxxx@xxxmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
@@ -24,20 +24,18 @@
 本文件《某件事的操作指引》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-TO-DO 待作事項：在發佈前要先給此版本的文件一個DOI
+在發佈前建議先給此版本的文件一個永久統一資源標籤。若無，請寫入「本文件尚待建立此版本的永久統一資源標籤。」
 
 ### 文件版本控制 Document Control
 第三版，2023年4月。
-
 第二版，2021年3月，由作者A和作者B撰寫。
-
 最初基於早期出版物《某件事的操作指引》。
 
 ---
 ## **前言 Preface**（選填）
 
 ### 引言 Epigraph
-引言是一段從其他作品、名人名言或經典語句中選取的短篇引述。引言的選用不僅能對全文的主題或調性做出預示，同時也可以為讀者建立某種情境或期待。引言可以選自詩詞、文學作品、聖經、法典，或者哲學、科學等範疇的名言。它的選用應該與全文的主題息息相關，或者對文章的主旨提供一種隱晦卻又獨特的觀照角度。值得注意的是，一個好的引言通常具有深度與暗示性，能激起讀者的思考，並帶領他們進入作者所構築的文本世界。然而，引言的選擇與使用都需要謹慎。對於讀者而言，引言是他們與作品的第一次接觸，因此一個恰到好處的引言，有時能對讀者的閱讀體驗產生深遠的影響。引言的格式如下：
+（若有引言，格式請用下方方式撰寫）
 > After having put my shoes on and let my thoughts wander, I am sure of one thing – to put one foot in front of the other is one of the most important things we do.
 — Erling Kagge
 
