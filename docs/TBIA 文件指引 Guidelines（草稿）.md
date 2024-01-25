@@ -367,7 +367,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 
 ### 本文件網站的軟體架構
-> （不確定需不需要）
+請參考[此處README](https://github.com/TBIA/docs)。
 
 ## 給TBIA工程師們的資訊 Informationn for TBIA developers
 > 這裡要寫給思賢或思賢的後繼者看的，以目前來說就是如何維護與管理Mkdocs本身的軟體程式碼
