@@ -1,7 +1,7 @@
 # TBIA 文件模板
 
 !!! note
-    本模板可僅供文件作者撰寫新的文件時，全文複製至新的MD檔開始撰寫。請點此[連結](https://github.com/TBIA/docs/edit/main/docs/TBIA%20%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF%EF%BC%88%E8%8D%89%E7%A8%BF%EF%BC%89.md)取得模板的原始碼。
+    本模板可僅供文件作者撰寫新的文件時，全文複製至新的MD檔開始撰寫。請點此[連結](https://github.com/TBIA/docs/blob/main/docs/document_template.md)取得模板的原始碼。
 
 作者 - xxxx@xxxmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
