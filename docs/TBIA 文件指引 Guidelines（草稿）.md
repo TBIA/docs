@@ -207,6 +207,8 @@ __斜粗2__
 ##### 程式碼
 
 ```
+***這裡是示範***
+
 #include <stdio.h>
 
 int main(){
@@ -218,33 +220,15 @@ int main(){
 ```
 
 \```
+***這裡是程式碼***
 程式碼
 \```
-
-
-##### 標籤連結
-[TBIA][1]
-[TaiBIF][2]
-[TaiCOL][3].
-
-  [1]: https://tbiadata.tw/        "TBIA入口網"
-  [2]: https://portal.taibif.tw/  "TaiBIF"
-  [3]: https://taicol.tw/    "TaiCOL"
-```
-[TBIA][1]
-[TaiBIF][2]
-[TaiCOL][3]
-
-  [1]: https://tbiadata.tw/        "TBIA入口網"
-  [2]: https://portal.taibif.tw/  "TaiBIF"
-  [3]: https://taicol.tw/    "TaiCOL"
-```
 
 
 ##### 圖片
 ![圖片](./assets/logo_top.svg "游標顯示內容")
 
-文件中使用的圖片請先上傳至本repository的assets資料夾。
+文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
 
 上傳時請注意檔案名稱不要與既有檔案重複。
 
@@ -327,14 +311,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 *表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
 
 ##### 短區塊
->`內容`
+`內容`
 
 \`內容`
 
 
 ##### 核取方塊
-> - [ ] 不勾選
-> - [x] 勾選
+- [ ] 不勾選
+- [x] 勾選
 
 ```md
  - [ ] 不勾選
@@ -343,7 +327,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 ##### 跳脫字元
 
-\```
+\`\`\`
+
 
 ```
 \+任意符號
@@ -379,9 +364,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 !!! important ""
     This is an admonition box without a title.
 
-
-### 給編輯們
-> （待撰寫）
 
 ### 本文件網站的軟體架構
 > （不確定需不需要）
