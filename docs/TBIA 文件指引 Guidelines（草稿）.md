@@ -423,7 +423,7 @@ docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 ---
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-柯智仁、李金穎、李思賢、張俊怡。TBIA 文件指引。草稿。TBIA秘書處：臺北。
+臺灣生物多樣性資訊聯盟文件工作小組。TBIA文件指引。草稿。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 柯智仁、李金穎、李思賢、張俊怡
@@ -432,7 +432,7 @@ docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 TBIA文件工作小組為本文件的這個版本做出了貢獻。
 
 ### 授權方式 Licence
-本文件《TBIA 文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
+本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
 本文件尚待建立永久統一資源標籤。
