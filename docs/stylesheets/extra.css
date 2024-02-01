@@ -4,6 +4,10 @@
   --md-primary-fg-color--dark:  #3F5146;
 }
 
+.md-typeset h1 {
+  font-weight: 400;
+}
+
 h2 {
   color: #417991;
 }
