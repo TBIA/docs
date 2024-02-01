@@ -87,15 +87,6 @@ __斜粗2__
 {>>程式碼註解<<}
 
 
-核取方塊
-
-- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [ ] Vestibulum convallis sit amet nisi a tincidunt
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-
 ```
 *斜體字*
 **粗體字**
@@ -108,14 +99,6 @@ __斜粗2__
 ^^底線^^
 {==螢光標記==}
 {>>程式碼註解<<}
-
-核取方塊
-- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [ ] Vestibulum convallis sit amet nisi a tincidunt
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 ```
 
 ##### 引文
@@ -339,12 +322,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 
 ##### 核取方塊
-- [ ] 不勾選
-- [x] 勾選
+
+- [x] 這是一個預設勾選的選項
+- [ ] 這是一個預設不勾選的選項
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
 ```md
- - [ ] 不勾選
- - [x] 勾選
+- [x] 這是一個預設勾選的選項
+- [ ] 這是一個預設不勾選的選項
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 ```
 
 ##### 跳脫字元
