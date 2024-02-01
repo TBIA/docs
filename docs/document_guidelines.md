@@ -243,11 +243,11 @@ int main(){
 </p>
 ```
 
-文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
+!!! note
 
-上傳時請注意檔案名稱不要與既有檔案重複。
-
-* 需注意圖片位置連結依據不同語法，可能會有所差異。
+    * 文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
+    * 上傳時請注意檔案名稱不要與既有檔案重複。
+    * 需注意圖片位置連結依據不同語法，可能會有所差異。
 
 
 ##### 帶有連結的圖片
@@ -322,8 +322,8 @@ text content 內文
 
 
 ##### 核取方塊
-- [ ] 不勾選
-- [x] 勾選
+[ ] 不勾選
+[x] 勾選
 
 ```md
  - [ ] 不勾選
