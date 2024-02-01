@@ -4,26 +4,34 @@
 
 軟體架構: 使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)，一個基於[MkDocs](https://www.mkdocs.org/)(文件產生工具)的樣板函式庫。
 
+### 檔案架構
+
+文件檔案位置
+``` { .sh .no-copy }
+.
+├─ docs/
+│  └─ index.md
+├─ docs/assets
+└─ mkdocs.yml
+```
+
+- 文件放在專案的`docs`目錄下
+- 靜態檔案要放在`docs/assets`目錄下，build 出來後就會出現在`site/assets` 目錄下
+- mkdocs.yml是整個文件網站的主要的設定檔
+
 ## 如何在本地端電腦準備開發環境
 
 1. 安裝[Docker](https://www.docker.com/)
 
-
 2. 安裝端開發環境
-
 
 執行`./build.sh`
 
 3. 啟動本地端開發環境
 
-執行: `start.sh`
+執行: `./start.sh`
 
 然後在瀏覽器開 `http://127.0.0.1:8000`
-
-
-### 多媒體(靜態)檔案位置
-
-靜態檔案放到`docs/assets`目錄下，build 出來後就會出現在`site/assets` 目錄下
 
 ### 產生靜態網頁 (HTML, CSS, JavaScript):
 
