@@ -229,12 +229,6 @@ int main(){
 ##### 圖片
 ![圖片](./assets/logo_top.svg "游標顯示內容")
 
-文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
-
-上傳時請注意檔案名稱不要與既有檔案重複。
-
-文件中的使用語法範例如下：
-
 ```md
 ![圖片名稱](圖片位置連結 "游標顯示內容")
 ```
@@ -249,27 +243,42 @@ int main(){
 </p>
 ```
 
+文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
 
-*需注意圖片位置連結依據不同語法，可能會有所差異。
+上傳時請注意檔案名稱不要與既有檔案重複。
+
+* 需注意圖片位置連結依據不同語法，可能會有所差異。
 
 
 ##### 帶有連結的圖片
 [![圖片](./assets/logo_top.svg)](https://tbiadata.tw/)
 
+```
+[![圖片名稱](圖片位置連結)](點擊圖片後會前往的連結)
+```
 
-##### 調整圖片大小、文字對齊
+
+##### 調整圖片大小
+
+![noti](./assets/noti-figure.png){ width="200" }
 
 ```markdown title="寬度: 200"
 ![標題](./assets/my-awesome-image.jpg){ width="200" }
 ```
-![noti](./assets/noti-figure.png){ width="200" }
 
+##### 調整圖片靠左靠右與文繞圖
+
+![左邊漂浮](./assets/logo_top.svg){ align=left }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 ```markdown title="左邊文繞圖(float:left)"
 ![標題](./assets/my-awesome-image.jpg){ align=left }
 text content 內文
 ```
-![左邊漂浮](./assets/logo_top.svg){ align=left }
+
+![右邊漂浮的noti](./assets/logo_top.svg){ align=right }
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
@@ -278,11 +287,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ![標題](./assets/my-awesome-image.jpg){ align=right }
 text content 內文
 ```
-
-![右邊漂浮的noti](./assets/logo_top.svg){ align=right }
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 !!! note
 
