@@ -1,47 +1,44 @@
-#  TBIA 文件工作小組 - 測試文件系統POC
+#  TBIA 文件網站說明
 
 網頁 (Website): [TBIA Documentations 公開文件](https://tbia.github.io/docs/)
 
-文件工具: [MkDocs](https://www.mkdocs.org/), [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+軟體架構: 使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)，一個基於[MkDocs](https://www.mkdocs.org/)(文件產生工具)的樣板函式庫。
 
-## 準備
+## 如何在本地端電腦準備開發環境
 
-1.用 docker 下載 mkdocs material
+1. 安裝[Docker](https://www.docker.com/)
 
-```bash
-docker pull squidfunk/mkdocs-material
-```
 
-2. 執行本地端開發伺服器
+2. 安裝端開發環境
 
-```
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
-```
-或是執行: `start.sh`
+
+執行`./build.sh`
+
+3. 啟動本地端開發環境
+
+執行: `start.sh`
 
 然後在瀏覽器開 `http://127.0.0.1:8000`
 
-build markup language:
+
+### 多媒體(靜態)檔案位置
+
+靜態檔案放到`docs/assets`目錄下，build 出來後就會出現在`site/assets` 目錄下
+
+### 產生靜態網頁 (HTML, CSS, JavaScript):
 
 ```
 docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 ```
+
 或是執行: `build.sh`
 
+#### 部署
 
-## 檔案
+目前自動部署於 Github Pages，詳細設定參考原始碼`.github`目錄。
 
-靜態檔案放到 `docs/assets` 目錄下，build 出來後就會出現在 `site/assets` 目錄下
+### 自訂頁面樣式 (Layout and Styles)
 
-## 參考
+自訂頁面樣式的設定都存放在`overrides`目錄
 
-mkdocs 語法
-
-- [Writing Your Docs - MkDocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
-
-
-### Plugins
-
-- [mkdocs-git-revision-date-localized-plugin](https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/index.html)
-- [byrnereese/mkdocs-git-committers-plugin: A mkdocs plugin for displaying the last commit and a list of a file's contributors.](https://github.com/byrnereese/mkdocs-git-committers-plugin)
-- [timvink/mkdocs-git-authors-plugin: MkDocs plugin to display git authors of a page.](https://github.com/timvink/mkdocs-git-authors-plugin)
+參考 [Customization - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/customization/)

@@ -79,10 +79,22 @@ __斜粗2__
 
 正常~下標~
 
-++底線++
+^^底線^^
 
-==螢光標記==
+{==螢光標記==}
 
+
+{>>程式碼註解<<}
+
+
+核取方塊
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
 ```
 *斜體字*
@@ -93,8 +105,17 @@ _斜體2_
 __斜粗2__
 正常^上標^
 正常~下標~
-++底線++
-==螢光標記==
+^^底線^^
+{==螢光標記==}
+{>>程式碼註解<<}
+
+核取方塊
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 ```
 
 ##### 引文
@@ -229,6 +250,12 @@ int main(){
 ##### 圖片
 ![圖片](./assets/logo_top.svg "游標顯示內容")
 
+文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
+
+上傳時請注意檔案名稱不要與既有檔案重複。
+
+文件中的使用語法範例如下：
+
 ```md
 ![圖片名稱](圖片位置連結 "游標顯示內容")
 ```
@@ -243,42 +270,27 @@ int main(){
 </p>
 ```
 
-!!! note
 
-    * 文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
-    * 上傳時請注意檔案名稱不要與既有檔案重複。
-    * 需注意圖片位置連結依據不同語法，可能會有所差異。
+*需注意圖片位置連結依據不同語法，可能會有所差異。
 
 
 ##### 帶有連結的圖片
 [![圖片](./assets/logo_top.svg)](https://tbiadata.tw/)
 
-```
-[![圖片名稱](圖片位置連結)](點擊圖片後會前往的連結)
-```
 
-
-##### 調整圖片大小
-
-![noti](./assets/noti-figure.png){ width="200" }
+##### 調整圖片大小、文字對齊
 
 ```markdown title="寬度: 200"
 ![標題](./assets/my-awesome-image.jpg){ width="200" }
 ```
+![noti](./assets/noti-figure.png){ width="200" }
 
-##### 調整圖片靠左靠右與文繞圖
-
-![左邊漂浮](./assets/logo_top.svg){ align=left }
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 ```markdown title="左邊文繞圖(float:left)"
 ![標題](./assets/my-awesome-image.jpg){ align=left }
 text content 內文
 ```
-
-![右邊漂浮的noti](./assets/logo_top.svg){ align=right }
+![左邊漂浮](./assets/logo_top.svg){ align=left }
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
@@ -287,6 +299,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ![標題](./assets/my-awesome-image.jpg){ align=right }
 text content 內文
 ```
+
+![右邊漂浮的noti](./assets/logo_top.svg){ align=right }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 !!! note
 
@@ -309,11 +326,11 @@ text content 內文
 | 置左  | 置右 | 置中 |
 ```
 
-!!! note
-    
-    * 或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應markdown語法。
-    * 不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。
-    * 表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
+或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應markdown語法。
+
+*不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。
+
+*表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
 
 ##### 短區塊
 `內容`
@@ -322,7 +339,6 @@ text content 內文
 
 
 ##### 核取方塊
-
 - [ ] 不勾選
 - [x] 勾選
 
@@ -371,59 +387,10 @@ text content 內文
     This is an admonition box without a title.
 
 
-### 本文件網站的軟體架構
+### 本文件網站的軟體架構與開發環境
+
 請參考[此處README](https://github.com/TBIA/docs)。
 
-## 給TBIA工程師們的資訊 Informationn for TBIA developers
-> 這裡要寫給思賢或思賢的後繼者看的，以目前來說就是如何維護與管理Mkdocs本身的軟體程式碼
-
-### 文件架構
-
-### 自動生成頁面資訊
-
-#### git
-
-- git 版本號碼 (簡短版本):  `{% raw %}{{ git.short_commit }}{% endraw %}`
-- 最後更新日期: `{% raw %}{{git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}{% endraw %}`
-
-### 開發環境
-
-1) 安裝 [Docker](https://www.docker.com/)
-
-2) 用 docker 下載 mkdocs material
-
-```bash
-docker pull squidfunk/mkdocs-material
-```
-
-3) 執行本地端伺服器
-
-```
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
-```
-
-或是執行: `start.sh`
-
-然後在瀏覽器網址輸入 `http://127.0.0.1:8000`，就可以看到產生出來的頁面
-
-#### 產生靜態網頁程式 (Static Web site):
-
-```
-docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
-```
-
-或是執行: `build.sh`
-
-
-#### 部署
-
-目前自動部署於 Github Pages
-
-### 自訂頁面樣式 (Layout and Styles)
-
-自訂頁面樣式的設定都存放在 `overrides` 目錄
-
-參考 [Customization - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/customization/)
 
 ---
 ## 版權說明 Colophon
