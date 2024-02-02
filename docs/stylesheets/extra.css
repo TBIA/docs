@@ -5,11 +5,27 @@
 }
 
 .md-typeset h1 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
-h2 {
+.md-typeset h2 {
   color: #417991;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  color: #417991;
+  font-weight: 600;
+}
+.md-typeset h4 {
+  color: #417991;
+  font-weight: 600;
+}
+
+.md-typeset h5 {
+  font-size: 16px;
+  color: #417991;
+  font-weight: 500;
 }
 
 a:link, visited, hover, active{
