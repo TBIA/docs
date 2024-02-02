@@ -100,11 +100,9 @@ __斜粗2__
 
 ^^底線^^
 
-{==螢光標記==}
-
+==螢光標記==
 
 {>>程式碼註解<<}
-
 
 ```
 *斜體字*
@@ -116,7 +114,7 @@ __斜粗2__
 正常^上標^
 正常~下標~
 ^^底線^^
-{==螢光標記==}
+==螢光標記==
 {>>程式碼註解<<}
 ```
 
@@ -185,6 +183,25 @@ __斜粗2__
 2. 有序清單
     1. 有序清單子清單
         1. 有序清單子子清單
+```
+
+
+##### 核取方塊
+
+- [x] 這是一個預設勾選的選項
+- [ ] 這是一個預設不勾選的選項
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+
+```md
+- [x] 這是一個預設勾選的選項
+- [ ] 這是一個預設不勾選的選項
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 ```
 
 ##### 連結
@@ -326,35 +343,18 @@ text content 內文
 | 置左  | 置右 | 置中 |
 ```
 
-或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應markdown語法。
+!!! note
 
-*不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。
+    * 或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應markdown語法。
+    * 不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。
+    * 表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
 
-*表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
 
 ##### 短區塊
 `內容`
 
 \`內容`
 
-
-##### 核取方塊
-
-- [x] 這是一個預設勾選的選項
-- [ ] 這是一個預設不勾選的選項
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-
-```md
-- [x] 這是一個預設勾選的選項
-- [ ] 這是一個預設不勾選的選項
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-```
 
 ##### 跳脫字元
 
