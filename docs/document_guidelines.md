@@ -1,8 +1,27 @@
 # TBIA文件指引
 臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 
+---
+## 版權說明 Colophon
+### 建議引用方式 Suggested Citation
+臺灣生物多樣性資訊聯盟文件工作小組。TBIA文件指引。草稿。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
-![large](https://github.com/moogoo78/try-docs/assets/31880136/14e217b8-45bc-4eb3-b663-2cf0b09ecf85)
+### 作者 Authors
+柯智仁、李金穎、李思賢、張俊怡
+
+### 貢獻者 Contributors
+TBIA文件工作小組為本文件的這個版本做出了貢獻。
+
+### 授權方式 Licence
+本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
+
+### 永久統一資源標籤 Persistent URI
+本文件尚待建立永久統一資源標籤。
+
+### 文件版本控制 Document Control
+草稿，2024年1月。
+
+---
 
 ## 背景
 TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與發佈這些文件的目的，是提供與生物多樣性資訊與開放資料有關的訊息，以支持臺灣相關社群的實作。TBIA文件的理念主要受[GBIF文件](https://docs.gbif.org/documentation-guidelines/en/)啟發。
@@ -233,12 +252,6 @@ int main(){
 ##### 圖片
 ![圖片](./assets/logo_top.svg "游標顯示內容")
 
-文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
-
-上傳時請注意檔案名稱不要與既有檔案重複。
-
-文件中的使用語法範例如下：
-
 ```md
 ![圖片名稱](圖片位置連結 "游標顯示內容")
 ```
@@ -252,34 +265,36 @@ int main(){
     說明文字
 </p>
 ```
+!!! Note
 
-
-*需注意圖片位置連結依據不同語法，可能會有所差異。
-
+    * 文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的[assets](https://github.com/TBIA/docs/tree/main/docs/assets)資料夾。
+    * 上傳時請注意檔案名稱不要與既有檔案重複。
+    * 需注意圖片位置連結依據不同語法，可能會有所差異。
 
 ##### 帶有連結的圖片
 [![圖片](./assets/logo_top.svg)](https://tbiadata.tw/)
 
+```
+[![圖片名稱](圖片位置連結)](點擊圖片會前往的連結)
+```
 
-##### 調整圖片大小、文字對齊
+##### 調整圖片大小
+
+![noti](./assets/noti-figure.png){ width="200" }
 
 ```markdown title="寬度: 200"
 ![標題](./assets/my-awesome-image.jpg){ width="200" }
 ```
-![noti](./assets/noti-figure.png){ width="200" }
 
+##### 調整圖片文字對齊
 
-```markdown title="左邊文繞圖(float:left)"
-![標題](./assets/my-awesome-image.jpg){ align=left }
-text content 內文
-```
 ![左邊漂浮](./assets/logo_top.svg){ align=left }
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-```markdown title="右邊文繞圖(float:right)"
-![標題](./assets/my-awesome-image.jpg){ align=right }
+```markdown title="左邊文繞圖(float:left)"
+![標題](./assets/my-awesome-image.jpg){ align=left }
 text content 內文
 ```
 
@@ -288,11 +303,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
+```markdown title="右邊文繞圖(float:right)"
+![標題](./assets/my-awesome-image.jpg){ align=right }
+text content 內文
+```
 !!! note
 
     沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。
-
-
 
 ##### 表格
 ---
@@ -383,26 +400,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 請參考[此處README](https://github.com/TBIA/docs)。
 
-
----
-## 版權說明 Colophon
-### 建議引用方式 Suggested Citation
-臺灣生物多樣性資訊聯盟文件工作小組。TBIA文件指引。草稿。臺灣生物多樣性資訊聯盟秘書處：臺北。
-
-### 作者 Authors
-柯智仁、李金穎、李思賢、張俊怡
-
-### 貢獻者 Contributors
-TBIA文件工作小組為本文件的這個版本做出了貢獻。
-
-### 授權方式 Licence
-本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
-
-### 永久統一資源標籤 Persistent URI
-本文件尚待建立永久統一資源標籤。
-
-### 文件版本控制 Document Control
-草稿，2024年1月。
-
-### 封面圖片
-臺灣蒲公英（*Taraxacum formosanum*），新北市，臺灣。2019年 jodyhsieh 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/147691207) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW) 授權。
