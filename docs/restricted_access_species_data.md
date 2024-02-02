@@ -24,10 +24,7 @@ TBIA 2020年7月6日的第33次例會到2021年7月23日的第44次例會參與�
 ### 文件版本控制 Document Control
 草案版，2021年2月5日透過TBIA例會確認。
 
-### 封面圖片
-石虎（*Prionailurus bengalensis*），苗栗縣，臺灣。2022年 weitingliu 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/100243912) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
-
-
+---
 
 ## 摘要 Abstract
 為最大化地促進生物多樣性資料之開放，以支持學術研究、保育決策、政策發展，以及國土規劃等需求，特訂定本原則。目的在建立具共識性、標準化且可辯證的方法架構，作為「臺灣生物多樣性資訊聯盟（Taiwan Biodiversity Information Alliance, TBIA）」建議臺灣生物多樣性敏感資料的開放依據，以供各資料提供單位作為資料管理的參考。同時，對因詳細空間資料的開放而可能受害的物種提供適當的保護。其內容要點如下：
@@ -168,6 +165,10 @@ VU、NEN，以及 NCR）。
 * 欄位名稱建議（中文 / 英文）
 * 紀錄編號 / OccurrenceID
 * 學名 / scientificName
+
+---
+## 封面圖片
+石虎（*Prionailurus bengalensis*），苗栗縣，臺灣。2022年 weitingliu 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/100243912) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 * 敏感紀錄標示 / DataSensitiveIndicator
 * 敏感資料編號 / SensitiveDataID
 * 提供紀錄精度 / PrecisionDataProvided（或可使用 dataPrecision）
