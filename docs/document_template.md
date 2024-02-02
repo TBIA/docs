@@ -3,7 +3,7 @@
 !!! note
     本模板可僅供文件作者撰寫新的文件時，全文複製至新的MD檔開始撰寫（記得移除 `說明文字` ）。請點此[連結](https://github.com/TBIA/docs/blob/main/docs/document_template.md)取得模板的原始碼。
 
-作者 - xxxx@xxxmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+作者 - xxxx@xxxmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }} `（必填）`
 
 本文件亦有[PDF版本](我是超連結)。 `（選填）`
 
