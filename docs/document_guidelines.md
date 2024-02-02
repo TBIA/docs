@@ -31,9 +31,9 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 ### 現有文件
 臺灣生物多樣性資訊聯盟秘書處。2022。[臺灣生物多樣性資訊聯盟章程](https://tbia.github.io/docs/articles_of_association/)。第一版。臺灣生物多樣性資訊聯盟：臺北。
 
-中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。[生物多樣性領域資料標準](https://tbia.github.io/docs/biodiversity_data_standard/)。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。2021。[生物多樣性領域資料標準](https://tbia.github.io/docs/biodiversity_data_standard/)。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
-柯智仁。[生物多樣性敏感資料開放作業原則](https://tbia.github.io/docs/restricted_access_species_data/)。草案版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+柯智仁。2021。[生物多樣性敏感資料開放作業原則](https://tbia.github.io/docs/restricted_access_species_data/)。草案版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 臺灣生物多樣性資訊聯盟願景工作小組。2020。[TBIA共同願景](https://tbia.github.io/docs/alliance_vision/)。草案。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
