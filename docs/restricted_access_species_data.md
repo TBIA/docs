@@ -165,13 +165,11 @@ VU、NEN，以及 NCR）。
 * 欄位名稱建議（中文 / 英文）
 * 紀錄編號 / OccurrenceID
 * 學名 / scientificName
-
----
-## 封面圖片
-石虎（*Prionailurus bengalensis*），苗栗縣，臺灣。2022年 weitingliu 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/100243912) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 * 敏感紀錄標示 / DataSensitiveIndicator
 * 敏感資料編號 / SensitiveDataID
 * 提供紀錄精度 / PrecisionDataProvided（或可使用 dataPrecision）
 * 原始紀錄精度 / PrecisionDataStored（或可使用 coordinateUncertaintyinMeters）
 
-
+---
+## 封面圖片
+石虎（*Prionailurus bengalensis*），苗栗縣，臺灣。2022年 weitingliu 通過 [iNaturalist研究等級觀察](https://www.inaturalist.org/observations/100243912) 所拍攝的照片，採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
