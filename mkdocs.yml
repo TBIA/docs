@@ -4,13 +4,13 @@ nav:
   #- Full Example: example.md
   #- Try Try See: trytrysee.md
   - 指引與模板:
-    - TBIA文件指引(in progress): document_guidelines.md
-    - TBIA文件模板(in progress): document_template.md
+    - TBIA文件指引: document_guidelines.md
+    - TBIA文件模板: document_template.md
   - 公開文件:
-    - 臺灣生物多樣性資訊聯盟章程(in progress): articles_of_association.md
-    - TBIA共同願景(in progress): alliance_vision.md
-    - 生物多樣性領域資料標準(in progress): biodiversity_data_standard.md
-    - 生物多樣性敏感資料開放作業原則(in progress): restricted_access_species_data.md
+    - 臺灣生物多樣性資訊聯盟章程: articles_of_association.md
+    - TBIA共同願景: alliance_vision.md
+    - 生物多樣性領域資料標準: biodiversity_data_standard.md
+    - 生物多樣性敏感資料開放作業原則: restricted_access_species_data.md
     - TBIA資料空缺視覺化整理文件(in progress): datagap.md
   # - 測試(playing in chaos):
   #   - 來寫作業囉: 來寫作業囉.md
