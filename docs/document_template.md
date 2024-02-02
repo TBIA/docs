@@ -39,7 +39,7 @@
 ## **前言 Preface** `（選填）`
 
 ### 引言 Epigraph
-`若有引言，格式請用下方方式撰寫）`
+`若有引言，格式請用下方方式撰寫`
 
 > After having put my shoes on and let my thoughts wander, I am sure of one thing – to put one foot in front of the other is one of the most important things we do.
 — Erling Kagge
