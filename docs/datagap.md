@@ -71,21 +71,21 @@ TBIA資料空缺工作小組團隊成員在2024年2月為此文件的第一版�
 
 #### 1.1.2 網格10km^2^空間資料分布概況
 圖X：網格10km^2^空間資料分布概況
-![grid10](../docs/assets/gap/grid10.png)
+![grid10](../assets/gap/grid10.png)
 資料涵蓋：942 格至少一筆資料 / 1,142 網格數 (82.4%)
 10,000筆以上的佔了327格
 
 
 #### 1.1.3 網格5km^2^空間資料分布概況
 圖X：網格5km^2^空間資料分布概況
-![grid5](../docs/assets/gap/grid5.png)
+![grid5](../assets/gap/grid5.png)
 資料涵蓋：3,129 格至少一筆資料 / 4,232 網格數 (73.9%)
 10,000筆以上的佔了385格
 
 
 #### 1.1.4 網格1km^2^空間資料分布概況 
 圖X：網格1km^2^空間資料分布概況 
-![grid1](../docs/assets/gap/grid1.png)
+![grid1](../assets/gap/grid1.png)
 資料涵蓋：
 45,352格至少一筆資料 / 100,612 網格數 (45%)
 10,000筆以上的佔了275格
@@ -100,22 +100,22 @@ TBIA資料空缺工作小組團隊成員在2024年2月為此文件的第一版�
 #### 1.2.1 年度分布
 
 圖X：台灣範圍資料年度分布
-![allRecords_byYears_bar](../docs/assets/gap/allRecords_byYears_bar.png)
+![allRecords_byYears_bar](../assets/gap/allRecords_byYears_bar.png)
 
 圖X：台灣範圍資料地型的年度分布
-![allRecords_byYears_landtype_bar](../docs/assets/gap/allRecords_byYears_landtype_bar.png)
+![allRecords_byYears_landtype_bar](../assets/gap/allRecords_byYears_landtype_bar.png)
 
 #### 1.2.2 月份分布
 
 圖X：台灣範圍資料月份分布
-![allRecords_byMonth_bar](../docs/assets/gap/allRecords_byMonth_bar.png)
+![allRecords_byMonth_bar](../assets/gap/allRecords_byMonth_bar.png)
 
 圖X：台灣範圍資料地型的月份分布
-![allRecords_byMonth_landtype_bar](../docs/assets/gap/allRecords_byMonth_landtype_bar.png)
+![allRecords_byMonth_landtype_bar](../assets/gap/allRecords_byMonth_landtype_bar.png)
 
 #### 1.2.3 月份與資料品質
 圖X：
-![allRecords_byMonth_landtype_dataQual_bar](../docs/assets/gap/allRecords_byMonth_landtype_dataQual_bar.png)
+![allRecords_byMonth_landtype_dataQual_bar](../assets/gap/allRecords_byMonth_landtype_dataQual_bar.png)
 
 
 ### 1.3 物種類群
@@ -242,11 +242,11 @@ TBIA資料空缺工作小組團隊成員在2024年2月為此文件的第一版�
 
 #### 1.4.2 資料品質與類群筆數佔比
 圖X：資料品質、類群與地型筆數佔比
-![dQ_taxa_landtype](../docs/assets/gap/dQ_taxa_landtype.png){:width="500px"}
+![dQ_taxa_landtype](../assets/gap/dQ_taxa_landtype.png){:width="500px"}
 
 #### 1.4.3 資料品質與類群
 圖X：資料品質與前六大資料量的物種類群筆數佔比
-![dQ_taxa](../docs/assets/gap/dQ_taxa.png)
+![dQ_taxa](../assets/gap/dQ_taxa.png)
 先挑選前六大資料量的物種類群來比較品質，看除了鳥類以外有沒有別的類群也有不錯的品質適合應用？
 
 - 植物類大多都在bronze，i.e. 少了 coordinatesUncertaintyInMeters / coordinatePrecision 資料
@@ -257,7 +257,7 @@ TBIA資料空缺工作小組團隊成員在2024年2月為此文件的第一版�
 
 ### 1.5.1 
 圖X：記錄類型與其資料品質
-![dQ_bor](../docs/assets/gap/dQ_bor.png){:width="500px"}
+![dQ_bor](../assets/gap/dQ_bor.png){:width="500px"}
 
 
 ### 1.5.2 大類群在月份上的分佈
@@ -271,7 +271,7 @@ TBIA資料空缺工作小組團隊成員在2024年2月為此文件的第一版�
 此文件先優先專注於空間上的空缺，列出無資料於資料筆數少於平均值的5km^2^網格。提供大家作為未來調查方向的參考。預期台灣1,800萬筆觀測紀錄平均分布於5km^2^網格。每一格則需要有4,000筆以上的觀測紀錄。目前低於4,000筆觀測紀錄的網格總共3,451格。
 
 圖X：
-![gap5km](../docs/assets/gap/gap5km.png)
+![gap5km](../assets/gap/gap5km.png)
 
 
 ### 2.2 其他建議
@@ -297,7 +297,7 @@ silver to gold easy
 	| 海 | 56,015 |
 	| **Total**  | **92,868** |
 
-![TW_layer](../docs/assets/gap/TW_layer.png){:width="500px"}
+![TW_layer](../assets/gap/TW_layer.png){:width="500px"}
 
 ● @junyi 我們將 ... WGS84 1、5、10km^2^網格
 計算方式採用[紅鳩的TWGrid-WGS84](https://github.com/RedbirdTaiwan/TWGrid-WGS84)
@@ -314,17 +314,17 @@ silver to gold easy
 	- ~1km；共100,612格
 
 網格分布示意圖。藍、紫與黃色分別代表10、5與1平方公里網格：
-![TW_grids](../docs/assets/gap/TW_grids.png){:width="500px"}
+![TW_grids](../assets/gap/TW_grids.png){:width="500px"}
 
 放大版：
-![TW_grids_eg](../docs/assets/gap/TW_grids_eg.png)
+![TW_grids_eg](../assets/gap/TW_grids_eg.png)
 
 
 ## **附錄二：TBIA入口網在台灣海陸範圍外的資料分布**
 全球資料分布：
-![notTW](../docs/assets/gap/notTW.png)
+![notTW](../assets/gap/notTW.png)
 台灣周圍資料分布：
-![notTW](../docs/assets/gap/notTW_TWarea.png)
+![notTW](../assets/gap/notTW_TWarea.png)
 
 
 
