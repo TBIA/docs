@@ -33,16 +33,16 @@ plugins:
   - git-revision-date:
       as_datetime: True
   - macros
-  - mkdocs-jupyter:
-      ignore_h1_titles: True
-      show_input: True
-      no_input: False
-      execute: True
-      allow_errors: False
-      kernel_name: python3
-      highlight_extra_classes: "custom-css-classes"
-      include_requirejs: True
-      include_source: True
+  # - mkdocs-jupyter:
+  #     ignore_h1_titles: True
+  #     show_input: True
+  #     no_input: False
+  #     execute: True
+  #     allow_errors: False
+  #     kernel_name: python3
+  #     highlight_extra_classes: "custom-css-classes"
+  #     include_requirejs: True
+  #     include_source: True
   #- pdf-export:
   #    combined: true
 markdown_extensions:
