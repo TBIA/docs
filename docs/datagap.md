@@ -251,9 +251,6 @@ Unassigned = 無年份資訊<br>
 ![dQ_taxa](../assets/gap/dQ_taxa.png)
 先挑選前六大資料量的物種類群來比較品質，看除了鳥類以外有沒有別的類群也有不錯的品質適合應用？
 
-- 植物類大多都在bronze，i.e. 少了 coordinatesUncertaintyInMeters / coordinatePrecision 資料
-- 哺乳、兩生、鱗翅目類接近一半都有gold，好像還不錯？
-
 ## 1.5 其他資料統計
 **圖十二：記錄類型與其資料品質**<br>
 ![dQ_bor](../assets/gap/dQ_bor.png){:width="500px"}
@@ -276,9 +273,9 @@ TBIA在台灣境內的資料比數接近1,800萬筆觀測紀錄，假設這些�
 <iframe src="https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F" width="800" height="800"></iframe>
 
 ### 2.1.1 空間空缺資訊實際應用方式
-* 至我的地圖網頁下載kml，並匯入其他離線地圖的app
-* 下載座標點位csv
-* 將我的地圖匯入google map操作方式，請見[使用 Google 地圖查看「我的地圖」](https://support.google.com/maps/answer/3045850?hl=zh-Hant&co=GENIE.Platform%3DiOS&oco=2)
+* 至我的地圖網頁下載KML檔，並匯入其他離線地圖的APP。
+* 下載座標點位[CSV](../assets/gap/data_gap_5km_centerpoint.csv)
+* 將我的地圖匯入Google Map。操作方式，請見[使用 Google 地圖查看「我的地圖」](https://support.google.com/maps/answer/3045850?hl=zh-Hant&co=GENIE.Platform%3DiOS&oco=2)
 
 
 ### 2.2 其他建議
@@ -294,14 +291,14 @@ TBIA在台灣境內的資料比數接近1,800萬筆觀測紀錄，假設這些�
 ## **附錄一：此文件中所使用的台灣圖層介紹**
 ● 我們將以下兩個圖層進行套疊，分出皆有縣市區域資訊的polygon：
 
-1\. 台灣海域範圍圖層(來源：[內政部海域資訊整合平台所頒佈之限制水域範圍](https://ocean.moi.gov.tw/Map/Achievement/LayerInfo/905))
+1\. 台灣海域範圍圖層(來源：[內政部海域資訊整合平台所頒佈之限制水域範圍](https://ocean.moi.gov.tw/Map/Achievement/LayerInfo/905))<br>
 2\. 台灣陸域範圍圖層(來源：[台灣陸域範圍圖層 政府資料開放平台 臺灣鄉鎮市區界線](https://data.gov.tw/dataset/7441)）
 
-	| 地型 | 總平方公里(km²) |
-	|------------|----|
-	| 陸 | 36,853 | 
-	| 海 | 56,015 |
-	| **Total**  | **92,868** |
+| 地型 | 總平方公里(km²) |
+|------------|----|
+| 陸 | 36,853 | 
+| 海 | 56,015 |
+| **Total**  | **92,868** |
 
 台灣圖層套疊範圍與OpenStreetMap底圖：<br>
 ![TW_layer](../assets/gap/TW_layer.png){:width="500px"}
