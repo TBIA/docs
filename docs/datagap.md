@@ -6,7 +6,6 @@ version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 <center>
 ![ascidian](https://inaturalist-open-data.s3.amazonaws.com/photos/121962530/medium.jpeg)
 </center>
-<center>(｡･ω･｡)ﾉ 海鞘的空缺不需要填補。</center>
 
 ---
 ## 版權說明 Colophon
@@ -23,7 +22,7 @@ version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
 本文件尚待建立此版本的永久統一資源標籤。
 
 ### 文件版本控制 Document Control
-第:one:版，2024年2月。
+第一版，2024年2月。
 
 ---
 ## **前言 Preface**
@@ -38,7 +37,7 @@ TBIA資料空缺工作小組團隊成員、TaiBIF團隊成員在2024年2月為�
 ---
 ## **1\. 方法流程**
 **資料來源：**<br>
-我們使用TBIA入口網裡**20231212版本**，含去模糊化敏感資料的整合資料。
+我們使用[TBIA入口網](https://tbiadata.tw/)裡**20231212版本**，含去模糊化敏感資料的整合資料。
 
 **資料清理：**<br>
 資料清理皆使用R（版本4.3.2）進行操作。
@@ -50,7 +49,7 @@ TBIA資料空缺工作小組團隊成員、TaiBIF團隊成員在2024年2月為�
 為了簡化年月份在資料視覺化上的呈現，我們將1980年之前與無年或月份的資料分別歸類成 “<1980” 與 “Unassigned”。
 
 3. 物種類群分類：<br>
-為了簡化物種類群在資料視覺化上的呈現，我們總共歸類出32大類群，類群分類請看[此表單](https://docs.google.com/spreadsheets/d/1kUkW5CF79zjJmXgb6fz7jGrt1A0JxzC-S1enRVK0bQU/edit?usp=sharing)。
+為了簡化物種類群在資料視覺化上的呈現，我們總共歸類出32大類群，類群分類請看（附錄一）。
 
 4. 結合座標點位資訊：<br>
 敏感資料在座標上有著不同程度的模糊化。為了利於後續資料空缺概況的分析與呈現，我們將資料的座標欄位進行合併。在敏感資料上，我們使用該原始座標點位standardRawLatitude和standardRawLongitude，與非敏感資料的standardLatitude和standardLongitude進行合併，生成latitude和longitude欄位給後續分析使用。
@@ -69,7 +68,7 @@ scientificName、latitude、longitude 和 year。
 
 以及「**未達最低標準**」。
 
-以上所挑選的資料標準說明：
+以上所挑選的資料欄位說明：
 >
 	scientificName: 學名
 	latitude & longitude: 模糊（敏感資料）與未模糊化緯、經度，從standard(Raw)Latitude與standard(Raw)Longitude取得
@@ -80,7 +79,7 @@ scientificName、latitude、longitude 和 year。
 	basisOfRecord: 紀錄類型
 
 **網格生成：**<br>
-為了建立一個統一標準的網格系統，我們套疊出臺灣海域和陸域的行政區範圍圖層，並在此圖層上生成出空間位置統一的網格以便後續分析。我們所使用的臺灣陸域行政區範圍圖層來自台灣政府開放資料平臺上的[鄉鎮市區界線](https://data.gov.tw/dataset/7441)圖層作為陸域範圍，而海域範圍圖層來自多維度海域資訊服務平臺所頒佈之[限制水域範圍](https://ocean.moi.gov.tw/Map/Achievement/LayerInfo/905)。使用QGIS（版本3.28.9）將兩個圖層進行套疊後（附錄一），我們按照並參考吳世鴻副研究員[TWGrid-WGS84](https://github.com/RedbirdTaiwan/TWGrid-WGS84)台灣經緯網格系統的製作方法，製作出三種尺度（大小分別為 10x10km、5x5km、1x1km）的網格範圍（台灣疆界網格示意圖請見附錄二、三）。網格生成的起始經緯度是 (116,20)，所繪製的經緯度範圍從 (104,10) 至 (124, 26°40')。網格的單位則是經度6分，緯度5分（產出～10x10km網格）、經度3分，緯度2分30秒（產出～5x5km網格）、以及經度36秒，緯度30秒（產出～1x1km網格），個別佔了1,142、4,232以及100,612網格數。以網格範圍來做計算，台灣海域與陸地各佔了36,853與56,015平方公里（km²）。此文件最後產出的臺灣陸地與海域範圍及網格包含了所有台灣縣市、離島東沙及太平島的海陸範圍（不包含釣魚台）。
+為了建立一個統一標準的網格系統，我們套疊出臺灣海域和陸域的行政區範圍圖層（後續簡稱為台灣疆界網格），並在此圖層上生成出空間位置統一的網格以便後續分析。我們所使用的臺灣陸域行政區範圍圖層來自台灣政府開放資料平臺上的[鄉鎮市區界線](https://data.gov.tw/dataset/7441)圖層作為陸域範圍，而海域範圍圖層來自多維度海域資訊服務平臺所頒佈之[限制水域範圍](https://ocean.moi.gov.tw/Map/Achievement/LayerInfo/905)。使用QGIS（版本3.28.9）將兩個圖層進行套疊後（附錄二），我們按照並參考吳世鴻副研究員[TWGrid-WGS84](https://github.com/RedbirdTaiwan/TWGrid-WGS84)台灣經緯網格系統的製作方法，製作出三種尺度（大小分別為 10x10km、5x5km、1x1km）的網格範圍（台灣疆界網格示意圖請見附錄三、四）。網格生成的起始經緯度是 (116,20)，所繪製的經緯度範圍從 (104,10) 至 (124, 26°40')。網格的單位則是經度6分，緯度5分（產出～10x10km網格）、經度3分，緯度2分30秒（產出～5x5km網格）、以及經度36秒，緯度30秒（產出～1x1km網格），個別佔了1,142、4,232以及100,612網格數。以網格範圍來做計算，台灣海域與陸地各佔了36,853與56,015平方公里（km²）。此文件最後產出的臺灣陸地與海域範圍及網格包含了所有台灣縣市、離島東沙及太平島的海陸範圍（不包含釣魚台）。
 
 **觀測紀錄與空間的對應：**<br>
 我們將資料按照latitude與longitude欄位與圖層做對應，分別計算了臺灣海、陸域範圍內與外的資料筆數以及三種尺度網格的觀測紀錄分布情況。針對資料在三種尺度的網格上的對應，我們也計算了每個網格內的觀測紀錄數量並生成了數量化網格圖。上述的觀測紀錄資料空間對應操作均使用R（版本4.1.3）進行資料處理；視覺化部分則使用QGIS（版本3.28.9）進行網格分色和地圖繪製。
@@ -99,7 +98,7 @@ scientificName、latitude、longitude 和 year。
 
 
 ### 2.1 空間
-此文件所使用的台灣陸地與海域範圍及網格包含了所有台灣縣市、離島東沙及太平島的海陸範圍（不包含釣魚台；附錄一）。TBIA入口網裡也包含了不在台灣海陸範圍內的資料，分布圖請見附錄四。
+此文件所使用的台灣陸地與海域範圍及網格包含了所有台灣縣市、離島東沙及太平島的海陸範圍（不包含釣魚台；附錄二）。TBIA入口網裡也包含了不在台灣海陸範圍內的資料，分布圖請見附錄五。
 
 #### 2.1.1 空間上的資料統計
 
@@ -142,11 +141,11 @@ scientificName、latitude、longitude 和 year。
 <br>10,000筆以上的佔了275格。
 
 !!!note
-	以下分析以台灣海陸範圍資料為主
+	以下分析以台灣海陸範圍資料為主（表二）
 
 ### 2.2 時間
 
-#### 1.2.1 年度分布
+#### 2.2.1 年度分布
 **圖四：台灣範圍資料年度分布**
 ![allRecords_byYears_bar](../assets/gap/allRecords_byYears_bar.png)
 
@@ -295,7 +294,7 @@ scientificName、latitude、longitude 和 year。
 **圖十一：資料品質與前六大資料量的物種類群筆數百分比**
 ![dQ_taxa](../assets/gap/dQ_taxa.png)
 
-## 2.5 其他資料統計
+### 2.5 其他資料統計
 **圖十二：記錄類型與其資料品質**<br>
 ![dQ_bor](../assets/gap/dQ_bor.png){:width="500px"}
 <br>
@@ -329,24 +328,63 @@ TBIA在台灣境內的資料筆數接近1,800萬筆觀測紀錄，假設這些�
 2\. 表三：物種類群在界的階層。除了動植物界以外，資料量都非常的少。非常鼓勵大家提供細菌、原生生物與古菌界的資料！<br>
 3\. 表五：魚類。不管是淡或海水域，魚類會是該環境的重要指標之一。目前入口網的總魚類筆數比預期來得少。
 
-٩(˃̶͈̀௰˂̶͈́)و 空缺龍填起來！
 
 ---
 ## **附錄**
-**附錄一：**台灣海陸縣市圖層套疊範圍與OpenStreetMap底圖：<br>
+**附錄一：**<br>
+
+| No. | TBIA納入分析使用名稱 | 抓什麼關鍵字 | 來自哪個階層 | 筆記 |
+|-----|-------------------|------------|-----------|------|
+| 1   | 古菌與細菌界         | Bacteria & Archaea | Kingdom 
+| 2   | 原生生物界           | Protozoa    | Kingdom      | |
+| 3   | 原藻界               | Chromista   | Kingdom      | |
+| 4   | 子囊菌門             | Ascomycota  | Phylum       | |
+| 5   | 擔子菌門             | Basidiomycota | Phylum     | |
+| 6   | 其他真菌             | (other Fungi) | Kingdom    | |
+| 7   | 蕨類植物             | Polypodiopsida & Lycopodiopsida | Class | 包括水龍骨綱+石松綱 |
+| 8   | 藻類植物             | Charophyta, Chlorophyta, Rhodophyta | Phylum | 包括輪藻+綠藻植物+紅藻植物門 |
+| 9   | 苔蘚植物             | Anthocerotophyta, Bryophyta, Marchantiophyta | Phylum | 包括角蘚+苔類植物+地錢門 |
+| 10  | 被子植物             | Magnoliopsida | Class       | 維管束植物門下的木蘭植物綱，被子植物是超綱 |
+| 11  | 裸子植物             | Cycadopsida, Ginkgoopsida, Pinopsida | Class | 包括蘇鐵+銀杏+松綱 |
+| 12  | 其他植物             |             |              | |
+| 13  | 爬蟲綱               | Reptilia    | Class        | |
+| 14  | 兩生綱               | Amphibia    | Class        | |
+| 15  | 鳥綱                 | Aves        | Class        | |
+| 16  | 魚類                 | Chondrichthyes, Actinopterygii, Actinopteri, Elasmobranchii, Holocephali, Myxini | Class | 包括軟骨魚+硬骨魚(條鰭魚)總綱 |
+| 17  | 哺乳綱               | Mammalia    | Class        | |
+| 18  | 其他脊索動物         | (other Chordata) | Phylum   | 包括狹心+海樽+海鞘 |
+| 19  | 鞘翅目               | Coleoptera  | Order        | |
+| 20  | 鱗翅目               | Lepidoptera | Order        | 蛾與蝴蝶 |
+| 21  | 其他昆蟲             | (other Insecta) | Class     | |
+| 22  | 蛛形綱               | Arachnida   | Class        | 包括了蜘蛛、蠍子、壁蝨、蟎等 |
+| 23  | 軟甲綱               | Malacostraca | Class      | 從綱開始看 |
+| 24  | 其他節肢動物         | (other Arthropoda) | Phylum | |
+| 25  | 雙殼綱               | Bivalvia    | Class        | |
+| 26  | 腹足綱               | Gastropoda  | Class        | 蝸牛與貝類 |
+| 27  | 投足綱               | Cephalopoda | Class        | |
+| 28  | 其他軟體動物         | (other Mollusca) | Phylum   | |
+| 29  | 刺胞動物門           | Cnidaria    | Phylum       | |
+| 30  | 棘皮動物門           | Echinodermata | Phylum    | |
+| 31  | 其他動物            | (other Animalia) | Kingdom |                             |
+| 32  | 無資料              | Unclassified |  
+
+
+**附錄二：**台灣海陸縣市圖層套疊範圍與OpenStreetMap底圖：<br>
 ![TW_layer](../assets/gap/TW_layer.png){:width="500px"}
 
-**附錄二：**網格分布在台灣疆界內示意圖。藍、紫與黃色分別代表10、5與1平方公里網格：<br>
+**附錄三：**網格分布在台灣疆界內示意圖。藍、紫與黃色分別代表10、5與1平方公里網格：<br>
 ![TW_grids](../assets/gap/TW_grids.png){:width="500px"}
 
-**附錄三：**上圖放大版，圖右上為一部分的澎湖縣：<br>
+**附錄四：**上圖放大版，圖右上為一部分的澎湖縣：<br>
 ![TW_grids_eg](../assets/gap/TW_grids_eg.png){:width="500px"}
 
-**附錄四：**<br>
+**附錄五：**<br>
 TBIA入口網在全球的資料分布：
 ![notTW](../assets/gap/notTW.png)
 TBIA入口網在台灣疆界外的周圍資料分布：
 ![notTW](../assets/gap/notTW_TWarea.png)
+
+
 
 ---
 ## **封面圖片**
