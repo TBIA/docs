@@ -1,0 +1,2752 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../collaborate/">
+      
+      
+        <link rel="next" href="../restricted_access_species_data/">
+      
+      
+      <link rel="icon" href="../assets/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>生物多樣性領域資料標準 - TBIA Documentations 公開文件</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-header__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TBIA Documentations 公開文件
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              生物多樣性領域資料標準
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-nav__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    TBIA Documentations 公開文件
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    指引與模板
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            指引與模板
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document_guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA文件指引
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document_template/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA文件模板
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    公開文件
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            公開文件
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../articles_of_association/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    臺灣生物多樣性資訊聯盟章程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alliance_vision/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA共同願景
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../partnership/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaborate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（合作夥伴加盟使用）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    生物多樣性領域資料標準
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    生物多樣性領域資料標準
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#colophon" class="md-nav__link">
+    <span class="md-ellipsis">
+      版權說明 Colophon
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="版權說明 Colophon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suggested-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      建議引用方式 Suggested Citation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      作者 Authors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributors" class="md-nav__link">
+    <span class="md-ellipsis">
+      貢獻者 Contributors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licence" class="md-nav__link">
+    <span class="md-ellipsis">
+      授權方式 Licence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      永久統一資源標籤 Persistent URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件版本控制 Document Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件修訂對照說明
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      壹、目的
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="壹、目的">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、 資料來源系統
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、 資料產製模式
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      貳、範圍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      參、應用場合及使用限制
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      肆、專有名詞說明
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      伍、特性分析
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      陸、應用綱要
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      柒、資料典
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="柒、資料典">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、生物多樣性–生物出現紀錄–調查活動
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、生物多樣性–生物出現紀錄–紀錄生物分類
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、生物多樣性–生物出現紀錄–出現紀錄
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      四、生物多樣性–生物出現紀錄–地點
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      五、生物多樣性–生物出現紀錄–紀錄檔案層級
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      捌、編碼規則
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      玖、標準訂定單位及維護權責
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      附錄一：資料欄位代碼表及控制詞彙表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="附錄一：資料欄位代碼表及控制詞彙表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、資料欄位代碼表及控制詞彙表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、資料欄位代碼表及控制詞彙表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      （一）鑑定（分類）層級表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      （二） 坐標格式表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      （三） 空間參考系統表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      （四） 行政區域表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      （五） 授權標示表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      （六） 資料基底表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      （七） 敏感層級表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、初審意見回覆表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、初審意見回覆表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      （一）業務單位意見
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      （二）資訊單位意見
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      （三）領域專家學者意見
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../restricted_access_species_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    生物多樣性敏感資料開放作業原則
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datagap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA資料空缺概況整理文件
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#colophon" class="md-nav__link">
+    <span class="md-ellipsis">
+      版權說明 Colophon
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="版權說明 Colophon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suggested-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      建議引用方式 Suggested Citation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      作者 Authors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributors" class="md-nav__link">
+    <span class="md-ellipsis">
+      貢獻者 Contributors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licence" class="md-nav__link">
+    <span class="md-ellipsis">
+      授權方式 Licence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      永久統一資源標籤 Persistent URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件版本控制 Document Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件修訂對照說明
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      壹、目的
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="壹、目的">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、 資料來源系統
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、 資料產製模式
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      貳、範圍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      參、應用場合及使用限制
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      肆、專有名詞說明
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      伍、特性分析
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      陸、應用綱要
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      柒、資料典
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="柒、資料典">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、生物多樣性–生物出現紀錄–調查活動
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、生物多樣性–生物出現紀錄–紀錄生物分類
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、生物多樣性–生物出現紀錄–出現紀錄
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      四、生物多樣性–生物出現紀錄–地點
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      五、生物多樣性–生物出現紀錄–紀錄檔案層級
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      捌、編碼規則
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      玖、標準訂定單位及維護權責
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      附錄一：資料欄位代碼表及控制詞彙表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="附錄一：資料欄位代碼表及控制詞彙表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、資料欄位代碼表及控制詞彙表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、資料欄位代碼表及控制詞彙表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      （一）鑑定（分類）層級表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      （二） 坐標格式表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      （三） 空間參考系統表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      （四） 行政區域表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      （五） 授權標示表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      （六） 資料基底表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      （七） 敏感層級表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、初審意見回覆表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、初審意見回覆表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      （一）業務單位意見
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      （二）資訊單位意見
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      （三）領域專家學者意見
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">生物多樣性領域資料標準</h1>
+<p>臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version 7df8da8, 2024-04-25 10:21:03+0800</p>
+<p>本文件亦有<a href="https://tbiadata.tw/media/resources/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96.pdf">PDF版本</a>。</p>
+<h2 id="colophon"><strong>版權說明 Colophon</strong></h2>
+<h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
+<p>中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。2021。生物多樣性領域資料標準。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<h3 id="authors">作者 Authors</h3>
+<p>中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署</p>
+<h3 id="contributors">貢獻者 Contributors</h3>
+<p>臺灣生物多樣性資訊聯盟的資料庫串連與資料發佈工作小組為本文件的這個版本做出了貢獻。該工作小組的召集人為行政院農業委員會特有生物研究保育中心的吳世鴻；副召集人為中央研究院生物多樣性研究中心的劉璟儀；工作小組成員包括：王浥璋、李思賢、沈玉婷、俞佑錚、柯智仁、倪旻萱、許鈺琇、郭貴嵐、陳冠伃、楊蕙禎、鍾惠名（依筆劃排序）。</p>
+<h3 id="licence">授權方式 Licence</h3>
+<p>本文件《生物多樣性領域資料標準》採用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW">創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)</a>。</p>
+<h3 id="persistent-uri">永久統一資源標籤 Persistent URI</h3>
+<p>本文件尚待建立此版本的永久統一資源標籤。</p>
+<h3 id="document-control">文件版本控制 Document Control</h3>
+<p>第1.0版，2021年7月。</p>
+<p>最初基於資料庫串連與資料發佈工作小組的《<a href="https://hackmd.io/@oOKtv9CNRuKvI6IqXZGf9w/BJNm-7XNv">生物出現紀錄資料共享指引</a>》。</p>
+<hr />
+<h2 id="_2"><strong>文件修訂對照說明</strong></h2>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>版次</th>
+<th>編輯者</th>
+<th>變動內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021/01</td>
+<td>v1.0</td>
+<td>沈玉婷</td>
+<td>本版次訂定 8 項資料標準如下列：<br>生物多樣性–生物出現紀錄–調查活動<br>生物多樣性–生物出現紀錄–紀錄生物分類<br>生物多樣性–生物出現紀錄–出現紀錄<br>生物多樣性–生物出現紀錄–地點<br>生物多樣性–生物出現紀錄–紀錄檔案層級</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>--以下空白</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_3"><strong>壹、目的</strong></h2>
+<p>為促進我國在生物多樣性領域資料格式的統一，有效率地整合散見於政府機關、學研機構及民間團隊間經由人為觀察、自動化儀器紀錄及人為採集等不同管道蒐集累積的生物調查資料，提供未來使用者可透過統一、標準化之格式取用資料，並提升資料整合應用的品質，爰訂定本生物多樣性領域資料標準（以下稱本領域資料標準）。</p>
+<p>本領域資料標準之主要目的係作為國內跨公私部門間生物多樣性資料共享基礎，透過統一標準格式相互流通，加速國內生物多樣性資訊發展，支持國家生物多樣性大數據建立及開放共享，並使相關資訊成為推動生物多樣性主流化（mainstreaming biodiversity）的一大助力。</p>
+<h3 id="_4">一、 資料來源系統</h3>
+<p>為支持國內保育政策擬定及推動，需進行生物多樣性基礎資料的蒐集以掌握特定區域內生物多樣性現況及變化趨勢。在各相關政府單位，包含中央及地方，均持續配合各項公務預算，各依權責辦理相關現地調查及委託、補助研究計畫；不僅政府單位，國內各學術研究機構長年自行辦理之研究調查作業，加以近年公民科學計畫的盛行，生物資料量在資訊科技快速發展的輔助下大量累積。而因資料擁有者較分散、調查紀錄未完整數位化、不同調查目的下所取得之調查資料內容格式各異或資料擁有者資料開放的意願等因素，目前生物資料從取得到整合應用仍存在一定程度的障礙。</p>
+<p>為能達到跨公私部門間資料連結及整合，目前已由公部門間，包含中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局林業試驗所、特有生物研究保育中心、海洋委員會海洋保育署及國家海洋研究院等單位初步建立合作共識及溝通平台；透過本資料標準的建立，目標藉由應用程式介面（Application Programming Interface, API）標準化串接各分散資料庫資訊成果，以資料開放為方向，推動未來相關生物多樣性資料之資料服務及決策應用發展上能有共同的資訊基礎，逐步建構國家級的生物多樣性資訊網絡（圖 1）。預期將可含括之資料來源系統包含：臺灣生物多樣性資訊機構（TaiBIF）、臺灣物種名錄（TaiCoL）（中央研究院生物多樣性研究中心）、海洋保育網（海洋委員會海洋保育署）、臺灣國家公園生物多樣性資料庫（內政部營建署）、濕地環境資料庫（內政部營建署城鄉發展分署）、植物標本館（林業試驗所）、臺灣生物多樣性網絡（特有生物研究保育中心）、生態調查資料庫（林務局）等，並期能更進一步廣納經濟部水利署的河川情勢調查、各政府機關公共工程生態檢核資料、環境保護署原始數據共享倉儲收納之環境影響評估生態調查資料及公民科學資料（如 BBS Taiwan、eBird）等來源。</p>
+<p align="center">
+    <img src="../assets/國家級生物多樣性網絡建構之未來願景.png">
+    <br/>
+    圖 1 國家級生物多樣性網絡建構之未來願景
+</p>
+
+<h3 id="_5">二、 資料產製模式</h3>
+<p>生物多樣性調查因應調查目的、物種類群及地理維度（尺度）不同，調查方法及內容格式各異，使得不同調查專案間之成果常不易整合應用。其中，屬於最核心共通性的生物出現紀錄（物種、時間及空間資訊），即成為資料整合運用最基礎的項目。</p>
+<p>生物出現紀錄資訊整合，首先面臨的是學名議題。受到分類學派及分類學研究沿革發展，針對同一物種會有不同的學名描述，為能讓不同學名、但屬同一物種的資料後續可整合分析，經由物種名錄建立學名資訊間的聯結（同物異名），在跨專案及跨資料庫間的資料整合作業都相當重要。</p>
+<p>而透過整合不同資料來源涉及物種的時空分布資訊，持續累積資料量，再藉由資料演算分析及分布預測，將有助於國內發展建立能夠反映時空變遷之生物分布圖資，使生物多樣性保育執行及決策者快速接收更直覺且精確的基礎背景資訊。同時，因應保育議題，部分生物出現紀錄之空間資訊需透過適當屏蔽，避免因資訊釋出後反造成物種受害（如有獵捕壓力之物種），相關資料提供時將考量其空間資訊可能存在的敏感程度分層級進行處理。透過名錄服務的整合，連帶才能就物種資訊做有效的分析，達到整合資料研究的基礎。</p>
+<p>本標準以國內較具整合共識、資料相對完整之「生物出現紀錄」資訊為第一步進行標準化推動；未來基礎於此標準化推動經驗，或可從分子生物 DNA 序列（GenBank）、生態照片、動物聲音和生態系等資訊逐步擴充，促進各類型生物多樣性資訊交流。</p>
+<h2 id="_6"><strong>貳、範圍</strong></h2>
+<p>生物多樣性相關調查研究相當廣泛，或針對分類學、個體生態、族群生態、生態系統、（微）棲地環境等不同範疇，現階段無論在國內或全球性生物多樣性組織，以物種個體為對象之分布調查所產生的「生物出現紀錄（Occurence）」資訊，是最普遍進行、資料累積速度快且相對易於整合的資料項目，亦為本標準訂定的主要範圍。</p>
+<p>調查過程中，因應不同的調查目的、方法設計，蒐集的資料欄位內容格式也各不相同。隨著全球生物多樣性資訊機構（GBIF）快速發展，其成立宗旨為提供大眾不限時間、地點均能公開且自由存取生物資料，目前已彙集了全球上億萬筆的生物出現紀錄，其採用的達爾文核心集（Darwin Core）標準格式，連帶影響了各界在資料調查蒐集內容的共通性設計。本標準在生物分布資訊上，即大量參考達爾文核心集的設計，透過國際標準的引用讓資料整合成果不僅提供國內跨界運用，也能與國際相連結，發揮我國地球公民一員的貢獻。惟在資料公開部分，仍須考量國內生物資源利用性及內含的地點資訊釋出反而造成物種受害之可能性（如：採集、獵捕棲地破壞或人為干擾等），相關坐標資訊將視個別物種情形進行必要之屏蔽後公開。</p>
+<p>針對資料整合工作，預期可納入範圍內的生物出現紀錄資料來源系統包含：臺灣生物多樣性資訊機構、海洋保育網、臺灣國家公園生物多樣性資料庫、濕地環境資料庫、植物標本館、臺灣生物多樣性網絡、生態調查資料庫等，涵蓋了海域、陸域、特定關注區域及棲地範圍的調查成果，過去由各機關因應權責主管業務需要分別進行資料保存蒐集，將可望透過一致性標準的提出達到實質的資料整合應用。</p>
+<p>本標準範圍不限於上開系統使用，各單位如有辦理生態調查作業，涉及物種調查部分均可參照本標準項目做為共通性調查格式規範。又因物種名錄在跨資料庫的資料整合過程扮演關鍵角色，中央研究院生物多樣性研究中心於 2003 年建立了「臺灣物種名錄（TaiCoL）系統」，近二十年來的發展已成為台灣最具權威性的物種名錄資訊來源。本標準涉及分類資訊即以臺灣物種名錄為主要核心，做為資料整合交換的基礎。</p>
+<p>本版次提報之生物多樣性（Biodiversity）領域資料標準其「領域–主題–類別」描述範疇包含 1 項主題與 5 項類別如下說明，未來文件將會配合實際推動過程、各單位資料調查蒐集及實際應用現況滾動修正，並適時擴增資料標準項目。</p>
+<ol>
+<li>生物出現紀錄（Occurrence）主題：調查活動（Event）、紀錄生物分類（Record Taxon）、出現紀錄（Occurence）、地點（Location）、紀錄檔案層級（Record-level）。</li>
+</ol>
+<hr />
+<h2 id="_7"><strong>參、應用場合及使用限制</strong></h2>
+<p>本標準主要適用對象為生物領域相關政府部門、學術研究機構及民間組織，其辦理生物出現紀錄蒐集或建置有資料庫系統做為相關資料之倉儲流通目的者。相關單位應依本標準，進行領域資料之生產、流通、供應與交換。各單位除遵循本標準之外，若依本身需求，擴充設計以適用於特定領域範疇，所衍生之標準文件應註明遵循本標準。本領域資料標準內容係參考引用國內外相關標準而制定，列舉如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">項次</th>
+<th style="text-align: left;">法律與行政法規</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">野生動物保育法</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">文化資產保存法</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>項次</strong></td>
+<td style="text-align: left;"><strong>參考文件</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">國家發展委員會「領域資料標準訂定參考指引」</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">國家發展委員會「資料集詮釋資料標準規範」</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>項次</strong></td>
+<td style="text-align: left;"><strong>引用資料標準</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">引用政府資料標準平臺領域共通標準</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">引用國際分類資料庫工作小組（TDWG, Taxonomic Database Working Group）達爾文核心集（DwC, Darwin Core）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_8"><strong>肆、專有名詞說明</strong></h2>
+<p>本文件中，涉及相關專有名詞引用，透過以下條列式說明進行陳述：</p>
+<ol>
+<li>生物出現紀錄（occurrence）：指生物於特定時間及特定空間之出現資訊<sup>a</sup>；包含但不限於由人為觀察、自動化儀器紀錄、人為採集之生物本體與痕跡。</li>
+<li>學名（scientific name）：依據國際生物命名法規對於各特定物種使用的科學名稱，統一使用拉丁文或拉丁化文字<sup>b</sup>。</li>
+<li>俗名（vernacular name）：針對各物種於特定地域內通俗傳用的名稱<sup>c</sup>，通常使用當地語言，如臺灣主要使用中文俗名。</li>
+<li>分類（taxon）：在生物學指由分類學家依相同特徵之生物群體分類的階層單元<sup>d</sup>，包含如界、門、綱、目科、屬、種、亞種等層級類別。</li>
+<li>敏感資料（sensitive data）：資料內含的物種紀錄地點相關資訊釋出後，可能造成該物種受害，或其他相關的環境損害，而有屏蔽資訊之必要者。前述受害，包括蓄意的傷害，如採集、獵捕、棲地破壞；或非蓄意的傷害，如干擾<sup>e</sup>。</li>
+<li>敏感層級（sensitive category）：建立敏感資料清單時，針對個別物種設定之地點資訊屏蔽程度<sup>f</sup>。</li>
+</ol>
+<p>a. 名詞說明為譯文，引用自<a href="https://dwc.tdwg.org/terms/#occurrence">達爾文核心集</a>。<br>
+b. 名詞說明參考<a href="https://zh.wikipedia.org/wiki/學名">維基百科</a>。<br/>
+c. 名詞說明參考教育部重編國語詞典修訂本。<br/>
+d. 名詞說明為譯文，引用自<a href="https://dwc.tdwg.org/terms/#taxon">達爾文核心集</a>。<br/>
+e. 名詞說明引用自「生物多樣性敏感資料開放作業原則」。<br/>
+f. 名詞說明引用自「生物多樣性敏感資料開放作業原則」。<br/></p>
+<hr />
+<h2 id="_9"><strong>伍、特性分析</strong></h2>
+<p>生物多樣性領域（Biodiversity）整體類別資料屬性結構分析說明如下表所示：</p>
+<table>
+    <tr>
+        <td>第一層</td>
+        <td colspan="5">生物多樣性領域資料共同訊息層</td>
+    </tr>
+    <tr>
+        <td>第二層</td>
+        <td colspan="5">生物出現紀錄主題</td>
+    </tr>
+    <tr>
+        <td>第三層</td>
+        <td>調查活動類別</td>
+        <td>紀錄生物分類類別</td>
+        <td>出現紀錄類別</td>
+        <td>地點類別</td>
+        <td>紀錄檔案層級類別</td>
+    </tr>
+</table>
+
+<p>為能達到後續資料可整合利用性，針對各類別應具備之核心資訊分列 及說明如下（特性分析類別圖詳見圖 2）：</p>
+<p>一、生物出現紀錄（Occurrence）主題：
+<br/></p>
+<ol>
+<li>調查活動（Event）類別：描述紀錄所屬的調查活動資訊，包含西元年、月、日、觀察記錄起迄時間、調查方法、調查同行者等。</li>
+<li>紀錄生物分類（Record Taxon）類別：描述該筆紀錄所對應的物種， 考量學名變動特性及後續物種識別及檢核需求，包含資料原始提供者所記錄之學名、資料檢核現有名錄後給予之校正學名及其物種編碼、鑑定層級、資料原始提供者提供的物種名稱（俗名或學名）等 。</li>
+<li>出現紀錄（Occurrence）類別：針對單筆紀錄所記錄的特定事項，包含該筆出現紀錄之永久識別編號、物種數量、物種數量單位、紀錄者（採集者）、採集號及多媒體連結等。</li>
+<li>地點（Location）類別：包含經度、緯度、坐標格式、坐標參考系統及坐標誤差等。本項資料主要以單個坐標點的方式記錄。</li>
+<li>紀錄檔案（Record-level）層級：指該筆紀錄調查作業以外，在資料儲存管理面的關聯資訊，包含資料集名稱、資料集聯絡人、資料授權標示、資料來源（是否為第一手資料）及資料發布單位等，並因應生物存在敏感資料，提供坐標是否有模糊化、敏感層級等資訊。</li>
+</ol>
+<p align="center">
+    <img src="../assets/特性分析類別圖.png">
+    <br/>
+    圖 2 特性分析類別圖
+</p>
+
+<hr />
+<h2 id="_10"><strong>陸、應用綱要</strong></h2>
+<p>資料屬性依據特性分析以結構類別圖說明應用如下（圖 3）所示：</p>
+<p align="center">
+    <img src="../assets/應用綱要結構類別.png">
+    <br/>
+    圖 3 應用綱要結構類別
+</p>
+
+<hr />
+<h2 id="_11"><strong>柒、資料典</strong></h2>
+<p>資料典定義說明如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>名稱</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>項次</td>
+<td>資料典之序號。</td>
+</tr>
+<tr>
+<td>中英文名稱</td>
+<td>資料屬性列舉於資料典中。</td>
+</tr>
+<tr>
+<td>說明</td>
+<td>提供屬性之意義，以淺顯易懂的文字介紹該項資料，協助使用者了解屬性之內容，避免誤解使用。</td>
+</tr>
+<tr>
+<td>型別</td>
+<td>說明屬性之資料型態填列 String、Number、Boolean、Date、Time、DateTime。</td>
+</tr>
+<tr>
+<td>值域</td>
+<td>說明該欄位之資料型別值域，為資料內容是否正確的判斷方式。</td>
+</tr>
+<tr>
+<td>必要性</td>
+<td>說明該屬性描述之必要性，區分為「必要屬性」 （Mandatory）、及「選擇屬性」（Optional），本文說明方式將以簡寫之（M）與（O）表示之。</td>
+</tr>
+<tr>
+<td>最多發生次數</td>
+<td>依實際需求，至多出現一次（1）、只出現特定次數（特定次數）或出現多次（N）。</td>
+</tr>
+<tr>
+<td>附註</td>
+<td>針對屬性或關係提供前述項目無法提供之額外說明，例如代碼表、編碼規則。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_12">一、生物多樣性–生物出現紀錄–調查活動</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>西元年</td>
+<td>year</td>
+<td>台灣本地時區之觀察記錄起始日期之西元年。</td>
+<td>String</td>
+<td>[0000-9999]</td>
+<td>M</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>月</td>
+<td>month</td>
+<td>台灣本地時區之觀察記錄起始日期之月。</td>
+<td>String</td>
+<td>[01-12]</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>日</td>
+<td>day</td>
+<td>台灣本地時區之觀察記錄起始日期之日。</td>
+<td>String</td>
+<td>[01-31]</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>觀察記錄起始時間</td>
+<td>eventTime</td>
+<td>觀察記錄起始時間。</td>
+<td>Time</td>
+<td>[00-24][00-59]</td>
+<td>O</td>
+<td>1</td>
+<td>24小時制4碼格式 HHMM</td>
+</tr>
+<tr>
+<td>5</td>
+<td>調查方法</td>
+<td>samplingProtocol</td>
+<td>該筆紀錄取得之調查方法描述。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>調查同行者</td>
+<td>partner</td>
+<td>調查同行者，該筆紀錄所屬調查活動「紀錄者／採集者」以外的同行人員。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>多個調查同行者，以「|」符號分隔</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_13">二、生物多樣性–生物出現紀錄–紀錄生物分類</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>原始物種名稱</td>
+<td>originalVernacularName</td>
+<td>資料原始觀察或採集者所提供的該物種的名稱，可以是俗名或學名。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>原始物種學名</td>
+<td>originalScientificName</td>
+<td>資料原始提供者所輸入之物種學名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>依據國際命名規則對於各物種及其所屬類群使用的科學名稱，統一使用拉丁文或拉丁化文字。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>校定物種學名</td>
+<td>scientificName</td>
+<td>資料檢核後給予之物種學名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>於臺灣物種名錄（TaiCoL）對應的學名。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>校定物種學名編碼</td>
+<td>scientificNameID</td>
+<td>校定物種學名於台灣物種名錄（TaiCoL）對應的學名編碼。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>https://taicol.tw/</td>
+</tr>
+<tr>
+<td>5</td>
+<td>鑑定層級</td>
+<td>taxonRank</td>
+<td>原始紀錄內物種鑑定（分類）上被歸屬的最小生物分類單元。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「鑑定（分類）層級表」。</td>
+</tr>
+<tr>
+<td>6</td>
+<td>界</td>
+<td>kingdom</td>
+<td>生物分類單元「界」之科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>界中文名</td>
+<td>kingdomChinese</td>
+<td>界中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>門</td>
+<td>phylum</td>
+<td>生物分類單元「門」之科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>門中文名</td>
+<td>phylumChinese</td>
+<td>門中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>綱</td>
+<td>class</td>
+<td>生物分類單元「綱」之科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>綱中文名</td>
+<td>classChinese</td>
+<td>綱中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>目</td>
+<td>order</td>
+<td>生物分類單元「目」之科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>目中文名</td>
+<td>orderChinese</td>
+<td>目中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>科</td>
+<td>family</td>
+<td>生物分類單元「科」之 科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>科中文名</td>
+<td>familyChinese</td>
+<td>科中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>屬</td>
+<td>genus</td>
+<td>生物分類單元「屬」之科學名稱。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>屬中文名</td>
+<td>genusChinese</td>
+<td>屬中文名。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_14">三、生物多樣性–生物出現紀錄–出現紀錄</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>物種出現紀錄編碼</td>
+<td>occurrenceID</td>
+<td>該筆紀錄的永久識別編號。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>使用通用唯一識別碼 （UniversallyUniqueIdentifier，UUID），或其他可永久識別紀錄的編號。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>採集號</td>
+<td>recordNumber</td>
+<td>採集號，該筆紀錄的識別編號，在單一調查活動內編號不重複。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>記錄者／採集者</td>
+<td>recordedBy</td>
+<td>記錄者／採集者，該筆記錄之實際觀察／調查／記錄／採集者。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>多個記錄者／採集者，以「|」 符號分隔</td>
+</tr>
+<tr>
+<td>4</td>
+<td>鑑定者</td>
+<td>identifiedBy</td>
+<td>鑑定者，該筆調查上傳後的鑑定人員／該筆紀錄的物種鑑定負責人。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>數量</td>
+<td>organismQuantity</td>
+<td>該筆紀錄代表的物種數量。</td>
+<td>Number</td>
+<td>float (0,∞)</td>
+<td>M</td>
+<td>1</td>
+<td>依「數量單位」記錄，可為正整數或帶小數。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_15">四、生物多樣性–生物出現紀錄–地點</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>經度</td>
+<td>verbatimLongitude</td>
+<td>用於標記地球表面位置之東西距離數值，以地理坐標系表示為 X 坐標 。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 EPSG:4326 十進位小數格式；若不適用， 請註明使用之坐標系統及大地基準。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>緯度</td>
+<td>verbatimLatitude</td>
+<td>用於標記地球表面位置之南北距離數值，以地理坐標系表示為 Y 坐標 。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 EPSG:4326 十進位小數格式；若不適用， 請註明使用之坐標系統及大地基準。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>坐標系統</td>
+<td>verbatimCoordinateSystem</td>
+<td>該筆紀錄經度及緯度使用之坐標格式。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 DecimalDegrees（十進位度）。控制詞彙詳見附錄「坐標格式表」。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>大地基準</td>
+<td>verbatimSRS</td>
+<td>該筆紀錄經度及緯度使用之空間參考系統。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 EPSG:4326。控制詞彙詳見附錄「空間參考系統表」。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>以公尺為單位的坐標誤差</td>
+<td>coordinateUncertaintyInMeters</td>
+<td>以公尺為單位的坐標誤差，因儀器設備、觀測誤差造成所提供之調查點位並非實際坐標，或觀察對象的散布範圍大於實際坐標，故此數值用以給定最小圓形區域的水平半徑距離，確保涵蓋實際調查對象所在位置。</td>
+<td>Number</td>
+<td>float (0,∞)</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>縣市別代碼</td>
+<td>countyCode</td>
+<td>該筆紀錄地點所在的直轄市或省轄縣市之代碼。</td>
+<td>String</td>
+<td>[00000-99999]</td>
+<td>O</td>
+<td>1</td>
+<td>引用「共通性／共通資料／縣市別代碼」欄位。代碼檔詳見附件「戶役政資訊代碼（https://www.ris.gov.tw/documents/data/5/1/ RSCD0101.txt） 」。</td>
+</tr>
+<tr>
+<td>7</td>
+<td>直轄市或省轄縣市</td>
+<td>county</td>
+<td>該筆紀錄地點所在的直轄市或省轄縣市，以中文描述。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「行政區域表」。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_16">五、生物多樣性–生物出現紀錄–紀錄檔案層級</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>資料基底</td>
+<td>basisOfRecord</td>
+<td>資料基底，資料於記錄當下的類型。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「資料基底」。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>敏感層級</td>
+<td>sensitiveCategory</td>
+<td>依據生物多樣性敏感資料開放作業原則標準所列之敏感層級類別。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「敏感層級表」。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>坐標是否有模糊化</td>
+<td>dataGeneralizations</td>
+<td>該筆紀錄提供的經度、 緯度坐標數值是否經過模糊化（數值屏蔽）處理。</td>
+<td>Boolean</td>
+<td>True,False</td>
+<td>M</td>
+<td>1</td>
+<td>True 代表是，False 代表否 。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>資料集名稱</td>
+<td>datasetName</td>
+<td>該筆紀錄所屬之資料集名稱。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>資料集聯絡人</td>
+<td>resourceContacts</td>
+<td>該筆紀錄所屬之資料集聯絡人。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>資料集連結網址</td>
+<td>resourceCitationIdentifier</td>
+<td>該筆紀錄所屬資料集的連結網址（URL）。</td>
+<td>String</td>
+<td>url</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>資料授權標示或條款</td>
+<td>license</td>
+<td>該筆紀錄資料授權標示或條款。</td>
+<td>String</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「授權標示表」。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>多媒體資料授權標示或條款</td>
+<td>mediaLicense</td>
+<td>該筆資料關聯之多媒體資料其授權標示或條款。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「授權標示表」。引用「生物多樣性／生物出現紀錄／紀錄檔案層級／資料授權標示或條款」之欄位。</td>
+</tr>
+<tr>
+<td>9</td>
+<td>台灣本地時區之資料更新時間</td>
+<td>modified</td>
+<td>台灣本地時區之資料更新時間。</td>
+<td>String</td>
+<td>[0000-9999][01- 12][01-31][00- 24][00-59]</td>
+<td>M</td>
+<td>1</td>
+<td>採用西元年月日8碼+24小時制4碼格式 YYYYMMDD HHMM。引用「共通性／共通資料／日期時間」欄位。</td>
+</tr>
+<tr>
+<td>10</td>
+<td>博物館憑證號</td>
+<td>collectionID</td>
+<td>標本資料之博物館（voucher）憑證號。</td>
+<td>String</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>第一手資料</td>
+<td>selfProduced</td>
+<td>單位自行或委託他方獲取之第一手資料，而非介接自其他資料庫／集。</td>
+<td>Boolean</td>
+<td>True,False</td>
+<td>M</td>
+<td>1</td>
+<td>True 代表資料自產，非來自外部來源； False 代表資料介接取得，來自外部來源。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_17"><strong>捌、編碼規則</strong></h2>
+<p>本標準之編碼轉換規定依循 XML Schema 之訂定原則，應用綱要為概念層次之規定，實質之資料流通須經資料之編碼，本標準僅提供資料標準欄位定義及說明，未提供相關編碼規則。</p>
+<hr />
+<h2 id="_18"><strong>玖、標準訂定單位及維護權責</strong></h2>
+<p>本標準由臺灣生物多樣性資訊聯盟（中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署）共同研擬，內容之維護及更新為資訊單位負責，聯絡資訊如下：</p>
+<p>聯絡單位：行政院農業委員會林務局</p>
+<p>地址：台北市杭州南路一段 2 號</p>
+<p>電話：02-23515441</p>
+<p>電子郵件信箱：eml@forest.gov.tw 或 tbianoti@gmail.com</p>
+<p>官方網站：臺灣生物多樣性資訊聯盟網站籌備中，各單位官網如下：</p>
+<ul>
+<li><a href="https://portal.taibif.tw/">臺灣生物多樣性資訊機構</a></li>
+<li><a href="https://taicol.tw">臺灣物種名錄</a></li>
+<li><a href="https://iocean.oca.gov.tw/">海洋保育網</a></li>
+<li><a href="https://npgis.cpami.gov.tw/">臺灣國家公園生物多樣性資料庫</a></li>
+<li><a href="https://wetland-db.tcd.gov.tw/">濕地環境資料庫</a></li>
+<li><a href="https://taif.tfri.gov.tw/">植物標本館</a></li>
+<li><a href="https://www.tbn.org.tw/">臺灣生物多樣性網絡</a></li>
+<li><a href="https://ecollect.forest.gov.tw">生態調查資料庫</a></li>
+</ul>
+<hr />
+<h2 id="_19"><strong>附錄一：資料欄位代碼表及控制詞彙表</strong></h2>
+<h3 id="_20">一、資料欄位代碼表及控制詞彙表</h3>
+<h4 id="_21">（一）鑑定（分類）層級表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名稱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kingdom</td>
+<td>界</td>
+</tr>
+<tr>
+<td>Phylum</td>
+<td>門</td>
+</tr>
+<tr>
+<td>Class</td>
+<td>綱</td>
+</tr>
+<tr>
+<td>Order</td>
+<td>目</td>
+</tr>
+<tr>
+<td>Family</td>
+<td>科</td>
+</tr>
+<tr>
+<td>Genus</td>
+<td>屬</td>
+</tr>
+<tr>
+<td>Species</td>
+<td>種</td>
+</tr>
+<tr>
+<td>Subspecies</td>
+<td>亞種</td>
+</tr>
+<tr>
+<td>Variety</td>
+<td>變種</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_22">（二） 坐標格式表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>說明</th>
+<th>使用範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DecimalDegrees</td>
+<td>經緯度系統，以度為單位之十進位數，建議優先採用本項。註：如採用本格式紀錄，因每度約 100 公里，數值表示如為小數位下 2 位，精度約為 1 公里；又敏感物種會進行座標資訊屏蔽，如有座標屏蔽處理，誤差應回歸原始數據。</td>
+<td>23.760556</td>
+</tr>
+<tr>
+<td>DegreesDecimalMinutes</td>
+<td>經緯度系統，以度及分為單位，度為整數，分為小數。</td>
+<td>23°45.633333’</td>
+</tr>
+<tr>
+<td>DegreesMinutesSeconds</td>
+<td>經緯度系統，以度、分及秒為單位，均為整數。</td>
+<td>23°45’38"</td>
+</tr>
+<tr>
+<td>TM2</td>
+<td>橫麥卡托二度分帶系統，單位為公尺，X 軸為 6 位正整數，Y 軸為 7 位正整數。</td>
+<td>247342, 2652336</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_23">（三） 空間參考系統表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>大地基準</th>
+<th>坐標系統</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EPSG:4326</td>
+<td>WGS84，建議優先採用本項</td>
+<td>經緯度系統</td>
+</tr>
+<tr>
+<td>EPSG:3824</td>
+<td>TWD97</td>
+<td>經緯度系統</td>
+</tr>
+<tr>
+<td>EPSG:3825</td>
+<td>TWD97，中央經線 119 度</td>
+<td>TM2 系統</td>
+</tr>
+<tr>
+<td>EPSG:3826</td>
+<td>TWD97，中央經線 121 度</td>
+<td>TM2 系統</td>
+</tr>
+<tr>
+<td>EPSG:3827</td>
+<td>TWD67，中央經線 119 度</td>
+<td>TM2 系統</td>
+</tr>
+<tr>
+<td>EPSG:3828</td>
+<td>TWD67，中央經線 121 度</td>
+<td>TM2 系統</td>
+</tr>
+<tr>
+<td>EPSG:4236</td>
+<td>虎子山 Hu Tzu Shan</td>
+<td>經緯度系統</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_24">（四） 行政區域表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>戶政資料代碼</th>
+<th>地政司縣市代碼</th>
+<th>ISO 3166-2:TW 縣市代碼</th>
+<th>英文名稱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>臺北市</td>
+<td>63000</td>
+<td>A</td>
+<td>TPE</td>
+<td>Taipei City</td>
+</tr>
+<tr>
+<td>臺中市</td>
+<td>66000</td>
+<td>B</td>
+<td>TXG</td>
+<td>Taichung City</td>
+</tr>
+<tr>
+<td>基隆市</td>
+<td>10017</td>
+<td>C</td>
+<td>KEE</td>
+<td>Keelung City</td>
+</tr>
+<tr>
+<td>臺南市</td>
+<td>67000</td>
+<td>D</td>
+<td>TNN</td>
+<td>Tainan City</td>
+</tr>
+<tr>
+<td>高雄市</td>
+<td>64000</td>
+<td>E</td>
+<td>KHH</td>
+<td>Kaohsiung City</td>
+</tr>
+<tr>
+<td>新北市</td>
+<td>65000</td>
+<td>F</td>
+<td>NWT</td>
+<td>New Taipei City</td>
+</tr>
+<tr>
+<td>宜蘭縣</td>
+<td>10002</td>
+<td>G</td>
+<td>ILA</td>
+<td>Yilan County</td>
+</tr>
+<tr>
+<td>桃園市</td>
+<td>68000</td>
+<td>H</td>
+<td>TAO</td>
+<td>Taoyuan City</td>
+</tr>
+<tr>
+<td>嘉義市</td>
+<td>10020</td>
+<td>I</td>
+<td>CYI</td>
+<td>Chiayi City</td>
+</tr>
+<tr>
+<td>新竹縣</td>
+<td>10004</td>
+<td>J</td>
+<td>HSQ</td>
+<td>Hsinchu County</td>
+</tr>
+<tr>
+<td>苗栗縣</td>
+<td>10005</td>
+<td>K</td>
+<td>MIA</td>
+<td>Miaoli County</td>
+</tr>
+<tr>
+<td>南投縣</td>
+<td>10008</td>
+<td>M</td>
+<td>NAN</td>
+<td>Nantou County</td>
+</tr>
+<tr>
+<td>彰化縣</td>
+<td>10007</td>
+<td>N</td>
+<td>CHA</td>
+<td>Changhua County</td>
+</tr>
+<tr>
+<td>新竹市</td>
+<td>10018</td>
+<td>O</td>
+<td>HSZ</td>
+<td>Hsinchu City</td>
+</tr>
+<tr>
+<td>雲林縣</td>
+<td>10009</td>
+<td>P</td>
+<td>YUN</td>
+<td>Yunlin County</td>
+</tr>
+<tr>
+<td>嘉義縣</td>
+<td>10010</td>
+<td>Q</td>
+<td>CYQ</td>
+<td>Chiayi County</td>
+</tr>
+<tr>
+<td>屏東縣</td>
+<td>10013</td>
+<td>T</td>
+<td>PIF</td>
+<td>Pingtung County</td>
+</tr>
+<tr>
+<td>花蓮縣</td>
+<td>10015</td>
+<td>U</td>
+<td>HUA</td>
+<td>Hualien County</td>
+</tr>
+<tr>
+<td>臺東縣</td>
+<td>10014</td>
+<td>V</td>
+<td>TTT</td>
+<td>Taitung County</td>
+</tr>
+<tr>
+<td>金門縣</td>
+<td>9020</td>
+<td>W</td>
+<td>KIN</td>
+<td>Kinmen County</td>
+</tr>
+<tr>
+<td>澎湖縣</td>
+<td>10016</td>
+<td>X</td>
+<td>PEN</td>
+<td>Penghu County</td>
+</tr>
+<tr>
+<td>連江縣</td>
+<td>9007</td>
+<td>Z</td>
+<td>LIE</td>
+<td>Lienchiang County</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_25">（五） 授權標示表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>來源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CC0</td>
+<td><a href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a></td>
+</tr>
+<tr>
+<td>CC-BY</td>
+<td><a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr>
+<tr>
+<td>CC-BY-NC</td>
+<td><a href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</a></td>
+</tr>
+<tr>
+<td>政府資料開放授權條款</td>
+<td><a href="https://data.gov.tw/license">https://data.gov.tw/license</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="_26">（六） 資料基底表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名稱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PreservedSpecimen</td>
+<td>保存標本</td>
+</tr>
+<tr>
+<td>FossilSpecimen</td>
+<td>化石標本</td>
+</tr>
+<tr>
+<td>LivingSpecimen</td>
+<td>活體標本</td>
+</tr>
+<tr>
+<td>MaterialSample</td>
+<td>組織樣本</td>
+</tr>
+<tr>
+<td>Event</td>
+<td>調查活動</td>
+</tr>
+<tr>
+<td>HumanObservation</td>
+<td>人為觀測</td>
+</tr>
+<tr>
+<td>MachineObservation</td>
+<td>機器觀測</td>
+</tr>
+<tr>
+<td>Taxon</td>
+<td>分類資訊</td>
+</tr>
+<tr>
+<td>Occurrence</td>
+<td>出現記錄</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_27">（七） 敏感層級表</h4>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>輕度</td>
+<td>點位坐標應屏蔽至精度高於經緯度小數點後 2 位（約 1 公里）。</td>
+</tr>
+<tr>
+<td>重度</td>
+<td>點位坐標應屏蔽至精度高於經緯度小數點後 1 位（約 10 公里）。</td>
+</tr>
+<tr>
+<td>縣市</td>
+<td>點位坐標屏蔽到只顯示地理區的縣市，不顯示坐標。</td>
+</tr>
+<tr>
+<td>坐標不開放</td>
+<td>點位坐標應完全屏蔽，但仍可查詢到該物種存在。</td>
+</tr>
+<tr>
+<td>物種不開放</td>
+<td>點位、物種存在資訊都應完全屏蔽。</td>
+</tr>
+<tr>
+<td>無</td>
+<td>地點資訊依據資料提供之原始精度開放。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_28">二、初審意見回覆表</h3>
+<p>依循領域資料標準訂定流程參考指引，資料標準訂定及作業規範提供暢通意見回饋機制，蒐集生物多樣性領域主題相關資料供應單位、領域專家學者、資料使用者之建議，依據各界回饋意見以逐步滾動修正及提升資料標準之完整性。</p>
+<h4 id="_29">（一）業務單位意見</h4>
+<table>
+<thead>
+<tr>
+<th>章節</th>
+<th>意見</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>壹、目的</td>
+<td>無</td>
+</tr>
+<tr>
+<td>貳、範圍</td>
+<td>1. 生物出現紀錄主題之「紀錄分類」更名為「紀錄生物分類 」；「名錄分類」更名為「名錄生物分類」。以下章節併同調整（中央研究院）。 回覆：已依建議修正。</td>
+</tr>
+<tr>
+<td>參、應用場合及使用限制</td>
+<td>無</td>
+</tr>
+<tr>
+<td>肆、專有名詞說明</td>
+<td>無</td>
+</tr>
+<tr>
+<td>伍、特性分析</td>
+<td>1. 有關特性分析中，物種特性類別，例如雜交種、入侵種、 化石種等相關備註，建議不需在資料調查階段就備註，此資料應該有全國統一的註記。（內政部營建署）<br>回覆：納入「物種名錄」主題統一註記，資料調查階段毋需填寫。<br>2. 特性分析中應該要有針對有機物及無機物分別設計的填報資料，其中針對無機物的部分內政部營建署有相關設計，建議可以參考。（內政部營建署） <br>回覆：現階段以生物資料為優先，無機物部分另行研議。<br>3. 有關未來針對氣候變遷的變化應該要有更密切的關注，因此環境屬性的參數，建議應該設計相關的資料填列欄位， 例如氣溫等。（內政部營建署） <br>回覆：現階段以生物資料為優先，環境資料另行研議。</td>
+</tr>
+<tr>
+<td>陸、應用綱要</td>
+<td>無</td>
+</tr>
+<tr>
+<td>柒、資料典</td>
+<td>1. 依草案資料典內容「五、生物多樣性-生物出現紀錄紀錄檔案層級」-「項次 11 第一手資料」，似允許將介接取得資料上傳，是否會造成資料重複上傳問題，建議可納入評估。（內政部營建署） <br>回覆：考量國內現況，部分資料庫同時整合其他來源資料共同發布服務，此欄位可取得資料整合應用時參考，評估後保留本項欄位。<br>2. 本署城鄉發展分署於 108 年 3 月 15 日訂有「濕地調查資料及成果報告上傳暨使用作業須知」（詳附件），提供參酌。（內政部營建署） <br>回覆：感謝提供。 <br>3. 有關「三、生物多樣性-生物出現紀錄-出現紀錄」項次 3 記錄者／採集者」及「項次 4 鑑定者」，建議評估納入 「一、生物多樣性-生物出現紀錄-調查活動」。（內政部營建署） <br>回覆：目前分類係參考國際標準達爾文核心集（Darwin Core），又同一個調查活動中，各筆物種出現紀錄資料「紀錄者／採集者」及「鑑定者」可能不同，爰評估後仍維持列於「出現紀錄」類別內。<br>4. 調查方法、鑑定層級、記錄者／採集者、數量、數量 單位、資料集名稱、資料集聯絡人等，建議可納入必填欄位。（內政部營建署） <br>回覆：「鑑定層級」、「數量」、「數量單位」及「資料集名稱」改列必填；「調查方法」及「資料集聯絡人」屬於詮釋資料性質，可透過「資料集名稱」連結，「記錄者／採集者」在部分自動化調查方法不適用，爰維持「選填 」。 <br>5. 建議評估將計畫主持人、計畫執行團隊、計畫受託單位／申請補助機關、計畫委辦單位、分類名稱（用以確認資料定位，供系統比對物種名稱與生物調查資料所屬分類是否一致。包含門、綱、目、科、屬。植物類需填寫科名以下層級）等資訊納入資料蒐集項目，並評估列為必填欄位。（內政部營建署） <br>回覆：計畫主持人、計畫執行團隊、計畫受託單位／申請補助機關、計畫委辦單位等項目屬於詮釋資料性質，可透過「資料集名稱」連結，且對於自辦調查不適用；分類名稱係供系統內品質檢核使用，且可物種學名資訊連結，評估後暫不納入標準欄位。 <br>6. 建議請於生物多樣性-物種名錄-物種特性之說明欄加註各項次判定之參考依據（海洋保育署）。 <br>回覆：已補充說明。<br>7. 為何不與其他 boolean 資料相同，採用 Yes／No？（ 中央研究院生物多樣性研究中心） <br>回覆：已統一標準文件，一致採用 True／False。<br>8. 修正「生物多樣性–生物出現紀錄–紀錄檔案層級」 之「台灣本地時區之資料更新時間」值域表示式。（中央研究院生物多樣性研究中心）<br>回覆：已修正。<br>9. 建議欄位名稱不要有年代，以免未來名錄更新後欄位名稱不適用。可以改為「臺灣紅皮書評估類別」。（中央研究院生物多樣性研究中心） <br>回覆：已修正。 <br>10. 是否改為「是否為分布於台灣的物種」？雖然對資料使用上沒有差別，但標示是否為台灣物種似乎更直觀？（中央研究院生物多樣性研究中心） <br>回覆：已修正。</td>
+</tr>
+<tr>
+<td>捌、編碼規則</td>
+<td>無</td>
+</tr>
+<tr>
+<td>玖、標準訂定單位及維護權責</td>
+<td>無</td>
+</tr>
+<tr>
+<td>拾、附錄</td>
+<td>無</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_30">（二）資訊單位意見</h4>
+<table>
+<thead>
+<tr>
+<th>章節</th>
+<th>意見</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>壹、目的</td>
+<td>無</td>
+</tr>
+<tr>
+<td>貳、範圍</td>
+<td>無</td>
+</tr>
+<tr>
+<td>參、應用場合及使用限制</td>
+<td>無</td>
+</tr>
+<tr>
+<td>肆、專有名詞說明</td>
+<td>無</td>
+</tr>
+<tr>
+<td>伍、特性分析</td>
+<td>無</td>
+</tr>
+<tr>
+<td>陸、應用綱要</td>
+<td>無</td>
+</tr>
+<tr>
+<td>柒、資料典</td>
+<td>無</td>
+</tr>
+<tr>
+<td>捌、編碼規則</td>
+<td>無</td>
+</tr>
+<tr>
+<td>玖、標準訂定單位及維護權責</td>
+<td>無</td>
+</tr>
+<tr>
+<td>拾、附錄</td>
+<td>無</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_31">（三）領域專家學者意見</h4>
+<table>
+<thead>
+<tr>
+<th>章節</th>
+<th>意見</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>壹、目的</td>
+<td></td>
+</tr>
+<tr>
+<td>貳、範圍</td>
+<td></td>
+</tr>
+<tr>
+<td>參、應用場合及使用限制</td>
+<td></td>
+</tr>
+<tr>
+<td>肆、專有名詞說明</td>
+<td></td>
+</tr>
+<tr>
+<td>伍、特性分析</td>
+<td></td>
+</tr>
+<tr>
+<td>陸、應用綱要</td>
+<td></td>
+</tr>
+<tr>
+<td>柒、資料典</td>
+<td></td>
+</tr>
+<tr>
+<td>捌、編碼規則</td>
+<td></td>
+</tr>
+<tr>
+<td>玖、標準訂定單位及維護權責</td>
+<td></td>
+</tr>
+<tr>
+<td>拾、附錄</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- taken from 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
+
+<hr />
+
+<div class="md-source-file">
+<small>
+    <!-- mkdocs-git-revision-date-plugin -->
+    
+    最後更新日期:
+    2024-04-25
+    
+</small>
+</div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>

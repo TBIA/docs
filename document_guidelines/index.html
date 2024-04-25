@@ -1,0 +1,1782 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="../document_template/">
+      
+      
+      <link rel="icon" href="../assets/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>TBIA文件指引 - TBIA Documentations 公開文件</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tbia" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-header__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TBIA Documentations 公開文件
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TBIA文件指引
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-nav__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    TBIA Documentations 公開文件
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    指引與模板
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            指引與模板
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    TBIA文件指引
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    TBIA文件指引
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#colophon" class="md-nav__link">
+    <span class="md-ellipsis">
+      版權說明 Colophon
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="版權說明 Colophon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suggested-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      建議引用方式 Suggested Citation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      作者 Authors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributors" class="md-nav__link">
+    <span class="md-ellipsis">
+      貢獻者 Contributors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licence" class="md-nav__link">
+    <span class="md-ellipsis">
+      授權方式 Licence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      永久統一資源標籤 Persistent URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件版本控制 Document Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      背景
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="背景">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      現有文件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines-for-document-authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      給文件作者們的指引 Guidelines for document authors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="給文件作者們的指引 Guidelines for document authors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      完成一個文件的步驟
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decommissioning-old-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      舊文件的「去任務化」 'Decommissioning' old documents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      技術指引 Technical guidance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="技術指引 Technical guidance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      給文件作者們
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="給文件作者們">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件撰寫建議
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markdown語法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown語法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      標題
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      字體效果
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      引文
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      標號
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="標號">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      數字標號
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他標號
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="巢狀標號">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號：無序清單
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號：有序清單
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      核取方塊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      連結
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      簡易超連結
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      分隔線
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      程式碼
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      圖片
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      帶有連結的圖片
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      調整圖片大小
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      調整圖片文字對齊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      表格
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      短區塊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      跳脫字元
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markdown擴充語法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown擴充語法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admonition" class="md-nav__link">
+    <span class="md-ellipsis">
+      admonition (警告文字框)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      本文件網站的軟體架構與開發環境
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document_template/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA文件模板
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    公開文件
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            公開文件
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../articles_of_association/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    臺灣生物多樣性資訊聯盟章程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alliance_vision/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA共同願景
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../partnership/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaborate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（合作夥伴加盟使用）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biodiversity_data_standard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    生物多樣性領域資料標準
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../restricted_access_species_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    生物多樣性敏感資料開放作業原則
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datagap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TBIA資料空缺概況整理文件
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#colophon" class="md-nav__link">
+    <span class="md-ellipsis">
+      版權說明 Colophon
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="版權說明 Colophon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suggested-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      建議引用方式 Suggested Citation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      作者 Authors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributors" class="md-nav__link">
+    <span class="md-ellipsis">
+      貢獻者 Contributors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licence" class="md-nav__link">
+    <span class="md-ellipsis">
+      授權方式 Licence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      永久統一資源標籤 Persistent URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件版本控制 Document Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      背景
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="背景">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      現有文件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines-for-document-authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      給文件作者們的指引 Guidelines for document authors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="給文件作者們的指引 Guidelines for document authors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      完成一個文件的步驟
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decommissioning-old-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      舊文件的「去任務化」 'Decommissioning' old documents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      技術指引 Technical guidance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="技術指引 Technical guidance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      給文件作者們
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="給文件作者們">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件撰寫建議
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markdown語法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown語法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      標題
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      字體效果
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      引文
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      標號
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="標號">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      數字標號
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他標號
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="巢狀標號">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號：無序清單
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      巢狀標號：有序清單
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      核取方塊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      連結
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      簡易超連結
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      分隔線
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      程式碼
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      圖片
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      帶有連結的圖片
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      調整圖片大小
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      調整圖片文字對齊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      表格
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      短區塊
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      跳脫字元
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markdown擴充語法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown擴充語法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admonition" class="md-nav__link">
+    <span class="md-ellipsis">
+      admonition (警告文字框)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      本文件網站的軟體架構與開發環境
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="tbia">TBIA文件指引</h1>
+<p>臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version 7df8da8, 2024-04-25 10:21:03+0800</p>
+<hr />
+<h2 id="colophon">版權說明 Colophon</h2>
+<h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
+<p>臺灣生物多樣性資訊聯盟文件工作小組。2024。TBIA文件指引。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<h3 id="authors">作者 Authors</h3>
+<p>柯智仁、李金穎、李思賢、張俊怡</p>
+<h3 id="contributors">貢獻者 Contributors</h3>
+<p>TBIA文件工作小組為本文件的這個版本做出了貢獻。</p>
+<h3 id="licence">授權方式 Licence</h3>
+<p>本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。</p>
+<h3 id="persistent-uri">永久統一資源標籤 Persistent URI</h3>
+<p>本文件尚待建立永久統一資源標籤。</p>
+<h3 id="document-control">文件版本控制 Document Control</h3>
+<p>第一版，2024年2月。</p>
+<hr />
+<h2 id="_1">背景</h2>
+<p>TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與發佈這些文件的目的，是提供與生物多樣性資訊與開放資料有關的訊息，以支持臺灣相關社群的實作。TBIA文件的理念主要受<a href="https://docs.gbif.org/documentation-guidelines/en/">GBIF文件</a>啟發。</p>
+<p>本指引的目標則是提供撰寫TBIA文件的綱要與素材。透過提供一套具有一致性（consistent）、可靠性（reliable）、可再用性（reusable），以及版本管理特性（versioned）的綱要與素材，讓TBIA文件的建立與更新流程變得簡易順暢。藉此並逐步建立社群對文件的信任，以促成更廣大的採納與使用。</p>
+<h3 id="_2">現有文件</h3>
+<p>臺灣生物多樣性資訊聯盟秘書處。2022。<a href="https://tbia.github.io/docs/articles_of_association/">臺灣生物多樣性資訊聯盟章程</a>。第一版。臺灣生物多樣性資訊聯盟：臺北。</p>
+<p>中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。2021。<a href="https://tbia.github.io/docs/biodiversity_data_standard/">生物多樣性領域資料標準</a>。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<p>柯智仁。2021。<a href="https://tbia.github.io/docs/restricted_access_species_data/">生物多樣性敏感資料開放作業原則</a>。草案版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<p>臺灣生物多樣性資訊聯盟願景工作小組。2020。<a href="https://tbia.github.io/docs/alliance_vision/">TBIA共同願景</a>。草案。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<h2 id="guidelines-for-document-authors">給文件作者們的指引 Guidelines for document authors</h2>
+<p>我們在這個系統採用的文件編碼語法是<a href="https://python-markdown.github.io/#goals">Python-Markdown語法</a>。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。</p>
+<p>我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。</p>
+<h3 id="_3">完成一個文件的步驟</h3>
+<ol>
+<li>在 <a href="https://github.com/TBIA/docs">/docs</a> 資料夾中新增一個「.md」的檔案。</li>
+<li>根據本指引與文件模板撰寫該文件檔案。</li>
+<li>完成文件撰寫後，通知TBIA技術總監，請秘書處確認是否發佈。</li>
+<li>秘書處確認後由文件工作小組發佈至文件網站（修改mkdocs.yml及指引中的現有文件列表）。</li>
+</ol>
+<h2 id="decommissioning-old-documents">舊文件的「去任務化」 'Decommissioning' old documents</h2>
+<blockquote>
+<p>（本程序待建立）</p>
+</blockquote>
+<h2 id="technical-guidance">技術指引 Technical guidance</h2>
+<blockquote>
+<p>這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於<a href="https://hackmd.io/@mrcoding/ryZE7k8cN">MarkDown語法大全
+</a> 。</p>
+</blockquote>
+<h3 id="_4">給文件作者們</h3>
+<h4 id="_5">文件撰寫建議</h4>
+<ol>
+<li>中文段落開頭的縮排建議一律省略。</li>
+<li>中文與英文、中文與數字間不留空格，英文與數字間則須留空格。</li>
+<li>標點符號建議以文件主體的語言決定全形或半形：<ul>
+<li>文件主體語言為中文：全形</li>
+<li>文件主體語言為英文：半形</li>
+</ul>
+</li>
+</ol>
+<h4 id="markdown">Markdown語法</h4>
+<h5 id="_6">標題</h5>
+<p>不同階層的標題語法</p>
+<div class="highlight"><pre><span></span><code># H1 階層一（標題一）
+## H2 階層二（標題二）
+### H3 階層三（標題三）
+#### H4 階層四（標題四）
+##### H5 階層五（標題五）
+</code></pre></div>
+<h5 id="_7">字體效果</h5>
+<p><em>斜體字</em></p>
+<p><strong>粗體字</strong></p>
+<p><strong><em>斜粗體</em></strong></p>
+<p><del>刪除線</del></p>
+<p><em>斜體2</em></p>
+<p><strong>斜粗2</strong></p>
+<p>正常<sup>上標</sup></p>
+<p>正常<sub>下標</sub></p>
+<p><ins>底線</ins></p>
+<p><mark>螢光標記</mark></p>
+<span class="critic comment">程式碼註解</span>
+<div class="highlight"><pre><span></span><code>*斜體字*
+**粗體字**
+***斜體兼粗體***
+~~刪除線~~
+_斜體2_
+__斜粗2__
+正常^上標^
+正常~下標~
+^^底線^^
+==螢光標記==
+<span class="critic comment">程式碼註解</span>
+</code></pre></div>
+<h5 id="_8">引文</h5>
+<p>縮排語法</p>
+<blockquote>
+<p>第一層</p>
+<blockquote>
+<p>第二層</p>
+<blockquote>
+<p>第三層</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<div class="highlight"><pre><span></span><code>&gt;第一層
+&gt;&gt;第二層
+&gt;&gt;&gt;第三層
+</code></pre></div>
+<h5 id="_9">標號</h5>
+<h6 id="_10">數字標號</h6>
+<ol>
+<li>數字標號</li>
+<li>數字標號</li>
+<li>數字標號</li>
+</ol>
+<div class="highlight"><pre><span></span><code>1. 數字標號
+2. 數字標號
+3. 數字標號
+</code></pre></div>
+<h6 id="_11">其他標號</h6>
+<ul>
+<li>其他標號</li>
+<li>其他標號</li>
+<li>其他標號</li>
+</ul>
+<div class="highlight"><pre><span></span><code>- 其他標號
++ 其他標號
+* 其他標號
+</code></pre></div>
+<h5 id="_12">巢狀標號</h5>
+<h6 id="_13">巢狀標號：無序清單</h6>
+<ul>
+<li>無序清單</li>
+<li>無序清單<ul>
+<li>無序清單子清單<ul>
+<li>無序清單子子清單</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>- 無序清單
+- 無序清單
+    - 無序清單子清單
+        - 無序清單子子清單
+</code></pre></div>
+<h6 id="_14">巢狀標號：有序清單</h6>
+<ol>
+<li>有序清單</li>
+<li>有序清單<ol>
+<li>有序清單子清單<ol>
+<li>有序清單子子清單</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code>1. 有序清單
+2. 有序清單
+    1. 有序清單子清單
+        1. 有序清單子子清單
+</code></pre></div>
+<h5 id="_15">核取方塊</h5>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> 這是一個預設勾選的選項</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> 這是一個預設不勾選的選項<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> In hac habitasse platea dictumst</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> In scelerisque nibh non dolor mollis congue sed et metus</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Praesent sed risus massa</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">- [x]</span> 這是一個預設勾選的選項
+<span class="k">- [ ]</span> 這是一個預設不勾選的選項
+<span class="w">    </span><span class="k">* [x]</span> In hac habitasse platea dictumst
+<span class="w">    </span><span class="k">* [x]</span> In scelerisque nibh non dolor mollis congue sed et metus
+<span class="w">    </span><span class="k">* [ ]</span> Praesent sed risus massa
+<span class="k">- [ ]</span> Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+</code></pre></div>
+<h5 id="_16">連結</h5>
+<p><a href="https://tbiadata.tw" title="游標顯示內容">連結名稱</a></p>
+<div class="highlight"><pre><span></span><code>[連結名稱](https://tbiadata.tw &quot;游標顯示內容&quot;)
+</code></pre></div>
+<h5 id="_17">簡易超連結</h5>
+<p><a href="https://tbiadata.tw">https://tbiadata.tw</a></p>
+<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#98;&#105;&#97;&#110;&#111;&#116;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#98;&#105;&#97;&#110;&#111;&#116;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
+<div class="highlight"><pre><span></span><code>&lt;網址或mail&gt;
+</code></pre></div>
+<h5 id="_18">分隔線</h5>
+<p>1.</p>
+<hr />
+<p>2.</p>
+<hr />
+<p>3.</p>
+<hr />
+<p>4.</p>
+<hr />
+<div class="highlight"><pre><span></span><code>1.
+空行
+---
+2.
+***
+3.
+- - -
+4.
+* * *
+---
+</code></pre></div>
+<h5 id="_19">程式碼</h5>
+<div class="highlight"><span class="filename">這裡是示範</span><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World&quot;</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">這裡是程式碼</span><pre><span></span><code><span class="sb">```</span>
+<span class="sb">#include &lt;stdio.h&gt;</span>
+
+<span class="sb">int main(){</span>
+
+<span class="sb">    printf(&quot;Hello World&quot;);</span>
+
+<span class="sb">    return 0;</span>
+<span class="sb">}</span>
+<span class="sb">```</span>
+</code></pre></div>
+<h5 id="_20">圖片</h5>
+<p><img alt="圖片" src="../assets/logo_top.svg" title="游標顯示內容" /></p>
+<div class="highlight"><pre><span></span><code>![<span class="nt">圖片名稱</span>](<span class="na">圖片位置連結 &quot;游標顯示內容&quot;</span>)
+</code></pre></div>
+<p>若希望圖片及下方說明文字置中，可參考下列語法範例：</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;center&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;圖片位置連結&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">br</span><span class="p">/&gt;</span>
+    說明文字
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>文件中使用的圖片請先上傳至本repository（即 https://github.com/TBIA/docs ）的<a href="https://github.com/TBIA/docs/tree/main/docs/assets">assets</a>資料夾。</li>
+<li>上傳時請注意檔案名稱不要與既有檔案重複。</li>
+<li>需注意圖片位置連結依據不同語法，可能會有所差異。</li>
+</ul>
+</div>
+<h5 id="_21">帶有連結的圖片</h5>
+<p><a href="https://tbiadata.tw/"><img alt="圖片" src="../assets/logo_top.svg" /></a></p>
+<div class="highlight"><pre><span></span><code>[![圖片名稱](圖片位置連結)](點擊圖片會前往的連結)
+</code></pre></div>
+<h5 id="_22">調整圖片大小</h5>
+<p><img alt="noti" src="../assets/noti-figure.png" width="200" /></p>
+<div class="highlight"><span class="filename">寬度: 200</span><pre><span></span><code>![<span class="nt">標題</span>](<span class="na">./assets/my-awesome-image.jpg</span>){ width=&quot;200&quot; }
+</code></pre></div>
+<h5 id="_23">調整圖片文字對齊</h5>
+<p><img align="left" alt="左邊漂浮" src="../assets/logo_top.svg" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
+<div class="highlight"><span class="filename">左邊文繞圖(float:left)</span><pre><span></span><code>![<span class="nt">標題</span>](<span class="na">./assets/my-awesome-image.jpg</span>){ align=left }
+text content 內文
+</code></pre></div>
+<p><img align="right" alt="右邊漂浮的noti" src="../assets/logo_top.svg" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
+<div class="highlight"><span class="filename">右邊文繞圖(float:right)</span><pre><span></span><code>![<span class="nt">標題</span>](<span class="na">./assets/my-awesome-image.jpg</span>){ align=right }
+text content 內文
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。</p>
+</div>
+<h5 id="_24">表格</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">欄位1</th>
+<th style="text-align: right;">欄位2</th>
+<th style="text-align: center;">欄位3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">置左</td>
+<td style="text-align: right;">置右</td>
+<td style="text-align: center;">置中</td>
+</tr>
+<tr>
+<td style="text-align: left;">$100</td>
+<td style="text-align: right;">$100</td>
+<td style="text-align: center;">$100</td>
+</tr>
+<tr>
+<td style="text-align: left;">$10</td>
+<td style="text-align: right;">$10</td>
+<td style="text-align: center;">$10</td>
+</tr>
+<tr>
+<td style="text-align: left;">$1</td>
+<td style="text-align: right;">$1</td>
+<td style="text-align: center;">$1</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre><span></span><code>| 欄位1 | 欄位2 | 欄位3 |
+| :-- | --: |:--:|
+| 置左  | 置右 | 置中 |
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>或可參考<a href="https://tableconvert.com/excel-to-markdown">表格產生小工具</a>，將表格內容匯入後自動產出對應markdown語法。</li>
+<li>不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。</li>
+<li>表格內文若有 <code>|</code> 或 <code>-</code>，須在前方加上跳脫字元 <code>\</code> 。</li>
+</ul>
+</div>
+<h5 id="_25">短區塊</h5>
+<p><code>內容</code></p>
+<p>`內容`</p>
+<h5 id="_26">跳脫字元</h5>
+<p>```</p>
+<div class="highlight"><pre><span></span><code>\+任意符號
+</code></pre></div>
+<h4 id="markdown_1">Markdown擴充語法</h4>
+<p>原本Markdown支援的語法有限，無法處理比較複雜的文件排版，這邊使用的MkDocs系統支援<a href="https://facelessuser.github.io/pymdown-extensions/">Python Markdown Extensions</a>，擴增了許多Markdown語法的功能，詳細參考 <a href="https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/">Python Markdown Extensions - Material for MkDocs</a>。</p>
+<h5 id="admonition">admonition (警告文字框)</h5>
+<div class="highlight"><pre><span></span><code>!!! note
+    You should note that the title will be automatically capitalized.
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You should note that the title will be automatically capitalized.</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! danger &quot;Don&#39;t try this at home&quot;
+</code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">Don't try this at home</p>
+<p>...</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! important &quot;&quot;
+    This is an admonition box without a title.
+</code></pre></div>
+<div class="admonition important">
+<p>This is an admonition box without a title.</p>
+</div>
+<h3 id="_27">本文件網站的軟體架構與開發環境</h3>
+<p>請參考<a href="https://github.com/TBIA/docs">此處README</a>。</p>
+
+
+<!-- taken from 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
+
+<hr />
+
+<div class="md-source-file">
+<small>
+    <!-- mkdocs-git-revision-date-plugin -->
+    
+    最後更新日期:
+    2024-04-25
+    
+</small>
+</div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
