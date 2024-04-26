@@ -1,7 +1,7 @@
 # TBIA資料空缺概況整理文件
 
 何芷蔚 Daphne Hoh - daphnehohzhiwei[@]gmail.com | 吳俊毅 Jun-yi Wu - jaredswu[@]gmail.com<br>
-version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
+version {{ git.short_commit }}, {{ git_revesion_date) }}
 
 <center>
 ![ascidian](https://inaturalist-open-data.s3.amazonaws.com/photos/121962530/medium.jpeg)
@@ -388,4 +388,4 @@ TBIA入口網在台灣疆界外的周圍資料分布：
 
 ---
 ## **封面圖片**
-海鞘（*Clavelina sp.*)，臺東縣綠島鄉，臺灣。2021年djscho在[iNaturalist](https://www.inaturalist.org/observations/74609623)的紀錄，採用[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)授權。</pre></pre>
+海鞘（*Clavelina sp.*)，臺東縣綠島鄉，臺灣。2021年djscho在[iNaturalist](https://www.inaturalist.org/observations/74609623)的紀錄，採用[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)授權。
