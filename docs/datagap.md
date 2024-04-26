@@ -1,7 +1,7 @@
 # TBIA資料空缺概況整理文件
 
 何芷蔚 Daphne Hoh - daphnehohzhiwei[@]gmail.com | 吳俊毅 Jun-yi Wu - jaredswu[@]gmail.com<br>
-version {{ git.short_commit }}, {{ git_revesion_date) }}
+version {{ git.short_commit }}, {{ git_revision_date }}
 
 <center>
 ![ascidian](https://inaturalist-open-data.s3.amazonaws.com/photos/121962530/medium.jpeg)
