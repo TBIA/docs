@@ -24,7 +24,7 @@ TBIA 典藏資料標準工作小組為本文件的這個版本做出了貢獻。
 ---
 ## **壹、目的**
 自然史典藏做為一類出現紀錄，其本身帶有各種屬性。數位典藏核心業務之一，即是將這些屬性分門別類轉錄或載錄至相應的表單欄位。有些屬性在資料生命週期進入管理、使用與分享階段時，可借助早已發展成熟的標準化方案將其標準化，以確保資料交換時的品質。本文件始於 2023 年由臺灣生物多樣性資訊聯盟（Taiwan Biodiversity Information Alliance，簡稱 TBIA）典藏資料標準工作小組不定期討論，由來自自然史典藏單位的小組成員討論各自典藏單位的欄位需求，並依據 [Darwin Core 達爾文核心標準](<https://dwc.tdwg.org>)，從中整理共通可用的欄位標準，期望能提供為數位化典藏資料交換與管理時的參考。
-本資料交換標準指引為[生物多樣性領域資料標準](<https://tbia.github.io/docs/biodiversity_data_standard/>)之延伸資料集，而針對各欄位填寫方式及建議可參考[臺灣生物多樣性資訊聯盟自然史典藏「資料交換標準欄位」控制詞彙指引](<https://hackmd.io/@PxTmoqeOTYCc0cMVfSNB9A/HJgGIROr6/https%3A%2F%2Fhackmd.io%2F%40PxTmoqeOTYCc0cMVfSNB9A%2Fr1vFj1qBp>)。
+本資料交換標準指引為基於[生物多樣性領域資料標準](<https://tbia.github.io/docs/biodiversity_data_standard/>)架構之延伸資料模板，而針對各欄位填寫方式及建議可參考[臺灣生物多樣性資訊聯盟自然史典藏「資料交換標準欄位」控制詞彙指引](<https://hackmd.io/@PxTmoqeOTYCc0cMVfSNB9A/HJgGIROr6/https%3A%2F%2Fhackmd.io%2F%40PxTmoqeOTYCc0cMVfSNB9A%2Fr1vFj1qBp>)。
 
 ## **貳、資料開放流程建議**
 
