@@ -1297,7 +1297,7 @@
 
 
 <h1 id="_1">生態檢核資料共享標準</h1>
-<p>臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version 8ebc09b, 2024-11-08 00:00:00</p>
+<p>臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version 6aa3305, 2024-11-13 00:00:00</p>
 <h2 id="colophon"><strong>版權說明 Colophon</strong></h2>
 <h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
 <p>TBIA聯盟。2024。生態檢核資料共享標準。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
@@ -1991,14 +1991,14 @@
 <td>若為實際觀測點位建議填入一般 GPS誤差（30）；若為 400公尺施工溪段的一個中央代表點建議填入距離兩端的最遠距離（200）；若為1000 公尺穿越線的起點或終點作為一個代表點建議填入離另一端最遠距離（1000）；不填入單位（公尺）。</td>
 </tr>
 <tr>
-<td>第一手資料</td>
-<td>selfProduced</td>
-<td>布林值</td>
-<td>單位自行或委託他方獲取之第一手資料，而非介接自其他資料庫／集。</td>
-<td>True,False</td>
+<td>資料來源類型</td>
+<td>compilationTypes</td>
+<td>文字</td>
+<td>說明來自實際調查活動、彙整自其他來源之資料，或兩者組合而來。</td>
+<td>samplingEvents,compilationOfExistingSources,compilationOfExistingSourcesAndSamplingEvents</td>
 <td>M</td>
 <td>1</td>
-<td>True 代表資料自產，非來自外部來源； False 代表資料介接取得，來自外部來源。</td>
+<td>samplingEvents 代表資料來自實際調查活動； compilationOfExistingSources 代表資料來自外部來源；compilationOfExistingSourcesAndSamplingEvents 代表資料來自兩者結合。</td>
 </tr>
 </tbody>
 </table>
@@ -2908,7 +2908,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     <!-- mkdocs-git-revision-date-plugin -->
     
     最後更新日期:
-    2024-11-08
+    2024-11-13
     
 </small>
 </div>
