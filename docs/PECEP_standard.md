@@ -116,7 +116,7 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 
 
 <p align="center">
-    <img src="../assets/生態檢核應用綱要.png">
+    <img src="../assets/PECEP.svg" title="生態檢核應用綱要">
     <br/>
     圖 1 生態檢核應用綱要
 </p>
@@ -231,7 +231,7 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 註：已有固定上傳流程或建立公開資料庫之單位：林業保育署、農村水保署、台北水源特定區管理分署（水利署轄下單位）。
 
 <p align="center">
-    <img src="../assets/資料開放方式建議.png">
+    <img src="../assets/OPEN.svg" title="資料開放方式流程">
     <br/>
     附圖 1 資料開放方式流程示意圖
 </p>
