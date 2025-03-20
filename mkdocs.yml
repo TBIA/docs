@@ -29,7 +29,11 @@ theme:
   palette:
     primary: custom
   custom_dir: overrides
-
+  features:
+#    - navigation.tabs # 未來文件大類多的話可以用
+    - navigation.expand
+#    - navigation.path
+    - navigation.top
 plugins:
   - search
   #- git-authors
