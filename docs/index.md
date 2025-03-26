@@ -3,8 +3,11 @@
 歡迎來到臺灣生物多樣性資訊聯盟（Taiwan Biodiversity Information Alliance，簡稱TBIA）的文件網站。
 
 本平台匯集TBIA對外公開的重要文件，旨在推廣：
+
 - 相關倡議（如[TBIA共同願景](https://tbia.github.io/docs/alliance_vision/)）
+
 - 相關程序（如[生物多樣性敏感資料開放作業原則](https://tbia.github.io/docs/restricted_access_species_data/)）
+
 - 相關標準（如[生物多樣性領域資料標準](https://tbia.github.io/docs/biodiversity_data_standard/)）
 
 我們亦提供建議的文件指引與模板，協助TBIA夥伴成員以一致的方式發布相關內容。這也是聯盟致力於在生物多樣性領域提升各類資料[開放等級](https://5stardata.info/zh-TW/)的具體展現。
