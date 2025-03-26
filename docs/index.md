@@ -14,10 +14,10 @@
 想了解更多TBIA的工作與成果，請至我們的生物多樣性資料庫共通查詢系統（又稱TBIA入口網）：https://tbiadata.tw/ 。
 
 
-**TBIA文件工作小組**（小柯、思賢、金穎、俊怡）**敬上**
+**TBIA文件工作小組**（小柯、思賢、金穎、俊怡）敬上
 
 ---
 
-![large](https://github.com/user-attachments/assets/9a284eae-8157-48ab-a3f8-f74a3630961e)
+[![large](https://github.com/user-attachments/assets/9a284eae-8157-48ab-a3f8-f74a3630961e)](https://www.inaturalist.org/observations/263053233)
 臺灣穿山甲（*Manis pentadactyla* ssp. *pentadactyla*），臺灣。2025年 Huang,Yu-Shiang 通過 iNaturalist 研究等級觀察 所拍攝的照片，採用 CC BY NC 4.0 授權。
 
