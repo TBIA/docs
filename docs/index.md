@@ -21,6 +21,6 @@
 
 ---
 
-[![large](https://github.com/user-attachments/assets/9a284eae-8157-48ab-a3f8-f74a3630961e)](https://www.inaturalist.org/observations/263053233)
-臺灣穿山甲（*Manis pentadactyla* ssp. *pentadactyla*），臺灣。2025年 Huang,Yu-Shiang 通過 iNaturalist 研究等級觀察 所拍攝的照片，採用 CC BY NC 4.0 授權。
+![large](https://github.com/user-attachments/assets/9a284eae-8157-48ab-a3f8-f74a3630961e)
+臺灣穿山甲（*Manis pentadactyla* ssp. *pentadactyla*），臺灣。[2025年 Huang,Yu-Shiang 通過 iNaturalist 研究等級觀察](https://www.inaturalist.org/observations/263053233) 所拍攝的照片，採用 CC BY NC 4.0 授權。
 
