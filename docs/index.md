@@ -12,9 +12,9 @@
 
 我們亦提供建議的文件指引與模板，協助TBIA夥伴成員以一致的方式發布相關內容。這也是聯盟致力於在生物多樣性領域提升各類資料[開放等級](https://5stardata.info/zh-TW/)的具體展現。
 
-若您對文件有任何問題或建議，歡迎至本網站的GitHub Repository提交Issue回報：https://github.com/TBIA/docs/issues 。
+若您對文件有任何問題或建議，歡迎至本網站的GitHub Repository提交[Issue](https://github.com/TBIA/docs/issues)回報。
 
-想了解更多TBIA的工作與成果，請至我們的生物多樣性資料庫共通查詢系統（又稱TBIA入口網）：https://tbiadata.tw/ 。
+想了解更多TBIA的工作與成果，請至我們的[生物多樣性資料庫共通查詢系統](https://tbiadata.tw/)（又稱TBIA入口網）。
 
 
 **TBIA文件工作小組**（小柯、思賢、金穎、俊怡）敬上
