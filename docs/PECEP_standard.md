@@ -16,7 +16,7 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 本文件《生態檢核資料共享標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-本文件尚待建立此版本的永久統一資源標籤。
+https://pid.tbiadata.tw/ark:/35232/c1rww1i9
 
 ### 文件版本控制 Document Control
 第1.0版，2024年10月。
