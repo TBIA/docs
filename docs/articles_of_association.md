@@ -17,7 +17,7 @@
 本文件《臺灣生物多樣性資訊聯盟章程》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-[ark:/35232/c1d185ko](https://pid.tbiadata.tw/ark:/35232/c1d185ko)
+https://pid.tbiadata.tw/ark:/35232/c1d185ko
 
 ### 文件版本控制 Document Control
 第一版，2022年9月21日（臺灣生物多樣性資訊聯盟第一次委員會通過）。
