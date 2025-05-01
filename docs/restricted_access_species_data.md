@@ -19,7 +19,7 @@ TBIA 2020年7月6日的第33次例會到2021年7月23日的第44次例會參與�
 本文件《生物多樣性敏感資料開放作業原則》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-本文件尚待建立此版本的永久統一資源標籤。
+https://pid.tbiadata.tw/ark:/35232/c1z7bwgl
 
 ### 文件版本控制 Document Control
 1.0版，2024年9月20日透過TBIA委員會公告轉為正式文件。
