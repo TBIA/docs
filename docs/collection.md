@@ -16,7 +16,7 @@ TBIA 典藏資料標準工作小組為本文件的這個版本做出了貢獻。
 本文件《自然史典藏資料交換標準指引》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-本文件尚待建立此版本的永久統一資源標籤。
+https://pid.tbiadata.tw/ark:/35232/c1j2958m
 
 ### 文件版本控制 Document Control
 第一版，2024年9月
