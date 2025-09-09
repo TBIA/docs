@@ -1,0 +1,2255 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>TBIA 自動相機資料開放標準 - TBIA Documentations 公開文件</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tbia" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-header__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TBIA Documentations 公開文件
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TBIA 自動相機資料開放標準
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TBIA Documentations 公開文件" class="md-nav__button md-logo" aria-label="TBIA Documentations 公開文件" data-md-component="logo">
+      
+  <img src="../assets/logo_top.svg" alt="logo">
+
+    </a>
+    TBIA Documentations 公開文件
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    指引與模板
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            指引與模板
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document_guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA文件指引
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document_template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA文件模板
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    公開文件
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            公開文件
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../articles_of_association/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    臺灣生物多樣性資訊聯盟章程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alliance_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA共同願景
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../partnership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaborate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（合作夥伴加盟使用）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biodiversity_data_standard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    生物多樣性領域資料標準
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../restricted_access_species_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    生物多樣性敏感資料開放作業原則
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datagap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TBIA資料空缺概況整理文件
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    自然史典藏資料交換標準
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PECEP_standard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    生態檢核資料共享標準
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#colophon" class="md-nav__link">
+    <span class="md-ellipsis">
+      版權說明 Colophon
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="版權說明 Colophon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suggested-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      建議引用方式 Suggested Citation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    <span class="md-ellipsis">
+      作者 Authors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributors" class="md-nav__link">
+    <span class="md-ellipsis">
+      貢獻者 Contributors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licence" class="md-nav__link">
+    <span class="md-ellipsis">
+      授權方式 Licence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      永久統一資源標籤 Persistent URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件版本控制 Document Control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      修訂歷程
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      壹、前言
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      貳、用詞
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      參、標準
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="參、標準">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      共同標準
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、佈設資料標準
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、多媒體資料標準
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、觀察資料標準
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      附表1-1：佈設環境特徵類型表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      附表3-1：年齡或生命階段表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      附表3-2：性別表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      附表3-3：行為表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="tbia">TBIA 自動相機資料開放標準</h1>
+<p>作者 - 臺灣生物多樣性資訊聯盟典藏資料標準工作小組 - tbianoti@gmail.com - version c1e5948, 2025-09-09 18:01:10+0800 </p>
+<hr />
+<h2 id="colophon"><strong>版權說明 Colophon</strong></h2>
+<h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
+<p>吳世鴻。2025。自動相機資料開放標準。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<h3 id="authors">作者 Authors</h3>
+<p>吳世鴻</p>
+<h3 id="contributors">貢獻者 Contributors</h3>
+<p>TBIA 機器觀測資料開放標準工作小組為本文件的這個版本做出了貢獻。
+* 召集人：吳世鴻<sup>1</sup>
+* 副召集人：端木茂甯<sup>2</sup>
+* 成員（以筆畫順序）：王浥璋<sup>9</sup>、江欣盈<sup>1</sup>、吳俊毅<sup>3</sup>、李金穎<sup>2</sup>、李思賢<sup>2</sup>、李昱<sup>4</sup>、林子皓<sup>2</sup>、林育秀<sup>1</sup>、林峻廷<sup>4</sup>、侯穎霖<sup>6</sup>、姜博仁<sup>4</sup>、柯智仁<sup>1</sup>、洪孝宇<sup>5</sup>、高得愷<sup>2</sup>、張俊怡<sup>2</sup>、張筑竣<sup>2</sup>、許詩涵<sup>6</sup>、陳建文<sup>7</sup>、曾威<sup>8</sup>、黃于禎禧<sup>6</sup>、黃靖倫<sup>3</sup>、劉威廷<sup>6</sup>、劉璟儀<sup>2</sup>
+1. 農業部生物多樣性研究所
+2. 中央研究院生物多樣性研究中心
+3. 國立臺灣大學
+4. 野聲環境生態有限公司
+5. 國立屏東科技大學
+6. 觀察家生態顧問有限公司
+7. 農業部林業試驗所
+8. 研海生態顧問股份有限公司
+9. 伊卡自然資訊有限公司</p>
+<h3 id="licence">授權方式 Licence</h3>
+<p>本文件《自動相機資料開放標準》採用 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">創用CC 姓名標示 4.0 國際 (CC BY 4.0)</a>。</p>
+<h3 id="persistent-uri">永久統一資源標籤 Persistent URI</h3>
+<p>本文件尚待建立此版本的永久統一資源標籤。</p>
+<h3 id="document-control">文件版本控制 Document Control</h3>
+<p>第一版，2025年9月</p>
+<h3 id="_1">修訂歷程</h3>
+<ul>
+<li>2023/9/20：第1次工作小組會議（啟動會議、確定工作範疇）</li>
+<li>2023/12/1：第2次工作小組會議（Deployment欄位討論）</li>
+<li>2024/3/12：第3次工作小組會議（Deployment欄位討論）</li>
+<li>2024/9/27：第4次工作小組會議（Media和Observation欄位討論）</li>
+<li>
+<p>2024/11/27：第5次工作小組會議（behavior清單討論）</p>
+</li>
+<li>
+<p><a href="https://docs.google.com/document/d/1kHv_kv1JeUt_wh3Ura_4gry0x_tIs_H0L7jubv61GF8">TBIA 機器觀測資料開放標準工作小組-會議紀錄</a></p>
+</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1vigR8jkaJv2kRQ4PReWMO_GlskixoGnO">TBIA 機器觀測資料開放標準工作小組-彙整表單</a></li>
+</ul>
+<hr />
+<h2 id="_2"><strong>壹、前言</strong></h2>
+<p>自然史典藏做為一類出現紀錄，其本身帶有各種屬性。數位典藏核心業務之一，即是將這些屬性分門別類轉錄或載錄至相應的表單欄位。有些屬性在資料生命週期進入管理、使用與分享階段時，可借助早已發展成熟的標準化方案將其標準化，以確保資料交換時的品質。本文件始於 2023 年由臺灣生物多樣性資訊聯盟（Taiwan Biodiversity Information Alliance，簡稱 TBIA）典藏資料標準工作小組不定期討論，由來自自然史典藏單位的小組成員討論各自典藏單位的欄位需求，並依據 <a href="https://dwc.tdwg.org">Darwin Core 達爾文核心標準</a>，從中整理共通可用的欄位標準，期望能提供為數位化典藏資料交換與管理時的參考。
+本資料交換標準指引為基於<a href="https://tbia.github.io/docs/biodiversity_data_standard/">生物多樣性領域資料標準</a>架構之延伸資料模板，而針對各欄位填寫方式及建議可參考<a href="https://hackmd.io/@PxTmoqeOTYCc0cMVfSNB9A/HJgGIROr6/https%3A%2F%2Fhackmd.io%2F%40PxTmoqeOTYCc0cMVfSNB9A%2Fr1vFj1qBp">臺灣生物多樣性資訊聯盟自然史典藏「資料交換標準欄位」控制詞彙指引</a>。</p>
+<h2 id="_3"><strong>貳、用詞</strong></h2>
+<ul>
+<li>自動相機（Camera Trap）：指可於野外環境中，無需人為操作即可自動擷取影像（照片或影片）之設備系統，廣泛應用於野生動植物之長期監測與研究。其原理多基於但不限於紅外線熱感應、動態偵測、時間間隔或聲音觸發等方式，並可自動儲存或傳輸擷取資料。</li>
+<li>佈設（Deployments）：指自動相機於特定時間內於特定地點的安裝與運作紀錄。每一次佈設包括相機的安裝位置、安裝與回收時間、設備規格與拍攝設定等資訊，可作為後續觀察紀錄與多媒體資料的時間與空間基礎。</li>
+<li>多媒體（Media）：指由自動相機所拍攝之靜態影像（如照片）或動態影像（如影片）檔案，為觀察紀錄的原始證據。每筆多媒體資料應對應於特定的佈設，並包含拍攝時間、檔案路徑、檔案類型與畫面相關資訊。</li>
+<li>觀察（Observations）：指人員或人工智慧系統針對多媒體資料所進行之物種辨識與行為判讀結果。每筆觀察應對應於特定的多媒體，每筆觀察紀錄代表某物種或個體於某一時間點或時間範圍在某影像中被辨識出的紀錄，並可包含但不限於數量、行為、年齡、性別等附加資訊。</li>
+</ul>
+<h2 id="_4"><strong>參、標準</strong></h2>
+<h3 id="_5">共同標準</h3>
+<ul>
+<li>為降低從不同資料來源介接相同資料所造成之資料重複問題，強烈建議於資料儲存時，同時建置可永久識別該筆資料之唯一編碼（如：UUID），並在資料傳遞時提供該欄位資料。</li>
+<li>若適用，資料欄位與標準優先引用<a href="https://dwc.tdwg.org/"><strong>達爾文核心集（Darwin core, DwC）</strong></a>及<a href="https://camtrap-dp.tdwg.org/"><strong>自動相機資料交換格式（Camtrap DP）</strong></a>之欄位與標準。</li>
+<li>文字欄位為空值時，給予NA。</li>
+<li>數值欄位為空值時，給予-99999。</li>
+</ul>
+<h3 id="_6">一、佈設資料標準</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>佈設識別編號</td>
+<td>deploymentID</td>
+<td>在連續的有效自動相機作業時間區間內的自動相機資料定義為一個「佈設」（deployment）。實務操作上，每次記憶卡的替換，前後至少會各視為一個新的deployment。記錄過程中途有干擾因子導致自動相機無法正常運作，例如被大片掉落葉遮避鏡頭，一段時間後葉片脫離，則鏡頭遮避前後亦視為一個新的佈設。同一資料集內不同佈設的deploymentID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01</td>
+</tr>
+<tr>
+<td>2</td>
+<td>佈設地點識別編號</td>
+<td>locationID</td>
+<td>同一資料集內不同地點的locationID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>GG01</td>
+</tr>
+<tr>
+<td>3</td>
+<td>佈設地點名稱</td>
+<td>locationName</td>
+<td>該設備所設置的地點名稱。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>集集1號</td>
+</tr>
+<tr>
+<td>4</td>
+<td>佈設地點座標緯度</td>
+<td>latitude</td>
+<td>WGS84十進位制。</td>
+<td>數字</td>
+<td>[0-90]</td>
+<td>M</td>
+<td>1</td>
+<td>引用自：共通性/ 地 / 地屬性基本資料/空間位置-緯度</td>
+<td>23.8291</td>
+</tr>
+<tr>
+<td>5</td>
+<td>佈設地點座標經度</td>
+<td>longitude</td>
+<td>WGS84十進位制。</td>
+<td>數字</td>
+<td>[0-180]</td>
+<td>M</td>
+<td>1</td>
+<td>引用自：共通性/ 地 / 地屬性基本資料/空間位置-經度</td>
+<td>120.8015</td>
+</tr>
+<tr>
+<td>6</td>
+<td>座標誤差</td>
+<td>coordinateUncertainty</td>
+<td>以公尺為單位的，因儀器設備、觀測誤差造成所提供之調查點位並非實際座標，或觀察對象的散布範圍大於實際座標，或實際座標有不公開之需要，故此數值用以給定最小圓形區域的水平半徑距離，確保含誤差之座標涵蓋實際觀察對象所在位置。</td>
+<td>數字</td>
+<td>整數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>100</td>
+</tr>
+<tr>
+<td>7</td>
+<td>佈設開始時間</td>
+<td>deploymentStart</td>
+<td>ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>2004-05-03T17:30:08+08:00</td>
+</tr>
+<tr>
+<td>8</td>
+<td>佈設結束時間</td>
+<td>deploymentEnd</td>
+<td>ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>2004-05-03T17:30:08+08:00</td>
+</tr>
+<tr>
+<td>9</td>
+<td>佈設開始原因</td>
+<td>deploymentStartup</td>
+<td>填寫本次設備佈設的原因，例如「首次設置」、「定期維運」、「鏡頭遮避」等，建議使用控制詞彙。</td>
+<td>字串</td>
+<td>首次設置、定期維運、鏡頭遮避、意外中斷</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>定期維運</td>
+</tr>
+<tr>
+<td>10</td>
+<td>前期佈設</td>
+<td>previousDeployment</td>
+<td>如果適用，同一位置上一個佈設的depolymentID。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2023-12</td>
+</tr>
+<tr>
+<td>11</td>
+<td>佈設者</td>
+<td>setupBy</td>
+<td>佈設人員或組織的名稱或代號。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI</td>
+</tr>
+<tr>
+<td>12</td>
+<td>相機識別編號</td>
+<td>cameraID</td>
+<td>相機實體之識別編號，同一資料集內不同相機實體的cameraID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>TBRI-01</td>
+</tr>
+<tr>
+<td>13</td>
+<td>相機廠牌及型號</td>
+<td>cameraModel</td>
+<td>自動相機或錄音設備的製造廠牌與具體型號（例如「Bushnell Trophy Cam HD」），可協助判讀資料品質、解析度、觸發反應時間等設備性能相關資訊。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>Browning 8E-HP5</td>
+</tr>
+<tr>
+<td>14</td>
+<td>相機觸發延遲時間</td>
+<td>cameraDelay</td>
+<td>相機觸發後至下一次觸發前，中間強制忽略的觸發延遲時間。單位：秒。</td>
+<td>數字</td>
+<td>整數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>10</td>
+</tr>
+<tr>
+<td>15</td>
+<td>佈設高度</td>
+<td>cameraHeight</td>
+<td>相機距地面高度，以公尺為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>16</td>
+<td>佈設深度</td>
+<td>cameraDepth</td>
+<td>水下相機距水面之垂直距離，以公尺為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>17</td>
+<td>相機垂直傾角</td>
+<td>cameraTilt</td>
+<td>水平為0度，上、下為正、負90度。</td>
+<td>數字</td>
+<td>[-90-90]</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>-15</td>
+</tr>
+<tr>
+<td>18</td>
+<td>相機拍攝方位角</td>
+<td>cameraHeading</td>
+<td>從正北方0度起順時鐘，正東方為90度、正南方為180度、正西方為270度。</td>
+<td>數字</td>
+<td>[0-359]</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>38</td>
+</tr>
+<tr>
+<td>19</td>
+<td>相機偵測距離相機</td>
+<td>detectionDistance</td>
+<td>相機可有效偵測人員於前方經過之最遠距離，以公尺為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>6.5</td>
+</tr>
+<tr>
+<td>20</td>
+<td>時間戳記錯誤</td>
+<td>timestampIssues</td>
+<td>相機的原始記錄時間戳記是否有誤，"有誤"填True，"無誤"填False，填True者須續填timestampNotes。同一個佈設中有任一檔案時間有錯需填True。若在佈設中途時間才出錯，建議拆分成2個佈設。</td>
+<td>布林</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>21</td>
+<td>時間戳記錯誤說明</td>
+<td>timestampNotes</td>
+<td>若timestampIssues為True時必填。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>誤設為UTC時間</td>
+</tr>
+<tr>
+<td>22</td>
+<td>使用誘餌</td>
+<td>baitUse</td>
+<td>有使用填True，"未使用"填False。</td>
+<td>布林</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>23</td>
+<td>佈設環境特徵類型</td>
+<td>featureType</td>
+<td>佈設環境特徵類型，如「棲架」、「巢位」等，多類型時以垂直線"</td>
+<td>"區隔，建議使用控制詞彙。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>N</td>
+<td>清單參考附表1-1</td>
+</tr>
+<tr>
+<td>24</td>
+<td>棲地類型</td>
+<td>habitat</td>
+<td>設備佈設位置的棲地分類，如「闊葉林」、「針葉林」、「農地」、「濕地」、「次生林」、「人為干擾區」等。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>果園，週邊有住家和雞舍</td>
+</tr>
+<tr>
+<td>25</td>
+<td>佈設群組</td>
+<td>deploymentGroups</td>
+<td>不同佈設的關聯性說明，例如不同佈設屬於同一個樣區或在同一個調查季次。不同屬性資料以垂直線"&#124;"區隔，並建議使用鍵值對（key:value pairs）為資料格式。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>N</td>
+<td>作物:稻米</td>
+<td>農法:有機</td>
+</tr>
+<tr>
+<td>26</td>
+<td>佈設標籤</td>
+<td>deploymentTags</td>
+<td>不同屬性資料以垂直線"&#124;"區隔，並建議使用鍵值對（key:value pairs）為資料格式。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>N</td>
+<td>特殊事件:相機掉到地上</td>
+<td>特殊天候:康芮颱風</td>
+</tr>
+<tr>
+<td>27</td>
+<td>佈設備註</td>
+<td>deploymentComments</td>
+<td>用於記錄有關設備安裝過程、位置或其他相關訊息的補充資訊。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>因地形不平穩而使用支架固定</td>
+</tr>
+<tr>
+<td>28</td>
+<td>相機改裝</td>
+<td>cameraModified</td>
+<td>相機機體曾進行會影響偵測率及影像產出的改裝，"有改裝"填True，未改裝填False，填True者須續填cameraModification。</td>
+<td>布林</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>29</td>
+<td>相機改裝項目</td>
+<td>cameraModification</td>
+<td>若cameraModified為True時必填。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>縮短焦距</td>
+</tr>
+<tr>
+<td>30</td>
+<td>偵測面積</td>
+<td>detectionArea</td>
+<td>以人員測試相機可以觸發的地面面積，以公尺為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>50</td>
+</tr>
+<tr>
+<td>31</td>
+<td>相機靈敏度</td>
+<td>sensorLevel</td>
+<td>部分相機型號具備可調參數，多以動物與環境間溫度差做為偵測基準。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>High</td>
+</tr>
+<tr>
+<td>32</td>
+<td>補光模式</td>
+<td>flash</td>
+<td>自動相機在光線不足時的補光方式，建議使用控制詞彙。</td>
+<td>字串</td>
+<td>白光、紅外線</td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>紅外線</td>
+</tr>
+<tr>
+<td>33</td>
+<td>工作時間</td>
+<td>workingHours</td>
+<td>相機每日固定工作時間區間設定值，以24小時制HH:MM-HH:MM表示，多區間時以垂直線"&#124;"區隔，24小時連續工作以00:00-24:00表示。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>N</td>
+<td>17:00-19:00</td>
+<td>05:00-07:00</td>
+</tr>
+<tr>
+<td>34</td>
+<td>拍攝模式</td>
+<td>actionType</td>
+<td>相機的拍攝方式，建議使用控制詞彙。</td>
+<td>字串</td>
+<td>觸發、縮時、觸發及縮時</td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>觸發</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">二、多媒體資料標準</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>多媒體識別編號</td>
+<td>mediaID</td>
+<td>同一資料集內不同多媒體檔案的mediaID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01-000001</td>
+</tr>
+<tr>
+<td>2</td>
+<td>佈設識別編號</td>
+<td>deploymentID</td>
+<td>多媒體檔案所屬佈設的deploymentID。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01</td>
+</tr>
+<tr>
+<td>3</td>
+<td>拍攝模式</td>
+<td>captureMethod</td>
+<td>產生該多媒體的拍攝模式，建議使用控制詞彙。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>觸發、縮時</td>
+<td>觸發</td>
+</tr>
+<tr>
+<td>4</td>
+<td>時間戳記</td>
+<td>timestamp</td>
+<td>多媒體檔案的拍攝時間，ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>日期時間</td>
+<td>[0000-9999][01-12][01-31]T[00-24][00-59][00-59]+-[0-12]</td>
+<td>M</td>
+<td>1</td>
+<td>引用標準名稱：CNS 7648「資料元件及交換格式－資訊交換－日期及時間表示法」 (ISO 8601 Data elements and interchange formats - Information interchange - Representation of dates and times)，年月日時分秒之間可不分隔，或以半形連字號(-)及半形冒號(:)分隔，並在時間前加上大寫T標示，例如2023年5月3日13點20分10秒，東八區（UTC+8）可寫成2023-05-03T13:20:10+08:00 或 20230503T132010+0800，亦可簡化成 20230503T132010+08</td>
+<td>2004-05-03T17:30:08+08:00</td>
+</tr>
+<tr>
+<td>5</td>
+<td>檔案路徑</td>
+<td>filePath</td>
+<td>可取得該多媒體檔案的路徑，可為資料集（包）內的相對路徑，或網路統一資源定位符（URL）。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>/media/TW_TBRI-GG-20240110-193021-001.mp4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>檔案開放</td>
+<td>filePublic</td>
+<td>該多媒體檔案是否公開取得，"公開"填True，"不公開"填False。</td>
+<td>布林</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>7</td>
+<td>檔案名稱</td>
+<td>fileName</td>
+<td>建議格式：國碼-團隊名-時間戳記-流水號。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>TW_TBRI-GG-20240110-193021-001.mp4</td>
+</tr>
+<tr>
+<td>8</td>
+<td>檔案格式</td>
+<td>fileMediatype</td>
+<td>依據IANA公告之網際網路媒體類型分類標準。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>IANA網際網路媒體類型分類標準</td>
+<td>video/mp4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>EXIF影像資訊</td>
+<td>exifData</td>
+<td>JSON格式的EXIF影像資訊。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>EXIF可交換圖檔格式標準</td>
+<td>{'Image width': '2048 pixels', 'Image height': '1440 pixels'}</td>
+</tr>
+<tr>
+<td>10</td>
+<td>推薦照片</td>
+<td>favorite</td>
+<td>資料發佈者因某些原因特別註記為推薦使用者觀看的多媒體，"推薦"填True，"不推薦"填False。</td>
+<td>布林</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>11</td>
+<td>多媒體備註</td>
+<td>mediaComments</td>
+<td>有關所錄得之影像或聲音檔的補充說明。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>照片部分模糊</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_8">三、觀察資料標準</h3>
+<table>
+<thead>
+<tr>
+<th>項次</th>
+<th>中文名稱</th>
+<th>英文名稱</th>
+<th>說明</th>
+<th>型別</th>
+<th>值域</th>
+<th>必要性</th>
+<th>最多發生次數</th>
+<th>附註</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>觀察識別編號</td>
+<td>observationID</td>
+<td>同一資料集內不同觀察的observationID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01-000001-01</td>
+</tr>
+<tr>
+<td>2</td>
+<td>佈設識別編號</td>
+<td>deploymentID</td>
+<td>觀察所屬佈設的deploymentID。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01</td>
+</tr>
+<tr>
+<td>3</td>
+<td>多媒體識別編號</td>
+<td>mediaID</td>
+<td>觀察所屬多媒體的mediaID。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01-000001</td>
+</tr>
+<tr>
+<td>4</td>
+<td>事件識別編號</td>
+<td>eventID</td>
+<td>觀察所屬目擊事件的eventID，不同觀察可藉由同一個eventID確認屬於同一目擊事件。由觀察者定義為相同目擊事件請使用相同的eventID。相同目擊事件可指同一佈設對同一個體的連續多筆影像記錄，或多個佈設記錄到的同一目擊事件。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>TBRI-GG-2024-01-E001</td>
+</tr>
+<tr>
+<td>5</td>
+<td>事件開始時間</td>
+<td>eventStart</td>
+<td>若有eventID時填寫，ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>2004-05-03T17:30:08+08:00</td>
+</tr>
+<tr>
+<td>6</td>
+<td>事件結束時間</td>
+<td>eventEnd</td>
+<td>若有eventID時填寫，ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>2004-05-03T17:30:18+08:00</td>
+</tr>
+<tr>
+<td>7</td>
+<td>事件備註</td>
+<td>eventRemarks</td>
+<td>對目擊事件的說明，例如定義為同一事件的依據或標準。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>觀察層級</td>
+<td>observationLevel</td>
+<td>media 表示與媒體檔案直接關聯的基於媒體的觀察，特別適合機器學習，且不需互斥（例如允許同一生物個體的連續觀察），填寫"media"須同時填寫mediaID；"event" 表示基於目擊事件的觀察，含有一個以上的媒體檔案，適合作為生態研究所要求的獨立觀察，以便統計不重複計數，填寫"event"須同時填寫eventID。</td>
+<td>字串</td>
+<td>media、event</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>media</td>
+</tr>
+<tr>
+<td>9</td>
+<td>觀察類型</td>
+<td>observationType</td>
+<td>此詞彙表中的所有類別需從 AI 的角度理解。unknown 表示雖被識別出來但識別的概率低於某個預定閾值，不管人或AI都無法確認記錄到的是什麼。unclassified是AI模型尚未納入學習的分類標的。</td>
+<td>字串</td>
+<td>animal、human、vehicle、blank、unknown、unclassified</td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>animal</td>
+</tr>
+<tr>
+<td>10</td>
+<td>相機設置動作</td>
+<td>cameraSetupType</td>
+<td>與相機設置有關的觀察，例如尚在setup（設定）或calibration（校準）中所紀錄到含有人員影像的觀察。</td>
+<td>字串</td>
+<td>setup、calibration</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>setup</td>
+</tr>
+<tr>
+<td>11</td>
+<td>原始鑑定物種名稱</td>
+<td>verbatimIdentification</td>
+<td>資料原始觀察或採集者所鑑定的該物種的名稱，可以是俗名或學名。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>Prionailurus bengalensis</td>
+</tr>
+<tr>
+<td>12</td>
+<td>台灣物種名錄物種編號</td>
+<td>taxonID</td>
+<td>採用台灣物種名錄（TaiCOL）使用的物種編號（taxon_id），在 TaiCOL 官網的物種頁面或 API 可取得。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
+<td>t0065214</td>
+</tr>
+<tr>
+<td>13</td>
+<td>台灣物種名錄學名編碼</td>
+<td>nameID</td>
+<td>name_id，在TaiCOL 學名管理工具或 Api 可取得。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>74454</td>
+</tr>
+<tr>
+<td>14</td>
+<td>台灣物種名錄學名使用編碼</td>
+<td>usageID</td>
+<td>usage_id，在TaiCOL 學名管理工具或 Api 可取得。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>個體數量</td>
+<td>individualCount</td>
+<td>該筆紀錄代表的物種數量。</td>
+<td>數字</td>
+<td>整數</td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>16</td>
+<td>生活史階段</td>
+<td>lifeStage</td>
+<td>生物體生活史階段，建議使用控制詞彙。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>清單參考附表3-1</td>
+<td>adult</td>
+</tr>
+<tr>
+<td>17</td>
+<td>性別</td>
+<td>sex</td>
+<td>生物個體或族群的性別（或交配型）描述，建議使用控制詞彙。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td>清單參考附表3-2</td>
+<td>female</td>
+</tr>
+<tr>
+<td>18</td>
+<td>行為</td>
+<td>behavior</td>
+<td>有多個行為時以垂直線"&#124;"區隔，主要行為列在首位。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>N</td>
+<td>清單參考附表3-3</td>
+<td>walk</td>
+</tr>
+<tr>
+<td>19</td>
+<td>個體識別編號</td>
+<td>organismID</td>
+<td>同一資料集內不同個體的organismID不可重複。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>GG-012</td>
+</tr>
+<tr>
+<td>20</td>
+<td>個體距離</td>
+<td>individualPositionRadius</td>
+<td>相機距離個體的距離，以公尺為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>21</td>
+<td>個體角度</td>
+<td>individualPositionAngle</td>
+<td>相機視野中心線與個體的角度，以度為單位，負值表示向左，0 表示正前方，正值表示向右。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td>22</td>
+<td>個體速度</td>
+<td>individualSpeed</td>
+<td>個體的平均移動速度，以公尺/秒為單位。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>23</td>
+<td>邊界框X</td>
+<td>bboxX</td>
+<td>包含在媒體中的觀察個體的邊界框左上角的水平位置，從左側測量並相對於媒體檔案寬度的比值。</td>
+<td>數字</td>
+<td>整數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>24</td>
+<td>邊界框Y</td>
+<td>bboxY</td>
+<td>包含在媒體檔案中的觀察個體的邊界框左上角的垂直位置，或從頂部測量並相對於媒體檔案高度的比值。</td>
+<td>數字</td>
+<td>整數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>25</td>
+<td>邊界框寬</td>
+<td>bboxWidth</td>
+<td>包含在媒體檔案中的觀察個體的邊界框寬度相對於媒體檔案寬度的比值。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>26</td>
+<td>邊界框高</td>
+<td>bboxHeight</td>
+<td>包含在媒體檔案中的觀察個體的邊界框高度相對於媒體檔案高度的比值。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>27</td>
+<td>鑑定方法</td>
+<td>classificationMethod</td>
+<td>最新一次鑑定物種的依據方法。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>human、machine</td>
+<td>human</td>
+</tr>
+<tr>
+<td>28</td>
+<td>鑑定者</td>
+<td>identifiedBy</td>
+<td>鑑定者，該筆調查上傳後的鑑定人員／該筆紀錄的物種鑑定負責人。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>最新一次鑑定者的姓名或 AI 演算法的名稱，先由AI鑑定後由人員覆核者填寫人名。</td>
+<td>王小明</td>
+</tr>
+<tr>
+<td>29</td>
+<td>鑑定時間</td>
+<td>classificationTimestamp</td>
+<td>ISO 8601格式 YYYY-MM-DDThh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss±hh:mm。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>2024-10-13T13:30:08+08:00</td>
+</tr>
+<tr>
+<td>30</td>
+<td>鑑定概率</td>
+<td>classificationProbability</td>
+<td>鑑定的確定性程度，以小數概率表示，1 為最高。人工鑑定者可省略或提供約略值。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>31</td>
+<td>觀察標籤</td>
+<td>observationTags</td>
+<td>與觀察有關的標籤，不同屬性資料以垂直線"&#124;"區隔，並建議使用鍵值對（key:value pairs）為資料格式。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>N</td>
+<td></td>
+<td>角況:換角期</td>
+</tr>
+<tr>
+<td>32</td>
+<td>觀察備註</td>
+<td>observationComments</td>
+<td>對觀察情境的補充描述。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>1</td>
+<td></td>
+<td>草太高遮避視野</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-1">附表1-1：佈設環境特徵類型表</h3>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>perch</td>
+<td>棲架</td>
+<td>人工架設供鳥類或其他動物停棲的支架</td>
+</tr>
+<tr>
+<td>nestSite</td>
+<td>巢位</td>
+<td>鳥類或其他動物築巢的位置</td>
+</tr>
+<tr>
+<td>animalTrail</td>
+<td>獸徑</td>
+<td>動物經常通過所形成的小徑</td>
+</tr>
+<tr>
+<td>waterSource</td>
+<td>水源</td>
+<td>包含水池、溪流、人工水槽等</td>
+</tr>
+<tr>
+<td>pavedRoad</td>
+<td>鋪面道路</td>
+<td>柏油路、水泥路等有硬鋪面道路</td>
+</tr>
+<tr>
+<td>dirtRoad</td>
+<td>泥土道路</td>
+<td>無鋪面的土路、產業道路等</td>
+</tr>
+<tr>
+<td>footpath</td>
+<td>人行步道</td>
+<td>專供人行走的自然或鋪設小徑</td>
+</tr>
+<tr>
+<td>underpass</td>
+<td>地下道</td>
+<td>提供車輛或人員穿越的地下通道</td>
+</tr>
+<tr>
+<td>bridge</td>
+<td>橋梁</td>
+<td>跨越河流或道路的橋</td>
+</tr>
+<tr>
+<td>overpass</td>
+<td>跨越式動物通道</td>
+<td>為野生動物設計的高架通道</td>
+</tr>
+<tr>
+<td>culvert</td>
+<td>涵洞</td>
+<td>小型排水或穿越通道</td>
+</tr>
+<tr>
+<td>ditch</td>
+<td>溝渠</td>
+<td>排水用的溝渠</td>
+</tr>
+<tr>
+<td>underpass</td>
+<td>穿越式動物通道</td>
+<td>為野生動物設計的地下通道</td>
+</tr>
+<tr>
+<td>wildlifeRamp</td>
+<td>動物坡道</td>
+<td>幫助動物上下通行的斜坡設施</td>
+</tr>
+<tr>
+<td>cave</td>
+<td>洞穴</td>
+<td>自然或人工形成的地洞或岩穴</td>
+</tr>
+<tr>
+<td>carcass</td>
+<td>屍體</td>
+<td>動物屍體</td>
+</tr>
+<tr>
+<td>fruitingTree</td>
+<td>結果樹</td>
+<td>結有果實的樹木</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-1">附表3-1：年齡或生命階段表</h3>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>egg</td>
+<td>卵</td>
+<td>動物的卵或植物種子階段（如魚卵、昆蟲卵）</td>
+</tr>
+<tr>
+<td>larva</td>
+<td>幼蟲</td>
+<td>昆蟲或其他動物的早期發育型態，非最終形態</td>
+</tr>
+<tr>
+<td>juvenile</td>
+<td>幼體</td>
+<td>發育中，尚未成熟的個體</td>
+</tr>
+<tr>
+<td>subadult</td>
+<td>亞成體</td>
+<td>已經離開親代照顧獨立生活，但尚無繁殖能力的個體</td>
+</tr>
+<tr>
+<td>adult</td>
+<td>成體</td>
+<td>已發育成熟，具繁殖能力的個體</td>
+</tr>
+<tr>
+<td>pupa</td>
+<td>蛹</td>
+<td>昆蟲的蛻變階段，如蝶蛹、蛾蛹</td>
+</tr>
+<tr>
+<td>nymph</td>
+<td>若蟲</td>
+<td>不完全變態昆蟲的發育階段，如蝗蟲或蟬</td>
+</tr>
+<tr>
+<td>tadpole</td>
+<td>蝌蚪</td>
+<td>兩生類的水生幼體，具尾與鰓</td>
+</tr>
+<tr>
+<td>caterpillar</td>
+<td>毛毛蟲</td>
+<td>蝴蝶、蛾等昆蟲的幼蟲</td>
+</tr>
+<tr>
+<td>grub</td>
+<td>蠐螬（幼蟲）</td>
+<td>金龜子等甲蟲幼蟲</td>
+</tr>
+<tr>
+<td>maggot</td>
+<td>蛆</td>
+<td>蒼蠅等雙翅目幼蟲</td>
+</tr>
+<tr>
+<td>wriggler</td>
+<td>幼蚊</td>
+<td>蚊子的水生幼體</td>
+</tr>
+<tr>
+<td>unknown</td>
+<td>不明</td>
+<td>無法辨識生活史階段，可能因為未成熟、外型不明或記錄缺失</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-2">附表3-2：性別表</h3>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>male</td>
+<td>雄性</td>
+<td>生殖系統為雄性的個體；產生精子</td>
+</tr>
+<tr>
+<td>female</td>
+<td>雌性</td>
+<td>生殖系統為雌性的個體；產生卵子</td>
+</tr>
+<tr>
+<td>hermaphrodite</td>
+<td>雌雄同體</td>
+<td>同時具有雄性與雌性生殖器（如蚯蚓、部分魚類）</td>
+</tr>
+<tr>
+<td>asexual</td>
+<td>無性生殖型</td>
+<td>不依賴有性生殖，透過裂殖、分裂、出芽等方式繁殖（常見於植物、原生生物）</td>
+</tr>
+<tr>
+<td>unknown</td>
+<td>不明</td>
+<td>無法辨識性別，可能因為未成熟、外型不明或記錄缺失</td>
+</tr>
+<tr>
+<td>undifferentiated</td>
+<td>性別未分化</td>
+<td>某些發育初期個體尚未顯示出性別特徵</td>
+</tr>
+<tr>
+<td>notApplicable</td>
+<td>不適用</td>
+<td>性別概念不適用於此類生物（例如部分植物、單性生殖菌類）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-3">附表3-3：行為表</h3>
+<table>
+<thead>
+<tr>
+<th>控制詞彙</th>
+<th>中文名</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>grazing</td>
+<td>吃草</td>
+<td>食草動物低頭進食地面草本植物的行為</td>
+</tr>
+<tr>
+<td>browsing</td>
+<td>啃食</td>
+<td>啃食灌木、樹葉、嫩枝等非草本植物的行為</td>
+</tr>
+<tr>
+<td>digging</td>
+<td>挖掘</td>
+<td>用前肢或口部挖掘土壤、洞穴或尋找食物</td>
+</tr>
+<tr>
+<td>vigilant</td>
+<td>警戒</td>
+<td>停止活動並保持警覺、觀察四周的行為</td>
+</tr>
+<tr>
+<td>running</td>
+<td>奔跑</td>
+<td>快速移動，多用於逃跑、追逐或玩耍</td>
+</tr>
+<tr>
+<td>walking</td>
+<td>行走</td>
+<td>緩慢、有方向的移動</td>
+</tr>
+<tr>
+<td>flying</td>
+<td>飛行</td>
+<td>鳥類或其他能飛行動物在空中的移動</td>
+</tr>
+<tr>
+<td>foraging</td>
+<td>覓食</td>
+<td>尋找食物的過程，包含搜尋與採食</td>
+</tr>
+<tr>
+<td>hunting</td>
+<td>捕食</td>
+<td>主動尋找並捕捉獵物的行為</td>
+</tr>
+<tr>
+<td>mating</td>
+<td>交配</td>
+<td>動物進行繁殖性交的行為</td>
+</tr>
+<tr>
+<td>grooming</td>
+<td>理毛</td>
+<td>清潔自己或同伴之毛髮、羽毛等</td>
+</tr>
+<tr>
+<td>fighting</td>
+<td>打架</td>
+<td>兩隻或多隻動物激烈肢體衝突</td>
+</tr>
+<tr>
+<td>bathing</td>
+<td>洗澡</td>
+<td>在水中或以泥土進行身體清潔</td>
+</tr>
+<tr>
+<td>vocalizing</td>
+<td>叫聲</td>
+<td>發出聲音，包括警戒、求偶、聯絡等用途</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>睡眠</td>
+<td>處於閉眼靜止狀態，降低感知與活動</td>
+</tr>
+<tr>
+<td>displaying</td>
+<td>展示</td>
+<td>展示羽毛、姿態或行為以吸引異性或威嚇</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>哺乳</td>
+<td>雌性哺育幼獸，幼獸吮乳的行為</td>
+</tr>
+<tr>
+<td>courting</td>
+<td>求偶</td>
+<td>吸引配偶的行為，包含求偶舞、鳴叫等</td>
+</tr>
+<tr>
+<td>socializing</td>
+<td>社交</td>
+<td>非攻擊性互動，如互嗅、群體協作</td>
+</tr>
+<tr>
+<td>begging</td>
+<td>乞食</td>
+<td>向其他個體索取食物，如幼鳥向親鳥張嘴</td>
+</tr>
+<tr>
+<td>scentMarking</td>
+<td>領域標記</td>
+<td>利用尿液、分泌物或糞便標示地盤</td>
+</tr>
+<tr>
+<td>defecating</td>
+<td>排泄</td>
+<td>排出糞便或尿液</td>
+</tr>
+<tr>
+<td>playingWithFood</td>
+<td>玩食物</td>
+<td>玩弄、拋擲、觀察食物的非立即取食行為</td>
+</tr>
+<tr>
+<td>nestBuilding</td>
+<td>築巢</td>
+<td>收集材料並建構巢穴或棲息地</td>
+</tr>
+<tr>
+<td>aggregating</td>
+<td>聚集</td>
+<td>多隻動物聚在一起，可能因覓食、繁殖或休息</td>
+</tr>
+<tr>
+<td>parentalCare</td>
+<td>護幼</td>
+<td>對幼體進行保護、遮蔽、舔舐等行為</td>
+</tr>
+<tr>
+<td>resting</td>
+<td>休息</td>
+<td>不活動但未進入睡眠的狀態</td>
+</tr>
+<tr>
+<td>carryingYoung</td>
+<td>攜幼</td>
+<td>有幼體跟隨或將幼體叼、背或抱在身上移動</td>
+</tr>
+<tr>
+<td>unknown</td>
+<td>不明</td>
+<td>無法辨識，可能因為影像品質或記錄缺失</td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- taken from 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
+
+<hr />
+
+<div class="md-source-file">
+<small>
+    <!-- mkdocs-git-revision-date-plugin -->
+    
+    最後更新日期:
+    2025-09-09
+    
+</small>
+</div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.expand", "navigation.top"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
