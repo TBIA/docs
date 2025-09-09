@@ -14,6 +14,7 @@ TBIA 機器觀測資料開放標準工作小組為本文件的這個版本做出
 * 召集人：吳世鴻<sup>1</sup>
 * 副召集人：端木茂甯<sup>2</sup>
 * 成員（以筆畫順序）：王浥璋<sup>9</sup>、江欣盈<sup>1</sup>、吳俊毅<sup>3</sup>、李金穎<sup>2</sup>、李思賢<sup>2</sup>、李昱<sup>4</sup>、林子皓<sup>2</sup>、林育秀<sup>1</sup>、林峻廷<sup>4</sup>、侯穎霖<sup>6</sup>、姜博仁<sup>4</sup>、柯智仁<sup>1</sup>、洪孝宇<sup>5</sup>、高得愷<sup>2</sup>、張俊怡<sup>2</sup>、張筑竣<sup>2</sup>、許詩涵<sup>6</sup>、陳建文<sup>7</sup>、曾威<sup>8</sup>、黃于禎禧<sup>6</sup>、黃靖倫<sup>3</sup>、劉威廷<sup>6</sup>、劉璟儀<sup>2</sup>
+
 1. 農業部生物多樣性研究所
 2. 中央研究院生物多樣性研究中心
 3. 國立臺灣大學
