@@ -1179,26 +1179,26 @@
 
 
 
-<h1 id="tbia">TBIA 自然史典藏資料交換標準指引</h1>
-<p>作者 - 臺灣生物多樣性資訊聯盟典藏資料標準工作小組 - tbianoti@gmail.com - version 9f1325a, 2025-11-15 14:39:22+0800 </p>
+<h1 id="tbia">TBIA 自然史典藏資料交換參考模板</h1>
+<p>作者 - 臺灣生物多樣性資訊聯盟典藏資料標準工作小組 - tbianoti@gmail.com - version 656cef0, 2025-11-15 15:08:08+0800 </p>
 <hr />
 <h2 id="colophon"><strong>版權說明 Colophon</strong></h2>
 <h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
-<p>楊富鈞、劉璟儀、王浥璋。2024。自然史典藏資料交換標準指引。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
+<p>楊富鈞、劉璟儀、王浥璋。2025。自然史典藏資料交換參考模板。第二版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
 <h3 id="authors">作者 Authors</h3>
 <p>楊富鈞、劉璟儀、王浥璋</p>
 <h3 id="contributors">貢獻者 Contributors</h3>
 <p>TBIA 典藏資料標準工作小組為本文件的這個版本做出了貢獻。小組成員：王浥璋、吳佳奇、李金穎、李思賢、卓義揚、林展蔚、俞佑錚、柯智仁、張俊怡、張筑竣、張慧玲、章晨玫、許正德、陳建文、黃俞菱、楊富鈞、廖鎮磐、劉璟儀、蔡佩玲、蔡經甫、鄭明倫、賴保成（依姓氏筆劃排序）</p>
 <h3 id="licence">授權方式 Licence</h3>
-<p>本文件《自然史典藏資料交換標準指引》採用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW">創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)</a>。</p>
+<p>本文件《自然史典藏資料交換參考模板》採用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW">創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)</a>。</p>
 <h3 id="persistent-uri">永久統一資源標籤 Persistent URI</h3>
 <p>https://pid.tbiadata.tw/ark:/35232/c1j2958m</p>
 <h3 id="document-control">文件版本控制 Document Control</h3>
-<p>第一版，2024年9月</p>
+<p>第二版，2025年11月。第一版，2024年9月。</p>
 <hr />
 <h2 id="_1"><strong>壹、目的</strong></h2>
 <p>自然史典藏做為一類出現紀錄，其本身帶有各種屬性。數位典藏核心業務之一，即是將這些屬性分門別類轉錄或載錄至相應的表單欄位。有些屬性在資料生命週期進入管理、使用與分享階段時，可借助早已發展成熟的標準化方案將其標準化，以確保資料交換時的品質。本文件始於 2023 年由臺灣生物多樣性資訊聯盟（Taiwan Biodiversity Information Alliance，簡稱 TBIA）典藏資料標準工作小組不定期討論，由來自自然史典藏單位的小組成員討論各自典藏單位的欄位需求，並依據 <a href="https://dwc.tdwg.org">Darwin Core 達爾文核心標準</a>，從中整理共通可用的欄位標準，期望能提供為數位化典藏資料交換與管理時的參考。
-本資料交換標準指引為基於<a href="https://tbia.github.io/docs/biodiversity_data_standard/">生物多樣性領域資料標準</a>架構之延伸資料模板，而針對各欄位填寫方式及建議可參考<a href="https://hackmd.io/@PxTmoqeOTYCc0cMVfSNB9A/HJgGIROr6/https%3A%2F%2Fhackmd.io%2F%40PxTmoqeOTYCc0cMVfSNB9A%2Fr1vFj1qBp">臺灣生物多樣性資訊聯盟自然史典藏「資料交換標準欄位」控制詞彙指引</a>。</p>
+本資料交換參考模板為基於<a href="https://tbia.github.io/docs/biodiversity_data_standard/">生物多樣性領域資料標準</a>架構之延伸資料模板，而針對各欄位填寫方式及建議可參考<a href="https://hackmd.io/@PxTmoqeOTYCc0cMVfSNB9A/HJgGIROr6/https%3A%2F%2Fhackmd.io%2F%40PxTmoqeOTYCc0cMVfSNB9A%2Fr1vFj1qBp">臺灣生物多樣性資訊聯盟自然史典藏「資料交換標準欄位」控制詞彙指引</a>。</p>
 <h2 id="_2"><strong>貳、資料開放流程建議</strong></h2>
 <h3 id="_3">一、數位化典藏文字資料</h3>
 <p align="center">
@@ -1265,12 +1265,12 @@
 <td>依實際需求，至多出現一次（1）、只出現特定次數（特定次數）或出現多次（N）。</td>
 </tr>
 <tr>
-<td>範例</td>
-<td>提供欄位填寫範例。</td>
-</tr>
-<tr>
 <td>附註</td>
 <td>針對屬性或關係提供前述項目無法提供之額外說明，例如代碼表、編碼規則。</td>
+</tr>
+<tr>
+<td>範例</td>
+<td>提供欄位填寫範例。</td>
 </tr>
 </tbody>
 </table>
@@ -1278,605 +1278,725 @@
 <table>
 <thead>
 <tr>
-<th>項次</th>
-<th>中文名稱</th>
-<th>英文名稱</th>
-<th>說明</th>
-<th>型別</th>
-<th>值域</th>
-<th>必要性</th>
-<th>最多發生次數</th>
-<th>範例</th>
-<th>附註</th>
+<th><strong>項次</strong></th>
+<th><strong>中文名稱</strong></th>
+<th><strong>英文名稱</strong></th>
+<th><strong>說明</strong></th>
+<th><strong>型別</strong></th>
+<th><strong>值域</strong></th>
+<th><strong>必要性</strong></th>
+<th><strong>最多發生次數</strong></th>
+<th><strong>附註</strong></th>
+<th>**範例 **</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>出現紀錄ID</td>
+<td>物種出現紀錄編碼</td>
 <td>occurrenceID</td>
-<td>每筆典藏資料的唯一且獨立編碼，可規定統一格式，如館代號+館藏號+流水號，亦可使用全球唯一辨識碼 (GUID) 或通用唯一辨識碼 (UUID)），但應與 catalogNumber 裡載錄的編碼有所區隔。</td>
-<td>文字</td>
+<td>該筆紀錄的永久識別編號。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>每筆典藏資料的唯一且獨立編碼，可規定統一格式，如館代號+館藏號+流水號，亦可使用全球唯一辨識碼 (GUID) 或通用唯一辨識碼 (UUID)），但應與 catalogNumber 裡載錄的編碼有所區隔。</td>
 <td>NTM_TMMA0046.01_001</td>
-<td></td>
 </tr>
 <tr>
 <td>2</td>
 <td>紀錄類型</td>
 <td>basisOfRecord</td>
-<td>出現紀錄的特定性質、類型，如一般標本、化石標本或活體標本等。其設置目的在於當資料量龐大時，可有效率地從中篩選不同類型的紀錄。欄位值建議遵循 Darwin Core 的控制詞彙。以典藏標本舉例：除化石及其複製品以外的生物類典藏標本，建議使用 “PreservedSpecimen”；複製品以外的化石標本，建議使用 “FossilSpecimen”；動物園、植物園、水族館等飼養之活體典藏則為 “LivingSpecimen”。若無合適之控制詞彙（如化石複製品），建議選擇 “Occurrence”。</td>
-<td>文字</td>
+<td>資料於記錄當下的類型，依控制詞彙填寫。其設置目的在於當資料量龐大時，可有效率地從中篩選不同類型的紀錄。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>欄位值所需控制詞彙優先遵循 Darwin Core，或參見附錄「紀錄類型」。以典藏標本舉例：除化石及其複製品以外的生物類典藏標本，建議使用 “PreservedSpecimen”；複製品以外的化石標本，建議使用 “FossilSpecimen”；動物園、植物園、水族館等飼養之活體典藏則為 “LivingSpecimen”。若無合適之控制詞彙（如化石複製品），建議選擇 “Occurrence”。</td>
 <td>PreservedSpecimen</td>
-<td></td>
 </tr>
 <tr>
 <td>3</td>
-<td>館號/編目號</td>
+<td>典藏機構登錄號</td>
 <td>catalogNumber</td>
-<td>典藏被納入特定典藏機構典藏時所獲得的正式編碼，該編碼應存在完善且穩定的維護機制，以利使用者在引證典藏時有所依據。</td>
-<td>文字</td>
+<td>存證物件（如存證標本）入藏典藏機構（如博物館）後，由典藏機構於登錄或編目過程賦予的正式編碼，也可稱館號或編目號。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>TMMA0046.01</td>
 <td></td>
+<td>TMMA0046.01</td>
 </tr>
 <tr>
 <td>4</td>
 <td>中文名/俗名</td>
 <td>vernacularName</td>
 <td>用於填寫中文名/俗名，可允許填寫種以上階層之俗名，未知請填「NA」。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>細角管葉蘚</td>
 <td></td>
+<td>細角管葉蘚</td>
 </tr>
 <tr>
 <td>5</td>
-<td>學名</td>
+<td>校定物種學名</td>
 <td>scientificName</td>
-<td>鑑定者可確定的最細分類階層學名。若爲種階層，建議填入包括命名者與發表日期在內的完整學名組合。未知請填「NA」。</td>
-<td>文字</td>
+<td>資料檢核後給予之學名。應是可確定的最精確分類階層名稱，不該包括 sp.、spp.等標註。建議在不影響分類階層前提下，優先依據「臺灣物種名錄（ TaiCOL ） 」。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>鑑定者可確定的最細分類階層學名。若爲種階層，建議填入包括命名者與發表日期在內的完整學名組合。</td>
 <td>Colura tenuicornis (A.Evans) Steph.</td>
-<td></td>
 </tr>
 <tr>
 <td>6</td>
-<td>分類位階</td>
+<td>鑑定層級</td>
 <td>taxonRank</td>
-<td>應與 scientificName 相互搭配，用於表述該學名的分類位階。</td>
-<td>文字</td>
+<td>用於表述校定物種學名（ scientificName）的分類位階。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>species</td>
-<td></td>
 </tr>
 <tr>
 <td>7</td>
 <td>界</td>
 <td>kingdom</td>
-<td>生物系統分類學上的「界」學名。</td>
-<td>文字</td>
+<td>生物分類單元「界」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Plantae</td>
-<td></td>
 </tr>
 <tr>
 <td>8</td>
 <td>採集日期</td>
 <td>eventDate</td>
 <td>該典藏被採集的日期。表述格式應遵循 ISO 8601，基本型式為 yyyy-mm-dd，詳見範例。允許僅以 yyyy 或 yyyy-mm 型式填寫至年或月，或以 yyyy-mm-dd/yyyy-mm-dd 型式表述日期範圍。當數位化工作者本身並非該典藏採集者，本欄內容必須根源於 verbatimEventDate。「1994-11-05」代表單日；「1996-06」代表 1996 年 6 月；「2022-01/02」代表2022年1-2月(以 ""/"" 區分)；「2023-05-06/12」代表2023年5月6-12日；「1989/1993」代表1989-1993年</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>2016-10-06</td>
 <td></td>
+<td>2016-10-06</td>
 </tr>
 <tr>
 <td>9</td>
-<td>採集者</td>
+<td>記錄者／採集者</td>
 <td>recordedBy</td>
-<td>典藏的採集者，可以是個人、一份人員名單、一個群體或一個組織。若有多位採集者，應以 “&#124;” 分隔。</td>
-<td>文字</td>
+<td>記錄者／採集者，該筆記錄之實際觀察／調查／記錄／採集者。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
-<td>1</td>
+<td>N</td>
+<td>典藏的採集者，可以是個人、一份人員名單、一個群體或一個組織。若有多位採集者，應以 “|” 分隔。</td>
 <td>Alfons Schäfer-Verwimp</td>
-<td></td>
 </tr>
 <tr>
 <td>10</td>
 <td>採集地</td>
 <td>locality</td>
 <td>對典藏採集地點的最細描述。本欄位用於載錄數位化工作者所掌握最詳盡且已充分消化後的描述性採集地資訊。當數位化工作者本身並非該典藏採集者時，本欄內容必須根源於 verbatimLocality；在有充分證據支持前提下，詳細程度得超越原始資料內容範疇，或加入帶有推測性質的描述。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>溪頭國家森林遊樂區</td>
 <td></td>
+<td>溪頭國家森林遊樂區</td>
 </tr>
 <tr>
 <td>11</td>
 <td>國家代碼</td>
 <td>countryCode</td>
 <td>國家標準代碼，建議遵循 ISO 3166-1 alpha-2 裡的二位字母代碼。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>TW</td>
 <td></td>
+<td>TW</td>
 </tr>
 <tr>
 <td>12</td>
-<td>縣市</td>
+<td>直轄市或省轄縣市</td>
 <td>county</td>
-<td>採集地當前所屬的行政區劃。當採集地從屬於臺灣，此定義所謂「縣市」為不包括「省」在內的一與二級行政區，包括六座直轄市與所有縣、市。注意，當採集地位處兩個以上行政區交界，或其地理邊界無法被單一行政區完整包覆時，本欄建議留白。</td>
-<td>文字</td>
+<td>該筆紀錄地點所在的直轄市或省轄縣市，以中文描述。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
 <td>1</td>
+<td>當採集地資訊僅有描述性地理資訊而無座標資訊，且該描述性地理實體之邊界可被完整包裹在不包括「省」在內的一與二級行政區範圍內時（包括六座直轄市與所有縣、市），本欄為必填。</td>
 <td>南投縣</td>
-<td></td>
 </tr>
 <tr>
 <td>13</td>
 <td>典藏模式/引證類型</td>
 <td>typeStatus</td>
-<td>典藏被引證的類型；若為模式引證，其類型建議控制詞彙請參考附錄。除模式標本外，本欄位亦可用於載錄其他一般性的引證 (voucher specimen)。當一典藏存在多項引證紀錄，彼此應以 “&#124;” 分隔，載錄順序應以各類模式為先、一般性引證為後，兩類目內部則依引證年代做排序；當未知有任何引證紀錄，應以空值表示。</td>
-<td>文字</td>
+<td>典藏被引證的類型；若為模式引證，其類型建議控制詞彙請參考附錄。除模式標本外，本欄位亦可用於載錄其他一般性的引證 (voucher specimen)。當一典藏存在多項引證紀錄，彼此應以 “|” 分隔，載錄順序應以各類模式為先、一般性引證為後，兩類目內部則依引證年代做排序；當未知有任何引證紀錄，應以空值表示。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當已知有學術發表引證該典藏為模式，或根據特定文獻可推論得該典藏為模式，本欄為必填。</td>
 <td>HOLOTYPE</td>
-<td></td>
 </tr>
 <tr>
 <td>14</td>
 <td>典藏保存方式</td>
 <td>preparations</td>
-<td>本欄位用於載錄典藏的前處理、製作和保存方式。當存在一種以上相關資訊，彼此應以 “&#124;” 分隔。</td>
-<td>文字</td>
+<td>本欄位用於載錄典藏的前處理、製作和保存方式。當存在一種以上相關資訊，彼此應以 “|” 分隔。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當資料原內容涵蓋典藏之前處理、製作與保存方式相關資訊時，本欄為必填。</td>
 <td>臘葉標本</td>
-<td></td>
 </tr>
 <tr>
 <td>15</td>
 <td>個體數量</td>
 <td>individualCount</td>
-<td>一份典藏裡涵蓋的生物個體數，只能為正整數，預設值為 1。數值不等於 1 的可能情境：多條被鑑定為同種的魚類標本，被統一收納進單罐浸液標本，並給予單一組館號/編目號。注意，當典藏所屬物種不適合以個體計量，應改以 “organismQuantity” 和 “organismQuantityType” 載錄其生物量。</td>
-<td>數值</td>
-<td></td>
+<td>該筆紀錄代表的個體數量。</td>
+<td>數字</td>
+<td>整數</td>
 <td>C</td>
 <td>1</td>
+<td>當該典藏之尺度適合以個體數計算時，本欄為必填。一份典藏裡涵蓋的生物個體數，只能為正整數，預設值為 1。數值不等於 1 的可能情境：多條被鑑定為同種的魚類標本，被統一收納進單罐浸液標本，並給予單一組館號/編目號。注意，當典藏所屬物種不適合以個體計量，應改以 “organismQuantity” 和 “organismQuantityType” 載錄其生物量。</td>
 <td>1</td>
-<td></td>
 </tr>
 <tr>
 <td>16</td>
 <td>原始採集日期</td>
 <td>verbatimEventDate</td>
-<td>尚未經轉譯、清理或任何標準化程序的採集日期原始資訊。當原始資訊存在一個以上版本，彼此應以 “&#124;” 分隔；原則上，被書寫於不同標籤紙上的資訊（不包括複印版），應視作不同版本。</td>
-<td>文字</td>
+<td>尚未經轉譯、清理或任何標準化程序的採集日期原始資訊。當原始資訊存在一個以上版本，彼此應以 “|” 分隔；原則上，被書寫於不同標籤紙上的資訊（不包括複印版），應視作不同版本。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當資料原內容涵蓋尚未經轉譯、清理或任何標準化程序的採集日期原始資訊時，本欄為必填。</td>
 <td>6. Oct. 2016</td>
-<td></td>
 </tr>
 <tr>
 <td>17</td>
 <td>採集號</td>
 <td>recordNumber</td>
-<td>由採集者賦予該典藏的採集序號。當一典藏對應多個採集號，各採集號之間應以 “&#124;” 分隔。若確認該筆採集無採集號，應以 “s.n.” 表示。</td>
-<td>文字</td>
+<td>採集號，該筆紀錄的識別編號，在單一採集事件內編號不重複。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當資料原內容涵蓋由採集者賦予該典藏的採集序號時，本欄為必填。當一典藏對應多個採集號，各採集號之間應以 “|” 分隔。</td>
 <td>A. Schäfer-Verwimp XT-72/C</td>
-<td></td>
 </tr>
 <tr>
 <td>18</td>
 <td>原始採集地資訊</td>
 <td>verbatimLocality</td>
 <td>尚未經轉譯、清理或任何標準化程序的採集地資訊。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
 <td>1</td>
+<td>當資料原內容涵蓋尚未經轉譯、清理或任何標準化程序的採集地原始資訊時，本欄為必填。</td>
 <td>BRYOFLORA OF TAIWAN. NANTOU COUNTY. LUGU TOWNSHIP, ALISHAN RANGE, XITOU FOREST RECREATION AREA, road from Villa 6628 via nursery to Ginkgo plantation; 1180 m; 23°40.1' N, 120°47.9' E; on branchlets of Michelia compressa, exposed to sunlight</td>
-<td></td>
 </tr>
 <tr>
 <td>19</td>
 <td>十進位緯度</td>
 <td>decimalLatitude</td>
-<td>採集地座標緯度，以十進制表述。若無該典藏採集地之詳細點位，請提供工程區域座標。</td>
-<td>數值</td>
-<td></td>
-<td>C</td>
+<td>校正後十進位制緯度坐標，大地基準採用EPSG:4326 (WGS84)。</td>
+<td>字串</td>
+<td>[0-90]</td>
+<td>M</td>
 <td>1</td>
+<td>當欄位「原始地理座標資訊」有值，或原資料有任何格式的採集地座標資訊時，本欄為必填。（本欄值域等基本條件引用自：共通性/ 地 / 地屬性基本資料/空間位置-緯度）採集地座標緯度，以十進制表述。若無該典藏採集地之詳細點位，請提供工程區域座標。</td>
 <td>23.6683</td>
-<td></td>
 </tr>
 <tr>
 <td>20</td>
 <td>十進位經度</td>
 <td>decimalLongitude</td>
-<td>採集地座標經度，以十進制表述。若無該典藏採集地之詳細點位，請提供工程區域座標。</td>
-<td>數值</td>
-<td></td>
-<td>C</td>
+<td>校正後十進位制經度坐標，大地基準採用 EPSG:4326 (WGS84)。</td>
+<td>字串</td>
+<td>[0-180]</td>
+<td>M</td>
 <td>1</td>
+<td>當欄位「原始地理座標資訊」有值，或原資料有任何格式的採集地座標資訊時，本欄為必填。（本欄值域等基本條件引用自：共通性/ 地 / 地屬性基本資料/空間位置-經度）採集地座標經度，以十進制表述。若無該典藏採集地之詳細點位，請提供工程區域座標。</td>
 <td>120.7983</td>
-<td></td>
 </tr>
 <tr>
 <td>21</td>
 <td>大地基準</td>
 <td>geodeticDatum</td>
-<td>採集地座標所參照的大地基準/參考系統。建議使用控制詞彙；若未知，則填入「NA」。</td>
-<td>文字</td>
+<td>十進位經度與十進位緯度採用之大地基準，本領域標準均採用EPSG:4326 (WGS84)。若欲提供其他大地基準之坐標請使用「原始經度」、「原始緯度」、「原始大地基準」等欄位。</td>
+<td>字串</td>
 <td></td>
-<td>C</td>
+<td>M</td>
 <td>1</td>
+<td>當資料原內容有座標資訊，本欄為必填。當有證據顯示其大地基準為 WGS84，本欄僅能填入 WGS84；若無證據顯示其大地基準為何，僅能填入 NA。</td>
 <td>WGS84</td>
-<td></td>
 </tr>
 <tr>
 <td>22</td>
 <td>原始地理座標資訊</td>
 <td>verbatimCoordinates</td>
-<td>尚未經轉譯、清理或任何標準化程序的採集地座標資訊。當原始資訊存在一個以上版本，彼此應以 “&#124;” 分隔；原則上，被書寫於不同標籤紙上的資訊（不包括複印版），應視作不同版本。</td>
-<td>文字</td>
+<td>尚未經轉譯、清理或任何標準化程序的採集地座標資訊。當原始資訊存在一個以上版本，彼此應以 “|” 分隔；原則上，被書寫於不同標籤紙上的資訊（不包括複印版），應視作不同版本。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
 <td>1</td>
+<td>當資料原內容涵蓋尚未經轉譯、清理或任何標準化程序的採集地座標資訊時，本欄為必填。</td>
 <td>23°40.1' N, 120°47.9' E</td>
-<td></td>
 </tr>
 <tr>
 <td>23</td>
 <td>鑑定者</td>
 <td>identifiedBy</td>
-<td>此典藏的鑑定者，可以是個人、一個群體或一個組織；若有多位採集者，應以 “&#124;” 分隔。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定者原始資料的功能。</td>
-<td>文字</td>
+<td>鑑定者，該筆調查上傳後的鑑定人員／該筆紀錄的物種鑑定負責人。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當「鑑定結果原始內容」有值且內容涵蓋鑑定者資訊時，本欄為必填。此典藏的鑑定者，可以是個人、一個群體或一個組織；若有多位採集者，應以 “|” 分隔。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定者原始資料的功能。</td>
 <td>Alfons Schäfer-Verwimp</td>
-<td></td>
 </tr>
 <tr>
 <td>24</td>
 <td>鑑定日期</td>
 <td>dateIdentified</td>
-<td>此典藏的鑑定日期，表述格式應遵循 ISO 8601，基本型式為 yyyy-mm-dd。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者者，本欄可直接取代 verbatimIdentification 用於載錄鑑定日期原始資料的功能。</td>
-<td>日期</td>
+<td>此典藏的鑑定日期，表述格式應遵循 ISO 8601，基本型式為 yyyy-mm-dd。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定日期原始資料的功能。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當「鑑定結果原始內容」有值且內容涵蓋鑑定日期資訊時，本欄為必填。</td>
 <td>2016-11</td>
-<td></td>
 </tr>
 <tr>
 <td>25</td>
 <td>出現紀錄註記</td>
 <td>occurrenceRemarks</td>
 <td>無法歸類於當前標準欄位之其他與此筆出現紀錄有關的描述性補充說明或文字註記，可統一存放於此欄位中。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
 <td>1</td>
+<td>當原資料存在無法歸類至本標準其他欄位的重要資訊，本欄位為必填。</td>
 <td>variable population in height, branching and fruit production; common.</td>
-<td></td>
 </tr>
 <tr>
 <td>26</td>
 <td>母館號</td>
 <td>parentCatalogNumber</td>
 <td>當典藏機構正式編列的館號/編目號之間存在特定樹狀從屬關係，或曰部分館號/編目號（對應本標準 catalogNumber）存在「母館號」時，本欄可用於填入其母館號。常見使用時機為：1. 一典藏藉助後續研究，被發現內含多個物種。2. 典藏存在部件，且各部件存在獨立編號，如組成一具骨架標本的多份骨骼。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>TMMA0046</td>
 <td></td>
+<td>TMMA0046</td>
 </tr>
 <tr>
 <td>27</td>
 <td>其他目錄號</td>
 <td>otherCatalogNumbers</td>
-<td>本欄位用於載錄典藏除 catalogNumber 所載錄編碼以外的重要編碼。當一典藏同時存在多種目錄號，彼此應以 “&#124;” 分隔。常見使用時機為：1. 載錄該標本於前典藏機構的館號。2. 載錄不同採集者針對同批採集，各別採用的採集號。</td>
-<td>文字</td>
+<td>本欄位用於載錄典藏除 catalogNumber 所載錄編碼以外的重要編碼。當一典藏同時存在多種目錄號，彼此應以 “|” 分隔。常見使用時機為：1. 載錄該標本於前典藏機構的館號。2. 載錄不同採集者針對同批採集，各別採用的採集號。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>MA.0046</td>
 <td></td>
+<td>MA.0046</td>
 </tr>
 <tr>
 <td>28</td>
 <td>門</td>
-<td>phylum </td>
-<td>生物系統分類學上的「門」學名。</td>
-<td>文字</td>
+<td>phylum</td>
+<td>生物分類單元「門」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Marchantiophyta</td>
-<td></td>
 </tr>
 <tr>
 <td>29</td>
 <td>綱</td>
 <td>class</td>
-<td>生物系統分類學上的「綱」學名。</td>
-<td>文字</td>
+<td>生物分類單元「綱」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Jungermanniopsida</td>
-<td></td>
 </tr>
 <tr>
 <td>30</td>
 <td>目</td>
 <td>order</td>
-<td>生物系統分類學上的「目」學名。</td>
-<td>文字</td>
+<td>生物分類單元「目」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Cetacea</td>
-<td></td>
 </tr>
 <tr>
 <td>31</td>
 <td>科</td>
 <td>family</td>
-<td>生物系統分類學上的「科」學名。</td>
-<td>文字</td>
+<td>生物分類單元「科」之 科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Porellales</td>
-<td></td>
 </tr>
 <tr>
 <td>32</td>
 <td>屬</td>
 <td>genus</td>
-<td>生物系統分類學上的「屬」學名。</td>
-<td>文字</td>
+<td>生物分類單元「屬」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Lejeuneaceae</td>
-<td></td>
 </tr>
 <tr>
 <td>33</td>
 <td>生活史階段</td>
 <td>lifeStage</td>
 <td>生物體生活史階段，建議使用控制詞彙。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>juvenile</td>
 <td></td>
+<td>juvenile</td>
 </tr>
 <tr>
 <td>34</td>
 <td>性別</td>
 <td>sex</td>
 <td>對典藏所屬生物個體或族群的性別（或交配型）描述，建議使用控制詞彙。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>Male</td>
 <td></td>
+<td>Male</td>
 </tr>
 <tr>
 <td>35</td>
 <td>存放狀態</td>
 <td>disposition</td>
-<td>典藏做為特定典藏機構管理對象的管理現狀，如正收納於典藏庫房、正外借給其他單位、已佚失、已銷毀、於他處有複份或複製品等，建議使用控制詞彙。當存在一種以上相關資訊，彼此應以 “&#124;” 分隔。</td>
-<td>文字</td>
+<td>典藏做為特定典藏機構管理對象的管理現狀，如正收納於典藏庫房、正外借給其他單位、已佚失、已銷毀、於他處有複份或複製品等，建議使用控制詞彙。當存在一種以上相關資訊，彼此應以 “|” 分隔。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
-<td>1</td>
-<td>in collection</td>
+<td>N</td>
 <td></td>
+<td>in collection</td>
 </tr>
 <tr>
 <td>36</td>
-<td>定量</td>
-<td>organismQuantity </td>
-<td>對該筆紀錄的生物定量，須與 organismQuantityType 搭配使用。本欄可用於定量數值非正整數或基本單位非個體時，若定量數值為正整數且基本單位為個體，建議使用 individualCount。</td>
-<td>數值</td>
-<td></td>
+<td>數量</td>
+<td>organismQuantity</td>
+<td>對該筆紀錄的生物定量，須與 organismQuantityType 搭配使用。</td>
+<td>數字</td>
+<td>整數或浮點數</td>
 <td>O</td>
 <td>1</td>
+<td>本欄可用於定量數值非正整數或基本單位非個體時，若定量數值為正整數且基本單位為個體，建議使用 individualCount。</td>
 <td>1</td>
-<td></td>
 </tr>
 <tr>
 <td>37</td>
-<td>定量單位</td>
+<td>數量單位</td>
 <td>organismQuantityType</td>
 <td>生物定量單位，須與 organismQuantity 搭配使用。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
-<td>O</td>
+<td>C</td>
 <td>1</td>
-<td>塊</td>
 <td></td>
+<td>塊</td>
 </tr>
 <tr>
 <td>38</td>
 <td>棲地</td>
 <td>habitat</td>
 <td>採集樣區的棲地類型，建議使用控制詞彙（可自訂）。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>on bark</td>
 <td></td>
+<td>on bark</td>
 </tr>
 <tr>
 <td>39</td>
 <td>行政區</td>
 <td>municipality</td>
 <td>層級上次於且被完整包覆於 county，同時可完整包覆 locality 的行政區。注意，當採集地位處兩個以上行政區交界，或其地理邊界無法被單一行政區完整包覆時，本欄建議留白。不建議填入與 locality 僅是相鄰關係的行政區。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>鹿谷鄉</td>
 <td></td>
+<td>鹿谷鄉</td>
 </tr>
 <tr>
 <td>40</td>
 <td>原始海拔資訊</td>
 <td>verbatimElevation</td>
 <td>尚未經轉譯、清理或任何標準化程序的採集地海拔資訊。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>1180 m</td>
 <td></td>
+<td>1180 m</td>
 </tr>
 <tr>
 <td>41</td>
 <td>最低海拔(m)</td>
 <td>minimumElevationInMeters</td>
 <td>採集地所處的最低海拔高度，以公尺計。應與 maximumElevationInMeters、verbatimElevation 相互搭配。當原始海拔資料係單一值而非範圍，應於本欄及 maximumElevationInMeters 填入相同數值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數</td>
 <td>O</td>
 <td>1</td>
-<td>1180</td>
 <td></td>
+<td>1180</td>
 </tr>
 <tr>
 <td>42</td>
 <td>最高海拔(m)</td>
 <td>maximumElevationInMeters</td>
 <td>採集地所處的最高海拔高度，以公尺計。應與 minimumElevationInMeters、verbatimElevation 相互搭配。當原始海拔資料係單一值而非範圍，應於本欄及 minimumElevationInMeters 填入相同數值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數</td>
 <td>O</td>
 <td>1</td>
-<td>1180</td>
 <td></td>
+<td>1180</td>
 </tr>
 <tr>
 <td>43</td>
 <td>原始深度資訊</td>
 <td>verbatimDepth</td>
 <td>尚未經轉譯、清理或任何標準化程序的採集地深度資訊。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>15-20 m depth</td>
 <td></td>
+<td>15-20 m depth</td>
 </tr>
 <tr>
 <td>44</td>
 <td>最小深度(m)</td>
 <td>minimumDepthInMeters</td>
 <td>採集地所處的最小深度，以公尺計。應與 maximumDepthInMeters、verbatimDepth 相互搭配。當原始深度資料係單一值而非範圍，應於本欄及 maximumElevationInMeters 填入相同數值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數</td>
 <td>O</td>
 <td>1</td>
-<td>15</td>
 <td></td>
+<td>15</td>
 </tr>
 <tr>
 <td>45</td>
 <td>最大深度(m)</td>
 <td>maximumDepthInMeters</td>
 <td>採集地所處的最大深度，以公尺計。應與 minimumDepthInMeters、verbatimDepth 相互搭配。當原始深度資料係單一值而非範圍，應於本欄及 maximumElevationInMeters 填入相同數值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數</td>
 <td>O</td>
 <td>1</td>
-<td>20</td>
 <td></td>
+<td>20</td>
 </tr>
 <tr>
 <td>46</td>
-<td>鑑定結果原始內容</td>
+<td>原始鑑定物種名稱</td>
 <td>verbatimIdentification</td>
-<td>本欄位可用於載錄所有與鑑定相關的原始資訊（鑑定者、鑑定日期、學名、鑑定依據、參考文獻等）。當原始內容在書寫上過份無序、不利載錄，可視情況改以下列格式載錄：A idet. by B at YYYY-MM-DD (Ref.[1]&#124;Ref.[2]&#124;…)；A = 學名；B = 鑑定者；YYYY-MM-DD = 鑑定日期；Ref.[1]&#124;Ref.[2]&#124;… = 參考文獻（彼此以 “&#124;” 分隔）。</td>
-<td>文字</td>
+<td>資料原始觀察或採集者所鑑定的該物種的名稱，可以是俗名或學名。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
-<td>1</td>
+<td>N</td>
+<td>本欄位可用於載錄所有與鑑定相關的原始資訊（鑑定者、鑑定日期、學名、鑑定依據、參考文獻等）。當原始內容在書寫上過份無序、不利載錄，可視情況改以下列格式載錄：A idet. by B at YYYY-MM-DD (Ref.[1]|Ref.[2]|…)；A = 學名；B = 鑑定者；YYYY-MM-DD = 鑑定日期；Ref.[1]|Ref.[2]|… = 參考文獻（彼此以 “|” 分隔）。</td>
 <td>Cololejeunea longifolia (MITT.) BENEDIX, Feddes Repert. Spec. Nov. Regni Veg. Beih. 134: 15, 1953. mixed with Colura tenuicornis (A.EVANS) STEPH., det. A. SCHÄFER-VERWIMP (11/2016)</td>
-<td></td>
 </tr>
 <tr>
 <td>47</td>
 <td>相關分類群</td>
 <td>associatedTaxa</td>
-<td>與該典藏存在關聯性的分類群（如透過實地觀察發現存在交互作用的物種），若有多個則以 "&#124;" 分隔。</td>
-<td>文字</td>
+<td>與該典藏存在關聯性的分類群（如透過實地觀察發現存在交互作用的物種），若有多個則以 "|" 分隔。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
-<td>1</td>
-<td>"on branchlets of": "Michelia compressa"  </td>
-<td>"與此筆紀錄的關係": "相關URL或ID"</td>
+<td>N</td>
+<td>與此筆紀錄的關係: "相關URL或ID"</td>
+<td>on branchlets of: "Michelia compressa"</td>
 </tr>
 <tr>
 <td>48</td>
 <td>相關出現紀錄</td>
 <td>associatedOccurrences</td>
-<td>與該典藏存在關聯性的其他出現紀錄，以該紀錄的 occurrenceID 表述之，若有多個則以 "&#124;" 分隔。</td>
-<td>文字</td>
+<td>與該典藏存在關聯性的其他出現紀錄，以該紀錄的 occurrenceID 表述之，若有多個則以 "|" 分隔。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
-<td>1</td>
-<td>NTM_TMMA0046_001&#124;NTM_TMMA0046.02_001</td>
+<td>N</td>
 <td></td>
+<td>NTM_TMMA0046_001|NTM_TMMA0046.02_001</td>
 </tr>
 <tr>
 <td>49</td>
-<td>相關多媒體資訊</td>
+<td>關聯多媒體</td>
 <td>associatedMedia</td>
-<td>與該典藏存在關聯性的多媒體檔案，建議以該檔案所在的 URL 表述之，若有多個則以 "&#124;" 分隔。</td>
-<td>文字</td>
-<td>url</td>
+<td>該筆紀錄關聯的多媒體資源連結網址(URL)。</td>
+<td>字串</td>
+<td>http(s)</td>
 <td>O</td>
-<td>1</td>
+<td>N</td>
+<td>引用共通性/事/事屬性基本資料/網址 之欄位。與該典藏存在關聯性的多媒體檔案，建議以該檔案所在的 URL 表述之，若有多個則以 "|" 分隔。</td>
 <td>https://collections.culture.tw/ntm_collectionsweb/image.aspx?Size=640&amp;FileName=5EKP5YMR0IM60OKAM7KP0GM6MS0AME0V0G5K5B595YK50N555ZKGM75IK75C</td>
+</tr>
+<tr>
+<td>50</td>
+<td>原始經度</td>
+<td>verbatimLongitude</td>
+<td>原始經度。用於標記地球表面位置之東西距離數值，以地理坐標系表示為 X 坐標 。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 EPSG:4326 (WGS84)十進位小數格式；若不適用， 請註明使用之坐標系統及大地基準。</td>
+<td></td>
+</tr>
+<tr>
+<td>51</td>
+<td>原始緯度</td>
+<td>verbatimLatitude</td>
+<td>原始緯度。用於標記地球表面位置之南北距離數值，以地理坐標系表示為 Y 坐標 。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用EPSG:4326 (WGS84)十進位小數格式；若不適用， 請註明使用之坐標系統及大地基準。</td>
+<td></td>
+</tr>
+<tr>
+<td>52</td>
+<td>原始坐標系統</td>
+<td>verbatimCoordinateSystem</td>
+<td>原始經度及原始緯度欄位使用之坐標系統（坐標格式）。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 DecimalDegrees（十進位度）。控制詞彙詳見附錄「坐標格式表」。</td>
+<td></td>
+</tr>
+<tr>
+<td>53</td>
+<td>原始大地基準</td>
+<td>verbatimSRS</td>
+<td>原始經度及原始緯度欄位使用之大地基準（空間參考系統）。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>優先採用 EPSG:4326 (WGS84)。控制詞彙詳見附錄「空間參考系統表」。</td>
+<td></td>
+</tr>
+<tr>
+<td>54</td>
+<td>模糊化方式說明</td>
+<td>dataGeneralizations</td>
+<td>說明該筆紀錄經過模糊化（數值屏蔽）處理的方式，未模糊化以空值表示。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>True 代表是，False 代表否 。</td>
+<td></td>
+</tr>
+<tr>
+<td>55</td>
+<td>資料集名稱</td>
+<td>datasetName</td>
+<td>該筆紀錄所屬之資料集名稱。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td>資料授權標示或條款</td>
+<td>license</td>
+<td>該筆紀錄資料授權標示或條款。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td>控制詞彙詳見附錄「授權標示表」。</td>
+<td></td>
+</tr>
+<tr>
+<td>57</td>
+<td>臺灣本地時區之資料更新時間</td>
+<td>modified</td>
+<td>臺灣本地時區之資料更新時間。</td>
+<td>字串</td>
+<td>[0000-9999][01- 12][01-31][00- 24][00-59]</td>
+<td>M</td>
+<td>1</td>
+<td>採用西元年月日8碼+24小時制4碼格式 YYYYMMDD HHMM。引用「共通性／共通資料／日期時間」欄位。</td>
+<td></td>
+</tr>
+<tr>
+<td>58</td>
+<td>第一手資料</td>
+<td>selfProduced</td>
+<td>單位自行或委託他方獲取之第一手資料，而非介接自其他資料庫／集。</td>
+<td>布林</td>
+<td>True,False</td>
+<td>M</td>
+<td>1</td>
+<td>True 代表資料自產，非來自外部來源； False 代表資料介接取得，來自外部來源。</td>
+<td></td>
+</tr>
+<tr>
+<td>59</td>
+<td>多媒體資料授權標示或條款</td>
+<td>mediaLicense</td>
+<td>該筆資料關聯之多媒體資料其授權標示或條款。</td>
+<td>字串</td>
+<td></td>
+<td>C</td>
+<td>1</td>
+<td>若associatedMedia有提供照片，本欄位為必填。控制詞彙詳見附錄「授權標示表」。引用「生物多樣性／生物出現紀錄／紀錄檔案層級／資料授權標示或條款」之欄位。</td>
 <td></td>
 </tr>
 </tbody>
@@ -1886,241 +2006,241 @@
 <table>
 <thead>
 <tr>
-<th>項次</th>
-<th>中文名稱</th>
-<th>英文名稱</th>
-<th>說明</th>
-<th>型別</th>
-<th>值域</th>
-<th>必要性</th>
-<th>最多發生次數</th>
-<th>範例</th>
-<th>附註</th>
+<th><strong>項次</strong></th>
+<th><strong>中文名稱</strong></th>
+<th><strong>英文名稱</strong></th>
+<th><strong>說明</strong></th>
+<th><strong>型別</strong></th>
+<th><strong>值域</strong></th>
+<th><strong>必要性</strong></th>
+<th><strong>最多發生次數</strong></th>
+<th><strong>附註</strong></th>
+<th>**範例 **</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>出現紀錄ID</td>
+<td>物種出現紀錄編碼</td>
 <td>occurrenceID</td>
-<td>將核心資料表(core)- 物種出現紀錄 Occurrence中的occurrenceID對應於此表。</td>
-<td>文字</td>
+<td>該筆紀錄的永久識別編號。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>將核心資料表(core)- 物種出現紀錄 Occurrence中的occurrenceID對應於此表。</td>
 <td>NTM_TAIMB006993_001</td>
-<td></td>
 </tr>
 <tr>
 <td>2</td>
 <td>鑑定事件ID</td>
 <td>identificationID</td>
-<td>每筆鑑定事件的唯一且獨立編碼，可規定統一格式，亦可使用全球唯一辨識碼 (GUID) 或通用唯一辨識碼 (UUID)），但應與 occurrenceID、catalogNumber  等有所區隔，且不能重複。</td>
-<td>文字</td>
+<td>每筆鑑定事件的唯一且獨立編碼，可規定統一格式，亦可使用全球唯一辨識碼 (GUID) 或通用唯一辨識碼 (UUID)），但應與 occurrenceID、catalogNumber 等有所區隔，且不能重複。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>TAIMB006993_raw_00102</td>
 <td></td>
+<td>TAIMB006993_raw_00102</td>
 </tr>
 <tr>
 <td>3</td>
-<td>學名</td>
+<td>校定物種學名</td>
 <td>scientificName</td>
-<td>鑑定者可確定的最細分類階層學名。若爲種階層，建議填入包括命名者與發表日期在內的完整學名組合。</td>
-<td>文字</td>
+<td>資料檢核後給予之學名。應是可確定的最精確分類階層名稱，不該包括 sp.、spp.等標註。建議在不影響分類階層前提下，優先依據「臺灣物種名錄（ TaiCOL ） 」。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>鑑定者可確定的最細分類階層學名。若爲種階層，建議填入包括命名者與發表日期在內的完整學名組合。</td>
 <td>Frullania dasyueshanensis Schäf.-Verw. &amp; Gerh.Winter</td>
-<td></td>
 </tr>
 <tr>
 <td>4</td>
 <td>中文名/俗名</td>
 <td>vernacularName</td>
 <td>用於填寫中文名/俗名，可允許填寫種以上階層之俗名分類，未知請填「NA」。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>大雪山耳葉蘚</td>
 <td></td>
+<td>大雪山耳葉蘚</td>
 </tr>
 <tr>
 <td>5</td>
-<td>分類位階</td>
+<td>鑑定層級</td>
 <td>taxonRank</td>
-<td>應與 scientificName 相互搭配，用於表述該學名的分類位階。</td>
-<td>文字</td>
+<td>用於表述校定物種學名（ scientificName）的分類位階。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>species</td>
-<td></td>
 </tr>
 <tr>
 <td>6</td>
 <td>界</td>
 <td>kingdom</td>
-<td>生物系統分類學上的「界」學名。</td>
-<td>文字</td>
+<td>生物分類單元「界」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Plantae</td>
-<td></td>
 </tr>
 <tr>
 <td>7</td>
-<td>鑑定結果原始內容</td>
+<td>原始鑑定物種名稱</td>
 <td>verbatimIdentification</td>
-<td>本欄位可用於載錄所有與鑑定相關的原始資訊（鑑定者、鑑定日期、學名、鑑定依據、參考文獻等）。當原始內容在書寫上過份無序、不利載錄，可視情況改以下列格式載錄：A idet. by B at YYYY-MM-DD (Ref.[1]&#124;Ref.[2]&#124;…),A = 學名,B = 鑑定者,YYYY-MM-DD = 鑑定日期,Ref.[1]&#124;Ref.[2]&#124;… = 參考文獻（彼此以 “&#124;” 分隔）</td>
-<td>文字</td>
+<td>資料原始觀察或採集者所鑑定的該物種的名稱，可以是俗名或學名。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
-<td>1</td>
+<td>N</td>
+<td>本欄位可用於載錄所有與鑑定相關的原始資訊（鑑定者、鑑定日期、學名、鑑定依據、參考文獻等）。當原始內容在書寫上過份無序、不利載錄，可視情況改以下列格式載錄：A idet. by B at YYYY-MM-DD (Ref.[1]|Ref.[2]|…),A = 學名,B = 鑑定者,YYYY-MM-DD = 鑑定日期,Ref.[1]|Ref.[2]|… = 參考文獻（彼此以 “|” 分隔）</td>
 <td>Frullania dasyueshanensis Schäf.-Verw. &amp; G.Winter bis, sp. nov., Frullania, subgen. Trachycolea (Lima et al. 2020, subgen. Trachycolea reinstated)</td>
-<td></td>
 </tr>
 <tr>
 <td>8</td>
 <td>鑑定者</td>
 <td>identifiedBy</td>
-<td>此典藏的鑑定者，可以是個人、一個群體或一個組織；若有多位採集者，應以 “&#124;” 分隔。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定者原始資料的功能。</td>
-<td>文字</td>
+<td>鑑定者，該筆調查上傳後的鑑定人員／該筆紀錄的物種鑑定負責人。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
-<td>1</td>
+<td>N</td>
+<td>此典藏的鑑定者，可以是個人、一個群體或一個組織；若有多位採集者，應以 “|” 分隔。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定者原始資料的功能。</td>
 <td>Alfons Schäfer-Verwimp</td>
-<td></td>
 </tr>
 <tr>
 <td>9</td>
 <td>鑑定日期</td>
 <td>dateIdentified</td>
-<td>此典藏的鑑定日期，表述格式應遵循 ISO 8601，基本型式為 yyyy-mm-dd。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者者，本欄可直接取代 verbatimIdentification 用於載錄鑑定日期原始資料的功能。</td>
+<td>此典藏的鑑定日期，表述格式應遵循 ISO 8601，基本型式為 yyyy-mm-dd。須與 scientificName 相互搭配。當數位化工作者本身並非鑑定者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即鑑定者，本欄可直接取代 verbatimIdentification 用於載錄鑑定日期原始資料的功能。</td>
 <td>日期</td>
-<td>YYYY-MM-DD</td>
+<td>[0000-9999][01-12][01-31]</td>
 <td>M</td>
 <td>1</td>
+<td>引用標準名稱：CNS 7648「資料元件及交換格式－資訊交換－日期及時間表示法」 (ISO 8601 Data elements and interchange formats - Information interchange - Representation of dates and times)，年月日之間可不分隔或以半形連字號(-)分隔，例如2023年5月3日可寫成2023-05-03或20230503</td>
 <td>2020</td>
-<td></td>
 </tr>
 <tr>
 <td>10</td>
 <td>學名鑑定驗證狀態</td>
 <td>identificationVerificationStatus</td>
 <td>為表示此紀錄的分類資訊驗證狀態的指標，來判斷是否需要驗證或修正。建議使用控制詞彙。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>verified</td>
 <td></td>
+<td>verified</td>
 </tr>
 <tr>
 <td>11</td>
 <td>有效學名ID</td>
 <td>acceptedNameUsageID</td>
 <td>物種學名所屬代碼，請填上參照的物種名錄資料庫上（如臺灣物種名錄）的物種編號</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
-<td>C</td>
+<td>O</td>
 <td>1</td>
-<td>12243962 (GBIF)</td>
 <td></td>
+<td>12243962 (GBIF)</td>
 </tr>
 <tr>
 <td>12</td>
 <td>典藏模式/引證類型</td>
 <td>typeStatus</td>
-<td>典藏被引證的類型；若為模式引證，其類型最好能使用控制詞彙。除模式標本外，本欄位亦可用於載錄其他一般性的引證 (voucher specimen)。當一典藏存在多項引證紀錄，彼此應以 “&#124;” 分隔，載錄順序應以各類模式為先、一般性引證為後，兩類目內部則依引證年代做排序；當未知有任何引證紀錄，應以空值表示。</td>
-<td>文字</td>
+<td>典藏被引證的類型；若為模式引證，其類型最好能使用控制詞彙。除模式標本外，本欄位亦可用於載錄其他一般性的引證 (voucher specimen)。當一典藏存在多項引證紀錄，彼此應以 “|” 分隔，載錄順序應以各類模式為先、一般性引證為後，兩類目內部則依引證年代做排序；當未知有任何引證紀錄，應以空值表示。</td>
+<td>字串</td>
 <td></td>
 <td>C</td>
-<td>1</td>
+<td>N</td>
+<td>當已知有學術發表引證該典藏為模式，或根據特定文獻可推論得該典藏為模式，本欄為必填。</td>
 <td>HOLOTYPE</td>
-<td></td>
 </tr>
 <tr>
 <td>13</td>
 <td>原始分類位階資訊</td>
 <td>verbatimTaxonRank</td>
 <td>與dwc:scientificName、taxonRank欄位搭配，填上標本標籤或最初始的最低分類位階</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>species</td>
 <td></td>
+<td>species</td>
 </tr>
 <tr>
 <td>14</td>
 <td>門</td>
-<td>phylum </td>
-<td>門</td>
-<td>文字</td>
+<td>phylum</td>
+<td>生物分類單元「門」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Marchantiophyta</td>
-<td></td>
 </tr>
 <tr>
 <td>15</td>
 <td>綱</td>
 <td>class</td>
-<td>綱</td>
-<td>文字</td>
+<td>生物分類單元「綱」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Jungermanniopsida</td>
-<td></td>
 </tr>
 <tr>
 <td>16</td>
 <td>目</td>
 <td>order</td>
-<td>目</td>
-<td>文字</td>
+<td>生物分類單元「目」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Porellales</td>
-<td></td>
 </tr>
 <tr>
 <td>17</td>
 <td>科</td>
 <td>family</td>
-<td>科</td>
-<td>文字</td>
+<td>生物分類單元「科」之 科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Frullaniaceae</td>
-<td></td>
 </tr>
 <tr>
 <td>18</td>
 <td>屬</td>
 <td>genus</td>
-<td>屬</td>
-<td>文字</td>
+<td>生物分類單元「屬」之科學名稱。</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td>應與 scientificName （校定物種學名）相互搭配。</td>
 <td>Frullania</td>
-<td></td>
 </tr>
 <tr>
 <td>19</td>
 <td>物種註記</td>
 <td>taxonRemarks</td>
 <td>任何需要備註的物種分類描述文字</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
@@ -2131,35 +2251,95 @@
 <td>20</td>
 <td>鑑定者ID</td>
 <td>identifiedByID</td>
-<td>該鑑定者的個人資訊連結，如orcid，有多人則以 “&#124;” 分隔。</td>
-<td>文字</td>
-<td>url</td>
+<td>該鑑定者的個人資訊連結，如orcid，有多人則以 “|” 分隔。</td>
+<td>字串</td>
+<td>http(s)</td>
 <td>O</td>
-<td>1</td>
-<td>https://orcid.org/0000-0002-2720-6055&#124;https://orcid.org/0000-0001-5045-6215</td>
-<td></td>
+<td>N</td>
+<td>引用共通性/事/事屬性基本資料/網址 之欄位</td>
+<td>https://orcid.org/0000-0002-2720-6055|https://orcid.org/0000-0001-5045-6215</td>
 </tr>
 <tr>
 <td>21</td>
 <td>鑑定參考文獻</td>
 <td>identificationReferences</td>
 <td>應與 scientificName 相互搭配。當數位化工作者本身並非該標本採集者，本欄內容必須根源於 verbatimIdentification；當數位化工作者本身即該標本採集者，本欄可直接取代 verbatimIdentification 用於載錄鑑定參考文獻的功能。（以上定義遵照 https://dwc.tdwg.org/terms/）</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
-<td>Schäfer-Verwimp, A., &amp; Winter, G. (2020). Frullania dasyueshanensis, a new species with terete perianth from Taiwan (Marchantiophyta: Frullaniaceae). Frahmia, 20, 1-14.</td>
 <td></td>
+<td>Schäfer-Verwimp, A., &amp; Winter, G. (2020). Frullania dasyueshanensis, a new species with terete perianth from Taiwan (Marchantiophyta: Frullaniaceae). Frahmia, 20, 1-14.</td>
 </tr>
 <tr>
 <td>22</td>
 <td>分類鑑定備註</td>
 <td>identificationRemarks</td>
 <td>分類鑑定雜項備註。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>典藏機構代碼</td>
+<td>institutionCode</td>
+<td>典藏機構所使用的名稱或縮寫。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>典藏機構ID</td>
+<td>institutionID</td>
+<td>研究機構唯一識別碼。建議以研究機構註冊代碼 Research Organization Registry (ROR) 或全球科學館藏目錄Global Registry of Scientific Collections(GRSciColl)機構代碼。</td>
+<td>字串</td>
+<td></td>
+<td>M</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>典藏代碼</td>
+<td>collectionCode</td>
+<td>用於標示典藏或資料集的名稱、縮寫、代碼或首字母縮寫詞。</td>
+<td>字串</td>
+<td></td>
+<td>C</td>
+<td>1</td>
+<td>當該典藏具典藏ID時必填。</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>典藏ID</td>
+<td>collectionID</td>
+<td>典藏紀錄唯一識別碼。建議以全球科學館藏目錄Global Registry of Scientific Collections (https://scientific-collections.gbif.org/)唯一識別碼。</td>
+<td>字串</td>
+<td></td>
+<td>C</td>
+<td>1</td>
+<td>當該典藏具典藏ID時必填。</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>其他典藏號</td>
+<td>otherCatalogNumbers</td>
+<td>用以保留典藏歷史編號紀錄，以便追蹤各典藏歷史資訊，如有多筆歷史典藏代碼，請以"|"區隔。</td>
+<td>字串</td>
+<td></td>
+<td>O</td>
+<td>N</td>
 <td></td>
 <td></td>
 </tr>
@@ -2169,145 +2349,145 @@
 <table>
 <thead>
 <tr>
-<th>項次</th>
-<th>中文名稱</th>
-<th>英文名稱</th>
-<th>說明</th>
-<th>型別</th>
-<th>值域</th>
-<th>必要性</th>
-<th>最多發生次數</th>
-<th>範例</th>
-<th>附註</th>
+<th><strong>項次</strong></th>
+<th><strong>中文名稱</strong></th>
+<th><strong>英文名稱</strong></th>
+<th><strong>說明</strong></th>
+<th><strong>型別</strong></th>
+<th><strong>值域</strong></th>
+<th><strong>必要性</strong></th>
+<th><strong>最多發生次數</strong></th>
+<th><strong>附註</strong></th>
+<th>**範例 **</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>出現紀錄ID</td>
+<td>物種出現紀錄編碼</td>
 <td>occurrenceID</td>
-<td>量測記錄對應之典藏紀錄唯一識別編號</td>
-<td>文字</td>
+<td>該筆紀錄的永久識別編號。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
+<td>量測記錄對應之典藏紀錄唯一識別編號</td>
 <td>NTM_TMCD003316_001</td>
-<td></td>
 </tr>
 <tr>
 <td>2</td>
 <td>量測ID</td>
 <td>measurementID</td>
 <td>每筆量測記錄唯一識別編號，可使用GUID之方式。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>9c752d22-b09a-11e8-96f8-529269fb1459</td>
 <td></td>
+<td>9c752d22-b09a-11e8-96f8-529269fb1459</td>
 </tr>
 <tr>
 <td>3</td>
 <td>關聯量測ID</td>
 <td>parentMeasurementID</td>
-<td>關聯之量測記錄對應ID，請輸入對應之measurementID，如有多筆請以"&#124;"區隔。</td>
-<td>文字</td>
+<td>關聯之量測記錄對應ID，請輸入對應之measurementID，如有多筆請以"|"區隔。</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
-<td>1</td>
-<td>9c752d22-b09a-11e8-96f8-529269fb1459</td>
+<td>N</td>
 <td></td>
+<td>9c752d22-b09a-11e8-96f8-529269fb1459</td>
 </tr>
 <tr>
 <td>4</td>
 <td>量測類型</td>
 <td>measurementType</td>
 <td>建議使用控制詞彙定義量測的類型。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>WithOnLineScheme:Crustaceans: total body length</td>
 <td></td>
+<td>WithOnLineScheme:Crustaceans: total body length</td>
 </tr>
 <tr>
 <td>5</td>
 <td>量測值</td>
 <td>measurementValue</td>
 <td>量測之數值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數或浮點數</td>
 <td>M</td>
 <td>1</td>
-<td>245.8</td>
 <td></td>
+<td>245.8</td>
 </tr>
 <tr>
 <td>6</td>
 <td>量測精度</td>
 <td>measurementAccuracy</td>
 <td>量測工具之準確值。</td>
-<td>數值</td>
-<td></td>
+<td>數字</td>
+<td>整數或浮點數</td>
 <td>M</td>
 <td>1</td>
-<td>0.1</td>
 <td></td>
+<td>0.1</td>
 </tr>
 <tr>
 <td>7</td>
 <td>量測單位</td>
 <td>measurementUnit</td>
 <td>量測數值對應單位。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>mm</td>
 <td></td>
+<td>mm</td>
 </tr>
 <tr>
 <td>8</td>
 <td>量測者</td>
 <td>measurementDeterminedBy</td>
 <td>量測記錄者。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>Huang, M.-C. et al.</td>
 <td></td>
+<td>Huang, M.-C. et al.</td>
 </tr>
 <tr>
 <td>9</td>
 <td>量測日期</td>
 <td>measurementDeterminedDate</td>
 <td>量測的時間記錄，建議以YYYY-MM-DD為主要交換類型。</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>2020</td>
 <td></td>
+<td>2020</td>
 </tr>
 <tr>
 <td>10</td>
 <td>量測方法</td>
 <td>measurementMethod</td>
 <td>量測使用之方法或工具</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>M</td>
 <td>1</td>
-<td>The scheme of morphological measurement based on Szaniawska, A. N. N. A., Normant, M., Michalowska, M., &amp; Kaminska, A. (2005). Morphometric characters of the freshwater American crayfish, Orconectes limosus Raf., from the Vistula Lagoon (Poland). Oceanological and Hydrobiological Studies, 34 (suppl. 1).</td>
 <td></td>
+<td>The scheme of morphological measurement based on Szaniawska, A. N. N. A., Normant, M., Michalowska, M., &amp; Kaminska, A. (2005). Morphometric characters of the freshwater American crayfish, Orconectes limosus Raf., from the Vistula Lagoon (Poland). Oceanological and Hydrobiological Studies, 34 (suppl. 1).</td>
 </tr>
 <tr>
 <td>11</td>
 <td>量測備註</td>
 <td>measurementRemarks</td>
 <td>量測相關備註資訊</td>
-<td>文字</td>
+<td>字串</td>
 <td></td>
 <td>O</td>
 <td>1</td>
@@ -2483,7 +2663,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     <!-- mkdocs-git-revision-date-plugin -->
     
     最後更新日期:
-    2025-05-01
+    2025-11-15
     
 </small>
 </div>
