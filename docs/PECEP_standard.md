@@ -1,4 +1,4 @@
-# 生態檢核資料共享標準
+# 生態檢核資料共享模板
 
 臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
 
