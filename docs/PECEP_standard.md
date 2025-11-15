@@ -1,6 +1,6 @@
 # 生態檢核資料交換參考模板
 
-臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
+臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }} 
 
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
