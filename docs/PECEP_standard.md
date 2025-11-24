@@ -13,14 +13,14 @@
 TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處、經濟部水利署、經濟部水利署保育事業組、林業保育署、林業保育署集水區治理組、林業保育署嘉義分署、農田水利署、農業部農村發展及水土保持署、國立臺灣大學森林環境暨資源學系、弘益生態有限公司、洄瀾風生態有限公司、財團法人台灣水資源與農業研究院、啟宇工程顧問有限公司、野聲環境生態顧問有限公司、漢林生態顧問有限公司、觀察家生態顧問有限公司
 
 ### 授權方式 Licence
-本文件《生態檢核資料共享標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
+本文件《生態檢核資料交換參考模板》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
 https://pid.tbiadata.tw/ark:/35232/c1rww1i9
 
 ### 文件版本控制 Document Control
-第1.0版，2024年10月。
 第2.0版，2025年11月。
+第1.0版，2024年10月。
 
 最初基於行政院公共工程委員會《[公共工程生態檢核資訊公開作業指引](https://www.pcc.gov.tw/content/index?eid=9010&type=C&lang=1)》。
 
