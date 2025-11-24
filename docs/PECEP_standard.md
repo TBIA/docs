@@ -250,7 +250,7 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 #### 2.非物種資料（如GIS圖資、物種關注區域圖、工程照片等）
 
 已有固定上傳流程或建立公開資料庫之單位：按照既定流程上傳繳交。
-未有固定上傳流程之單位：以新增資料集之方式，上傳至中研院研究資料寄存所(https://data.depositar.io/) ，並設定關鍵字「生態檢核 / Eco-check」，亦須詳盡填寫基本資訊。
+未有固定上傳流程之單位：以新增資料集之方式，上傳至中研院研究資料寄存所([https://data.depositar.io/](https://data.depositar.io)) ，並設定關鍵字「生態檢核 / Eco-check」，亦須詳盡填寫基本資訊。
 
 <p align="center">
     <img src="../assets/depositar.png">
