@@ -16,7 +16,7 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 本文件《生態檢核資料交換參考模板》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c1rww1i9
+[https://pid.tbiadata.tw/ark:/35232/c1rww1i9](https://pid.tbiadata.tw/ark:/35232/c1rww1i9)
 
 ### 文件版本控制 Document Control
 第2.0版，2025年11月。
@@ -226,7 +226,7 @@ https://pid.tbiadata.tw/ark:/35232/c1rww1i9
 
 聯絡單位：臺灣生物多樣性資訊聯盟秘書處
 
-電子郵件信箱：tbianoti@gmail.com
+電子郵件信箱：[tbianoti@gmail.com](tbianoti@gmail.com)
 
 ---
 ## **附錄、參考指引：以開放共享資料的流通建議**
@@ -235,8 +235,8 @@ https://pid.tbiadata.tw/ark:/35232/c1rww1i9
 
 #### 1.物種名錄及原始資料
 生態檢核現地調查資料之公開，優先以主管機關所規範之資料上傳流程為主，若主管機關尚無規範，則建議兩種開放方式（詳見下方流程示意圖）：
-1. 主管機關端開放：若辦理生態檢核的主管機關已建置有長期維運之生物資料庫，可將生態檢核調查資料匯入所維運的資料庫，再與臺灣生物多樣性資訊聯盟(簡稱 TBIA)秘書處聯繫 (tbianoti@gmail.com)，以資料庫介接之方式串連至TBIA所開發之「生物多樣性資料庫共通查詢系統（簡稱 TBIA入口網）」(https://tbiadata.tw/)。
-2. 生態檢核執行端開放：若辦理生態檢核的主管機關未有長期維運之生物資料庫，則由生態檢核執行單位與TBIA夥伴單位—臺灣生物多樣性資訊機構(簡稱TaiBIF)聯繫(taibif.brcas@gmail.com)，將生物調查資料透過 TaiBIF 所管理之「IPT 資料發布平台」上傳，最終串接至 TBIA 入口網與 GBIF.org (全球生物多樣性資訊平台)。
+1. 主管機關端開放：若辦理生態檢核的主管機關已建置有長期維運之生物資料庫，可將生態檢核調查資料匯入所維運的資料庫，再與臺灣生物多樣性資訊聯盟(簡稱 TBIA)秘書處聯繫 ([tbianoti@gmail.com](tbianoti@gmail.com))，以資料庫介接之方式串連至TBIA所開發之「生物多樣性資料庫共通查詢系統（簡稱 TBIA入口網）」([https://tbiadata.tw/](https://tbiadata.tw/))。
+2. 生態檢核執行端開放：若辦理生態檢核的主管機關未有長期維運之生物資料庫，則由生態檢核執行單位與TBIA夥伴單位—臺灣生物多樣性資訊機構(簡稱TaiBIF)聯繫([taibif.brcas@gmail.com](taibif.brcas@gmail.com))，將生物調查資料透過 TaiBIF 所管理之「IPT 資料發布平台」上傳，最終串接至 TBIA 入口網與 [GBIF.org](https://www.gbif.org/) (全球生物多樣性資訊平台)。
 3. 以上兩種開放方式，若執行單位人力不足，或沒有具備開放資料的相關知識或經驗的人員，可選擇與TaiBIF培訓之資料清理協作者合作（需洽談相關費用），由其協助資料的清理、上傳至資料庫或TaiBIF IPT。
 註：已有固定上傳流程或建立公開資料庫之單位：林業保育署、農村水保署、台北水源特定區管理分署（水利署轄下單位）。
 
