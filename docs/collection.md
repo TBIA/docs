@@ -1,5 +1,5 @@
 # 自然史典藏資料交換參考模板
-作者 - 臺灣生物多樣性資訊聯盟典藏資料標準工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }} 
+臺灣生物多樣性資訊聯盟典藏資料標準工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }} 
 
 ---
 ## **版權說明 Colophon**
