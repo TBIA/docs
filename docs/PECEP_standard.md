@@ -370,7 +370,6 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 | 分類位階   | taxonRank           | 必填    | 清單   | 與dwc:scientificName欄位搭配，填上該筆紀錄的最低分類位階                                   | species                              |
 | 界      | kingdom             | 必填    | 文字   | 界                                                                       | Animalia                             |
 | 物種受脅狀態 | threatStatus        | 建議填寫  | 清單   | 依據IUCN紅皮書所列的時鞋平估指標資訊，或政府公告之保育類名錄，建議使用控制詞彙。                              | EX 滅絕                                |
-| 有效學名ID | acceptedNameUsageID | 建議填寫  | 文字   | 物種學名所屬代碼，請填上參照的物種名錄資料庫上（如                                               | tsn:41107 (ITIS)                     |
 | 門      | phylum              | 選填    | 文字   | 門                                                                       | Chordata (phylum)                    |
 | 綱      | class               | 選填    | 文字   | 綱                                                                       | Mammalia                             |
 | 目      | order               | 選填    | 文字   | 目                                                                       | Carnivora                            |
