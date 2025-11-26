@@ -1182,7 +1182,7 @@
 
 
 <h1 id="_1">自動相機資料交換參考模板</h1>
-<p>臺灣生物多樣性資訊聯盟機器觀測資料開放標準工作小組 - tbianoti@gmail.com - version 02d0a04, 2025-11-26 13:45:08+0800 </p>
+<p>臺灣生物多樣性資訊聯盟機器觀測資料開放標準工作小組 - tbianoti@gmail.com - version 8bbced2, 2025-11-26 17:41:50+0800 </p>
 <hr />
 <h2 id="colophon"><strong>版權說明 Colophon</strong></h2>
 <h3 id="suggested-citation">建議引用方式 Suggested Citation</h3>
@@ -2096,7 +2096,7 @@
 <tr>
 <td>12</td>
 <td>臺灣物種名錄物種編號</td>
-<td>taxonID</td>
+<td>taxon_id</td>
 <td>採用臺灣物種名錄（TaiCOL）使用的物種編號（taxon_id），在 TaiCOL 官網的物種頁面或 API 可取得。</td>
 <td>字串</td>
 <td></td>
@@ -2107,9 +2107,9 @@
 </tr>
 <tr>
 <td>13</td>
-<td>臺灣物種名錄學名編碼</td>
-<td>nameID</td>
-<td>name_id，在TaiCOL 學名管理工具或 Api 可取得。</td>
+<td>校定物種學名編碼</td>
+<td>name_id</td>
+<td>校定物種學名於臺灣物種名錄（TaiCoL）對應的學名編碼。</td>
 <td>字串</td>
 <td></td>
 <td>O</td>
@@ -2119,12 +2119,12 @@
 </tr>
 <tr>
 <td>14</td>
-<td>臺灣物種名錄學名使用編碼</td>
-<td>usageID</td>
-<td>usage_id，在TaiCOL 學名管理工具或 Api 可取得。</td>
+<td>校定物種學名</td>
+<td>scientificName</td>
+<td>資料檢核後給予之學名。應是可確定的最精確分類階層名稱，不該包括 sp.、spp.等標註。建議在不影響分類階層前提下，優先依據「臺灣物種名錄（ TaiCOL ） 」。</td>
 <td>字串</td>
 <td></td>
-<td>O</td>
+<td>M</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -2761,7 +2761,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     <!-- mkdocs-git-revision-date-plugin -->
     
     最後更新日期:
-    2025-11-25
+    2025-11-26
     
 </small>
 </div>
