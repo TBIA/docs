@@ -78,3 +78,7 @@ markdown_extensions:
   - admonition
 extra_css:
   - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-ZN22GT5RSF
