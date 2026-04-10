@@ -2,7 +2,7 @@
 
 臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
 
-本文件亦有[PDF版本](https://tbiadata.tw/media/resources/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96.pdf)。
+本文件亦有[PDF版本](https://tbia.github.io/docs/assets/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96%E7%AC%AC%E4%BA%8C%E7%89%88.pdf)。
 
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
