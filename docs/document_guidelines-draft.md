@@ -87,10 +87,6 @@ flowchart TD
 
     黃色：新增的檔案，藍色：修改檔案內容，紅色：更改檔名。
 
-
-## 舊文件的「去任務化」 'Decommissioning' old documents
-> （本程序待建立）
-
 ## 技術指引 Technical guidance
 > 這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於[MarkDown語法大全
 ](https://hackmd.io/@mrcoding/ryZE7k8cN) 。
