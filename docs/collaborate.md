@@ -17,7 +17,7 @@
 本文件《TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（合作夥伴加盟使用）》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c1c9mzwy
+[https://pid.tbiadata.tw/ark:/35232/r106l7ur](https://pid.tbiadata.tw/ark:/35232/r106l7ur)
 
 ### 文件版本控制 Document Control
 草稿，2024年3月26日。
