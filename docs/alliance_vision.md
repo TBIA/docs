@@ -20,7 +20,7 @@
 本文件《TBIA共同願景》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c1poonwz
+[https://pid.tbiadata.tw/ark:/35232/r1wtauzn](https://pid.tbiadata.tw/ark:/35232/r1wtauzn)
 
 ### 文件版本控制 Document Control
 草案版第二版，2020年7月2日更新，並透過2020年7月6日的第33次TBIA例會確認。
