@@ -18,7 +18,7 @@
 本文件《生物多樣性領域資料標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c1ek0ttf
+[https://pid.tbiadata.tw/ark:/35232/r15laq0x/v1](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v1)
 
 ### 文件版本控制 Document Control
 第1.0版，2021年7月。
