@@ -17,7 +17,7 @@
 本文件《臺灣生物多樣性資訊聯盟名詞解釋列表》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/r1bahlz6
+[https://pid.tbiadata.tw/ark:/35232/r1bahlz6](https://pid.tbiadata.tw/ark:/35232/r1bahlz6)
 
 ### 文件版本控制 Document Control
 第一版，2026年3月。
