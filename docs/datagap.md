@@ -19,7 +19,7 @@ version {{ git.short_commit }}, {{ git_revision_date }}
 本文件《TBIA資料空缺概況整理文件》採用[創用CC姓名標示-相同方式分享4.0國際(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c112gfhw
+[https://pid.tbiadata.tw/ark:/35232/r1r9kb0h](https://pid.tbiadata.tw/ark:/35232/r1r9kb0h)
 
 ### 文件版本控制 Document Control
 第一版，2024年2月。
