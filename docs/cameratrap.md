@@ -17,7 +17,7 @@ TBIA 機器觀測資料開放標準工作小組為本文件的這個版本做出
 本文件《自動相機資料交換參考模板》採用 [創用CC 姓名標示 4.0 國際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en)。
 
 ### 永久統一資源標籤 Persistent URI
-本文件尚待建立此版本的永久統一資源標籤。
+[https://pid.tbiadata.tw/ark:/35232/r1zupu9e](https://pid.tbiadata.tw/ark:/35232/r1zupu9e)
 
 ### 文件版本控制 Document Control
 第2.0版，2025年11月。
