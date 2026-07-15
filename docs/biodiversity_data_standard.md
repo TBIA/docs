@@ -25,7 +25,7 @@
 
 ### 文件版本控制 Document Control
 [第1.0版，2021年7月。](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v1)<br/>
-第2.0版，2026年4月。
+[第2.0版，2026年4月。](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v2)
 
 最初基於資料庫串連與資料發佈工作小組的《[生物出現紀錄資料共享指引](https://hackmd.io/@oOKtv9CNRuKvI6IqXZGf9w/BJNm-7XNv)》。
 
