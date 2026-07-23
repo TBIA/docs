@@ -67,6 +67,13 @@
 
     
     
+<script>
+  /* Restore sidebar state before first paint to avoid flashing */
+  if (localStorage.getItem("tbia-sidebar-hidden") === "1") {
+    document.documentElement.classList.add("tbia-sidebar-hidden");
+  }
+</script>
+
   </head>
   
   
@@ -2745,6 +2752,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     
     
       <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../javascripts/nav-toggle.js"></script>
       
     
   </body>

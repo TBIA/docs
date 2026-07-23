@@ -63,6 +63,13 @@
 
     
     
+<script>
+  /* Restore sidebar state before first paint to avoid flashing */
+  if (localStorage.getItem("tbia-sidebar-hidden") === "1") {
+    document.documentElement.classList.add("tbia-sidebar-hidden");
+  }
+</script>
+
   </head>
   
   
@@ -797,23 +804,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="背景">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        現有文件
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -825,7 +815,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="給文件作者們的指引 Guidelines for document authors">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文件版本更新指引
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="文件版本更新指引">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -836,23 +837,6 @@
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="完成一個文件的步驟">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        修改文件與版本建立流程
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -874,7 +858,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         給文件作者們
@@ -886,7 +870,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         文件撰寫建議
@@ -909,7 +893,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         標題
@@ -920,7 +904,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         字體效果
@@ -931,7 +915,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         引文
@@ -942,7 +926,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         標號
@@ -954,7 +938,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       
         數字標號
@@ -965,7 +949,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       
         其他標號
@@ -981,7 +965,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       
         巢狀標號
@@ -993,7 +977,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_14" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       
         巢狀標號：無序清單
@@ -1004,7 +988,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_15" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       
         巢狀標號：有序清單
@@ -1020,7 +1004,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_16" class="md-nav__link">
+  <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
       
         核取方塊
@@ -1031,7 +1015,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_17" class="md-nav__link">
+  <a href="#_16" class="md-nav__link">
     <span class="md-ellipsis">
       
         連結
@@ -1042,7 +1026,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_18" class="md-nav__link">
+  <a href="#_17" class="md-nav__link">
     <span class="md-ellipsis">
       
         簡易超連結
@@ -1053,7 +1037,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
+  <a href="#_18" class="md-nav__link">
     <span class="md-ellipsis">
       
         分隔線
@@ -1064,7 +1048,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
+  <a href="#_19" class="md-nav__link">
     <span class="md-ellipsis">
       
         程式碼
@@ -1075,7 +1059,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_21" class="md-nav__link">
+  <a href="#_20" class="md-nav__link">
     <span class="md-ellipsis">
       
         圖片
@@ -1086,7 +1070,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_22" class="md-nav__link">
+  <a href="#_21" class="md-nav__link">
     <span class="md-ellipsis">
       
         帶有連結的圖片
@@ -1097,7 +1081,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_23" class="md-nav__link">
+  <a href="#_22" class="md-nav__link">
     <span class="md-ellipsis">
       
         調整圖片大小
@@ -1108,7 +1092,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
+  <a href="#_23" class="md-nav__link">
     <span class="md-ellipsis">
       
         調整圖片文字對齊
@@ -1119,7 +1103,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
+  <a href="#_24" class="md-nav__link">
     <span class="md-ellipsis">
       
         表格
@@ -1130,7 +1114,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_26" class="md-nav__link">
+  <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
       
         短區塊
@@ -1141,7 +1125,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_27" class="md-nav__link">
+  <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
       
         跳脫字元
@@ -1190,7 +1174,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_28" class="md-nav__link">
+  <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
       
         本文件網站的軟體架構與開發環境
@@ -1240,69 +1224,39 @@
 <h2 id="_1">背景</h2>
 <p>TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與發佈這些文件的目的，是提供與生物多樣性資訊與開放資料有關的訊息，以支持臺灣相關社群的實作。TBIA文件的理念主要受<a href="https://docs.gbif.org/documentation-guidelines/en/">GBIF文件</a>啟發。</p>
 <p>本指引的目標則是提供撰寫TBIA文件的綱要與素材。透過提供一套具有一致性（consistent）、可靠性（reliable）、可再用性（reusable），以及版本管理特性（versioned）的綱要與素材，讓TBIA文件的建立與更新流程變得簡易順暢。藉此並逐步建立社群對文件的信任，以促成更廣大的採納與使用。</p>
-<h3 id="_2">現有文件</h3>
-<p>臺灣生物多樣性資訊聯盟秘書處。2022。<a href="https://tbia.github.io/docs/articles_of_association/">臺灣生物多樣性資訊聯盟章程</a>。第一版。臺灣生物多樣性資訊聯盟：臺北。</p>
-<p>中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。2021。<a href="https://tbia.github.io/docs/biodiversity_data_standard/">生物多樣性領域資料標準</a>。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
-<p>柯智仁。2021。<a href="https://tbia.github.io/docs/restricted_access_species_data/">生物多樣性敏感資料開放作業原則</a>。草案版。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
-<p>臺灣生物多樣性資訊聯盟願景工作小組。2020。<a href="https://tbia.github.io/docs/alliance_vision/">TBIA共同願景</a>。草案。臺灣生物多樣性資訊聯盟秘書處：臺北。</p>
 <h2 id="guidelines-for-document-authors">給文件作者們的指引 Guidelines for document authors</h2>
 <p>我們在這個系統採用的文件編碼語法是<a href="https://python-markdown.github.io/#goals">Python-Markdown語法</a>。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。</p>
 <p>我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。</p>
+<h2 id="_2">文件版本更新指引</h2>
 <h3 id="_3">完成一個文件的步驟</h3>
 <ol>
-<li>在 <a href="https://github.com/TBIA/docs">/docs</a> 資料夾中新增一個「.md」的檔案。</li>
+<li>先確定這份文件之後<strong>會不會有版本更新</strong>，並依此在 <a href="https://github.com/TBIA/docs">/docs</a> 資料夾中新增檔案：</li>
+<li><strong>會有版本更新</strong>：新增 <strong>2 個</strong> <code>.md</code> 檔案。<code>my-title.md</code> 永遠是最新版，<code>my-title-v1.md</code> 則保留第一版的內容。</li>
+<li><strong>一次性文件</strong>：新增 <strong>1 個</strong> <code>.md</code> 檔案 <code>my-title.md</code>。</li>
 <li>根據本指引與文件模板撰寫該文件檔案。</li>
 <li>完成文件撰寫後，通知TBIA技術總監，請秘書處確認是否發佈。</li>
-<li>秘書處確認後由文件工作小組發佈至文件網站（修改mkdocs.yml及指引中的現有文件列表）。</li>
+<li>秘書處確認後，由文件工作小組發佈至文件網站（修改mkdocs.yml）。</li>
+<li>從TBIA入口網取得該文件的ARK永久網址（persistent URL）。</li>
+<li>將ARK網址填回文件md檔的「永久統一資源標籤 Persistent URI」欄位。</li>
 </ol>
-<h4 id="_4">修改文件與版本建立流程</h4>
-<ol>
-<li>當需要修訂正式文件時（例如 <code>title.md</code>），先確認<strong>之前有無建立過版本</strong>。<ul>
-<li>若<strong>沒有</strong>建立過版本：先建立一份舊版文件 md 檔（例如 <code>title-v1.md</code>）保留現況，再建立 draft 文件。</li>
-<li>若<strong>已經</strong>建立過版本：直接建立 draft 文件（例如 <code>title-draft.md</code>）。</li>
-</ul>
-</li>
-<li>編輯 draft 文件。</li>
-<li>將修改發佈到 Github pages 預覽。<ul>
-<li>若發現錯誤，回到步驟 2 繼續編輯 draft，再重新預覽，反覆修正直到正確。</li>
-</ul>
-</li>
-<li>確認無誤後<strong>定版</strong>，並同時進行下列兩件事：<ul>
-<li>將新編輯 draft 的內容覆蓋原本文件（例如覆蓋回 <code>title.md</code>）。</li>
-<li>更改 draft 的檔名為新版本（例如 <code>title-draft.md</code> 改名為 <code>title-v2.md</code>）。</li>
-</ul>
-</li>
-<li>兩項都完成後，流程結束。</li>
-</ol>
-<pre class="mermaid"><code>---
-config:
-  look: handDrawn
-  theme: neutral
----
-flowchart TD
-    Start[需要修訂正式文件&lt;br /&gt;例如: title.md] --&gt; Check{之前有無建立版本}
-    Check --&gt; |是|Draft[建立 draft 文件&lt;br/&gt;例如: title-draft.md]
-    Check --&gt; |否|Backup[建立新的舊版文件md檔&lt;br /&gt;例如 title-v1.md]
-    Backup --&gt; Draft
-    Draft --&gt; Edit[編輯draft]
-    Edit --&gt;|修改| GHP[Github pages]
-    GHP --&gt;|發現錯誤| Edit
-    GHP --&gt;Save(定版)
-    Save --&gt; Update[將新編輯draft的內容覆蓋原本文件&lt;br /&gt;例如 title.md]
-    Save --&gt; Rename[更改draft檔名&lt;br /&gt;例如 title-v2.md&lt;br /&gt;]
-    Update --&gt; Done
-    Rename --&gt; Done</code></pre>
-<div class="admonition info">
-<p class="admonition-title">說明</p>
-<p>黃色：新增的檔案，藍色：修改檔案內容，紅色：更改檔名。</p>
-</div>
+<pre class="mermaid"><code>flowchart TD
+    A(["開始撰寫新文件"]) --&gt; B{"這份文件之後&lt;br/&gt;會不會有版本更新？"}
+    B -- "會有版本更新" --&gt; C["新增 2 個 .md 檔案&lt;br/&gt;my-title.md：永遠是最新版&lt;br/&gt;my-title-v1.md：保留第一版內容"]
+    B -- "一次性文件" --&gt; D["新增 1 個 .md 檔案&lt;br/&gt;my-title.md"]
+    C --&gt; E["依本指引與文件模板&lt;br/&gt;撰寫該文件"]
+    D --&gt; E
+    E --&gt; F["通知TBIA技術總監&lt;br/&gt;請秘書處確認是否發佈"]
+    F --&gt; G["文件工作小組發佈至文件網站&lt;br/&gt;（修改 mkdocs.yml）"]
+    G --&gt; H["從TBIA入口網取得該文件的&lt;br/&gt;ARK永久網址（persistent URL）"]
+    H --&gt; I["將ARK網址填回文件md檔的&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位"]
+    I --&gt; J(["完成"])</code></pre>
 <h2 id="technical-guidance">技術指引 Technical guidance</h2>
 <blockquote>
 <p>這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於<a href="https://hackmd.io/@mrcoding/ryZE7k8cN">MarkDown語法大全
 </a> 。</p>
 </blockquote>
-<h3 id="_5">給文件作者們</h3>
-<h4 id="_6">文件撰寫建議</h4>
+<h3 id="_4">給文件作者們</h3>
+<h4 id="_5">文件撰寫建議</h4>
 <ol>
 <li>中文段落開頭的縮排建議一律省略。</li>
 <li>中文與英文、中文與數字間不留空格，英文與數字間則須留空格。</li>
@@ -1313,7 +1267,7 @@ flowchart TD
 </li>
 </ol>
 <h4 id="markdown">Markdown語法</h4>
-<h5 id="_7">標題</h5>
+<h5 id="_6">標題</h5>
 <p>不同階層的標題語法</p>
 <div class="highlight"><pre><span></span><code># H1 階層一（標題一）
 ## H2 階層二（標題二）
@@ -1321,7 +1275,7 @@ flowchart TD
 #### H4 階層四（標題四）
 ##### H5 階層五（標題五）
 </code></pre></div>
-<h5 id="_8">字體效果</h5>
+<h5 id="_7">字體效果</h5>
 <p><em>斜體字</em></p>
 <p><strong>粗體字</strong></p>
 <p><strong><em>斜粗體</em></strong></p>
@@ -1345,7 +1299,7 @@ __斜粗2__
 ==螢光標記==
 <span class="critic comment">程式碼註解</span>
 </code></pre></div>
-<h5 id="_9">引文</h5>
+<h5 id="_8">引文</h5>
 <p>縮排語法</p>
 <blockquote>
 <p>第一層</p>
@@ -1360,8 +1314,8 @@ __斜粗2__
 &gt;&gt;第二層
 &gt;&gt;&gt;第三層
 </code></pre></div>
-<h5 id="_10">標號</h5>
-<h6 id="_11">數字標號</h6>
+<h5 id="_9">標號</h5>
+<h6 id="_10">數字標號</h6>
 <ol>
 <li>數字標號</li>
 <li>數字標號</li>
@@ -1371,7 +1325,7 @@ __斜粗2__
 2. 數字標號
 3. 數字標號
 </code></pre></div>
-<h6 id="_12">其他標號</h6>
+<h6 id="_11">其他標號</h6>
 <ul>
 <li>其他標號</li>
 <li>其他標號</li>
@@ -1381,8 +1335,8 @@ __斜粗2__
 + 其他標號
 * 其他標號
 </code></pre></div>
-<h5 id="_13">巢狀標號</h5>
-<h6 id="_14">巢狀標號：無序清單</h6>
+<h5 id="_12">巢狀標號</h5>
+<h6 id="_13">巢狀標號：無序清單</h6>
 <ul>
 <li>無序清單</li>
 <li>無序清單<ul>
@@ -1398,7 +1352,7 @@ __斜粗2__
     - 無序清單子清單
         - 無序清單子子清單
 </code></pre></div>
-<h6 id="_15">巢狀標號：有序清單</h6>
+<h6 id="_14">巢狀標號：有序清單</h6>
 <ol>
 <li>有序清單</li>
 <li>有序清單<ol>
@@ -1414,7 +1368,7 @@ __斜粗2__
     1. 有序清單子清單
         1. 有序清單子子清單
 </code></pre></div>
-<h5 id="_16">核取方塊</h5>
+<h5 id="_15">核取方塊</h5>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> 這是一個預設勾選的選項</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> 這是一個預設不勾選的選項<ul class="task-list">
@@ -1432,16 +1386,16 @@ __斜粗2__
 <span class="w">    </span><span class="k">* [ ]</span> Praesent sed risus massa
 <span class="k">- [ ]</span> Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 </code></pre></div>
-<h5 id="_17">連結</h5>
+<h5 id="_16">連結</h5>
 <p><a href="https://tbiadata.tw" title="游標顯示內容">連結名稱</a></p>
 <div class="highlight"><pre><span></span><code>[連結名稱](https://tbiadata.tw &quot;游標顯示內容&quot;)
 </code></pre></div>
-<h5 id="_18">簡易超連結</h5>
+<h5 id="_17">簡易超連結</h5>
 <p><a href="https://tbiadata.tw">https://tbiadata.tw</a></p>
 <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#98;&#105;&#97;&#110;&#111;&#116;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#98;&#105;&#97;&#110;&#111;&#116;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
 <div class="highlight"><pre><span></span><code>&lt;網址或mail&gt;
 </code></pre></div>
-<h5 id="_19">分隔線</h5>
+<h5 id="_18">分隔線</h5>
 <p>1.</p>
 <hr />
 <p>2.</p>
@@ -1461,7 +1415,7 @@ __斜粗2__
 * * *
 ---
 </code></pre></div>
-<h5 id="_20">程式碼</h5>
+<h5 id="_19">程式碼</h5>
 <div class="highlight"><span class="filename">這裡是示範</span><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
@@ -1482,7 +1436,7 @@ __斜粗2__
 <span class="sb">}</span>
 <span class="sb">```</span>
 </code></pre></div>
-<h5 id="_21">圖片</h5>
+<h5 id="_20">圖片</h5>
 <p><img alt="圖片" src="../assets/logo_top.svg" title="游標顯示內容" /></p>
 <div class="highlight"><pre><span></span><code>![<span class="nt">圖片名稱</span>](<span class="na">圖片位置連結 &quot;游標顯示內容&quot;</span>)
 </code></pre></div>
@@ -1501,15 +1455,15 @@ __斜粗2__
 <li>需注意圖片位置連結依據不同語法，可能會有所差異。</li>
 </ul>
 </div>
-<h5 id="_22">帶有連結的圖片</h5>
+<h5 id="_21">帶有連結的圖片</h5>
 <p><a href="https://tbiadata.tw/"><img alt="圖片" src="../assets/logo_top.svg" /></a></p>
 <div class="highlight"><pre><span></span><code>[![圖片名稱](圖片位置連結)](點擊圖片會前往的連結)
 </code></pre></div>
-<h5 id="_23">調整圖片大小</h5>
+<h5 id="_22">調整圖片大小</h5>
 <p><img alt="noti" src="../assets/noti-figure.png" width="200" /></p>
 <div class="highlight"><span class="filename">寬度: 200</span><pre><span></span><code>![<span class="nt">標題</span>](<span class="na">./assets/my-awesome-image.jpg</span>){ width=&quot;200&quot; }
 </code></pre></div>
-<h5 id="_24">調整圖片文字對齊</h5>
+<h5 id="_23">調整圖片文字對齊</h5>
 <p><img align="left" alt="左邊漂浮" src="../assets/logo_top.svg" />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</p>
@@ -1526,7 +1480,7 @@ text content 內文
 <p class="admonition-title">Note</p>
 <p>沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。</p>
 </div>
-<h5 id="_25">表格</h5>
+<h5 id="_24">表格</h5>
 <table>
 <thead>
 <tr>
@@ -1570,10 +1524,10 @@ text content 內文
 <li>表格內文若有 <code>|</code> 或 <code>-</code>，須在前方加上跳脫字元 <code>\</code> 。</li>
 </ul>
 </div>
-<h5 id="_26">短區塊</h5>
+<h5 id="_25">短區塊</h5>
 <p><code>內容</code></p>
 <p>`內容`</p>
-<h5 id="_27">跳脫字元</h5>
+<h5 id="_26">跳脫字元</h5>
 <p>```</p>
 <div class="highlight"><pre><span></span><code>\+任意符號
 </code></pre></div>
@@ -1599,7 +1553,7 @@ text content 內文
 <div class="admonition important">
 <p>This is an admonition box without a title.</p>
 </div>
-<h3 id="_28">本文件網站的軟體架構與開發環境</h3>
+<h3 id="_27">本文件網站的軟體架構與開發環境</h3>
 <p>請參考<a href="https://github.com/TBIA/docs">此處README</a>。</p>
 
 
@@ -1670,6 +1624,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     
     
       <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../javascripts/nav-toggle.js"></script>
       
     
   </body>
