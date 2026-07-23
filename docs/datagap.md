@@ -1,13 +1,9 @@
 # TBIA資料空缺概況整理文件
 
-何芷蔚 Daphne Hoh - daphnehohzhiwei[@]gmail.com | 吳俊毅 Jun-yi Wu - jaredswu[@]gmail.com<br>
-version {{ git.short_commit }}, {{ git_revision_date }}
-
 <center>
 ![ascidian](https://inaturalist-open-data.s3.amazonaws.com/photos/121962530/medium.jpeg)
 </center>
 
----
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
 何芷蔚、吳俊毅。2024。TBIA資料空缺概況整理文件。第一版。臺灣生物多樣性資訊聯盟：臺北。
@@ -19,10 +15,10 @@ version {{ git.short_commit }}, {{ git_revision_date }}
 本文件《TBIA資料空缺概況整理文件》採用[創用CC姓名標示-相同方式分享4.0國際(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/r1r9kb0h](https://pid.tbiadata.tw/ark:/35232/r1r9kb0h)
+[https://pid.tbiadata.tw/ark:/35232/r1r9kb0h/v1](https://pid.tbiadata.tw/ark:/35232/r1r9kb0h/v1)
 
 ### 文件版本控制 Document Control
-第一版，2024年2月。
+[第一版，2024年2月。](https://pid.tbiadata.tw/ark:/35232/r1r9kb0h/v1)
 
 ---
 ## **前言 Preface**

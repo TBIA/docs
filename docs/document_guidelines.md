@@ -1,7 +1,5 @@
 # TBIA文件指引
-臺灣生物多樣性資訊聯盟文件工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
 
----
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
 臺灣生物多樣性資訊聯盟文件工作小組。2024。TBIA文件指引。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
@@ -16,10 +14,10 @@ TBIA文件工作小組為本文件的這個版本做出了貢獻。
 本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-https://pid.tbiadata.tw/ark:/35232/c165joui
+[https://pid.tbiadata.tw/ark:/35232/c165joui/v1](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
 
 ### 文件版本控制 Document Control
-第一版，2024年2月。
+[第一版，2024年2月。](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
 
 ---
 

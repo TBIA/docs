@@ -1,7 +1,5 @@
 # 生物多樣性領域資料標準
 
-臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
-
 本文件亦有[PDF版本](https://tbia.github.io/docs/assets/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E9%A0%98%E5%9F%9F%E8%B3%87%E6%96%99%E6%A8%99%E6%BA%96%E7%AC%AC%E4%BA%8C%E7%89%88.pdf)。
 
 ## **版權說明 Colophon**
@@ -21,11 +19,12 @@
 本文件《生物多樣性領域資料標準》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/r15laq0x](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v2)
+[https://pid.tbiadata.tw/ark:/35232/r15laq0x/v2](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v2)
 
 ### 文件版本控制 Document Control
-[第1.0版，2021年7月。](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v1)<br/>
-第2.0版，2026年4月。
+[第2.0版，2026年4月。](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v2)
+
+[第1.0版，2021年7月。](https://pid.tbiadata.tw/ark:/35232/r15laq0x/v1)
 
 最初基於資料庫串連與資料發佈工作小組的《[生物出現紀錄資料共享指引](https://hackmd.io/@oOKtv9CNRuKvI6IqXZGf9w/BJNm-7XNv)》。
 

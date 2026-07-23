@@ -1,7 +1,5 @@
 # 自動相機資料交換參考模板
-臺灣生物多樣性資訊聯盟機器觀測資料開放標準工作小組 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }} 
 
----
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
 吳世鴻。2025。自動相機資料交換參考模板。第2.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
@@ -17,10 +15,10 @@ TBIA 機器觀測資料開放標準工作小組為本文件的這個版本做出
 本文件《自動相機資料交換參考模板》採用 [創用CC 姓名標示 4.0 國際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/r1zupu9e](https://pid.tbiadata.tw/ark:/35232/r1zupu9e)
+[https://pid.tbiadata.tw/ark:/35232/r1zupu9e/v1](https://pid.tbiadata.tw/ark:/35232/r1zupu9e/v1)
 
 ### 文件版本控制 Document Control
-第2.0版，2025年11月。
+[第2.0版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r1zupu9e/v1)
 
 第1.0版，2025年9月。
 

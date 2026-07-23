@@ -1,5 +1,4 @@
 # TBIA 共同願景（草案）
-臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git_revision_date }}
 
 本文件亦有[PDF版本](https://tbiadata.tw/media/resources/TBIA%20%E5%85%B1%E5%90%8C%E9%A1%98%E6%99%AF(%E8%8D%89%E6%A1%88).pdf)。
 
@@ -20,10 +19,11 @@
 本文件《TBIA共同願景》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/r1wtauzn](https://pid.tbiadata.tw/ark:/35232/r1wtauzn)
+[https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1)
 
 ### 文件版本控制 Document Control
-草案版第二版，2020年7月2日更新，並透過2020年7月6日的第33次TBIA例會確認。
+[草案版第二版，2020年7月2日更新，並透過2020年7月6日的第33次TBIA例會確認。](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1)
+
 草案版第一版，2020年7月1日建立。
 
 ### 封面圖片

@@ -1,8 +1,5 @@
 # TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）
 
-臺灣生物多樣性資訊聯盟秘書處 - tbianoti@gmail.com - version {{ git.short_commit }}, {{ git.date.strftime('%Y-%m-%d %H:%M:%S%z') }}
-
----
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
 臺灣生物多樣性資訊聯盟秘書處。2024。TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）。第一版。臺灣生物多樣性資訊聯盟：臺北。
@@ -17,11 +14,12 @@
 本文件《TBIA臺灣生物多樣性資訊聯盟單位狀況自評文件（正式會員加盟使用）》採用 [創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/r10nvlvf](https://pid.tbiadata.tw/ark:/35232/r10nvlvf)
+[https://pid.tbiadata.tw/ark:/35232/r10nvlvf/v1](https://pid.tbiadata.tw/ark:/35232/r10nvlvf/v1)
 
 ### 文件版本控制 Document Control
+[第一版，2024年4月10日。](https://pid.tbiadata.tw/ark:/35232/r10nvlvf/v1)
+
 草稿，2024年3月26日。
-第一版，2024年4月10日。
 
 ---
 ## **加盟條件** 
