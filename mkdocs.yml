@@ -78,6 +78,8 @@ markdown_extensions:
   - admonition
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/nav-toggle.js
 extra:
   analytics:
     provider: google

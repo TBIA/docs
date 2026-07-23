@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<script>
+  /* Restore sidebar state before first paint to avoid flashing */
+  if (localStorage.getItem("tbia-sidebar-hidden") === "1") {
+    document.documentElement.classList.add("tbia-sidebar-hidden");
+  }
+</script>
+{% endblock %}

@@ -31,3 +31,19 @@
 /*a:link, visited, hover, active{
   color: #E2A460;
 }*/
+
+/* Sidebar nav toggle button: only shown on desktop,
+   where the sidebar is permanent and Material has no built-in toggle */
+#tbia-sidebar-toggle {
+  display: none;
+}
+
+@media screen and (min-width: 76.25em) {
+  #tbia-sidebar-toggle {
+    display: inline-block;
+  }
+
+  .tbia-sidebar-hidden .md-sidebar--primary {
+    display: none;
+  }
+}
