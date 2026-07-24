@@ -1253,25 +1253,25 @@
 <p>TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與發佈這些文件的目的，是提供與生物多樣性資訊與開放資料有關的訊息，以支持臺灣相關社群的實作。TBIA文件的理念主要受<a href="https://docs.gbif.org/documentation-guidelines/en/">GBIF文件</a>啟發。</p>
 <p>本指引的目標則是提供撰寫TBIA文件的綱要與素材。透過提供一套具有一致性（consistent）、可靠性（reliable）、可再用性（reusable），以及版本管理特性（versioned）的綱要與素材，讓TBIA文件的建立與更新流程變得簡易順暢。藉此並逐步建立社群對文件的信任，以促成更廣大的採納與使用。</p>
 <h2 id="guidelines-for-document-authors">給文件作者們的指引 Guidelines for document authors</h2>
-<p>我們在這個系統採用的文件編碼語法是<a href="https://python-markdown.github.io/#goals">Python-Markdown語法</a>。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。</p>
+<p>我們在這個系統採用的文件編碼語法是<a href="https://python-Markdown.github.io/#goals">Python-Markdown語法</a>。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。</p>
 <p>我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。</p>
 <h3 id="_2">完成一個文件的原則與步驟</h3>
 <h4 id="_3">原則</h4>
 <ul>
 <li>每個文件正式發佈後，至少會有2份檔案，一個是最新（沒有版號）檔案<code>title.md</code>，一個是帶版號內容固定不變的檔案 <code>title-v1.md</code>。</li>
-<li>有新增版本時，結果會產生一個新的檔案，例如文件版號是3的話，就會有 <code>title-v1.md</code>、<code>title-v2.md</code> <code>title-v3.md</code>和<code>title.md</code> 4個檔案，其中 <code>title-v3.md</code> 跟 <code>title.md</code> 除了 <a href="https://docs.tbiadata.tw/document_guidelines-draft/#persistent-uri">ARK永久網址（persistent URL）</a>會不同，其他文字內容是一模一樣的。</li>
-<li>md檔檔名的版本號是用dash標示，v也是用小寫v，例如「biodiversity_data_standard-v1」。</li>
-<li>文件正式發佈後，md檔的名稱不可更動（否則ark連結會失效，若真的需要更動需再請文件小組調整）。</li>
-<li>「沒有版本號」的md檔，內容是最新版的文件，但內文的Persistent URI的ark要放最新版的版本號。「文件版本控制」章節，要加上每個版本，且要用超連結語法加上URL。</li>
-<li>文件修改過程（還未定版前）使用草稿markdown檔案：<code>title-draft.md</code>。</li>
+<li>新增版本時，需產生一個新的檔案，例如新增文件版本3，總共會有<code>title-v1.md</code>、<code>title-v2.md</code>、<code>title-v3.md</code>和<code>title.md</code>4個檔案，其中最新新增的版本<code>title-v3.md</code>跟<code>title.md</code>文字內容會是一模一樣的。</li>
+<li>md檔檔名的版本號以dash標示，版本v統一用小寫v，例如「biodiversity_data_standard-v1」。</li>
+<li>文件正式發佈後，md檔的名稱不可更動，否則ARK連結會失效，若真的需要更動需再請文件小組調整。</li>
+<li>「沒有版本號」的md檔，內容是最新版的文件，但內文的Persistent URI的ARK須為最新版的版本號。「文件版本控制」章節，需加上每個版本，並以超連結語法加上URL。</li>
+<li>文件修改過程中（還未定版前）使用草稿Markdown檔案：<code>title-draft.md</code>。</li>
 </ul>
 <h4 id="_4">步驟</h4>
 <p>舉例使用的的 <code>new</code> 與 <code>title</code> 可以替換成自行定義的名稱，但要符合以上指引原則。</p>
 <ol>
 <li>
-<p><strong>前製作業</strong> </p>
+<p><strong>前置作業</strong> </p>
 <ul>
-<li>新文件：先新增1個暫時的markdown檔案。<code>new-draft.md</code>。</li>
+<li>新文件：先新增1個暫時的Markdown檔案。<code>new-draft.md</code>。</li>
 <li>新增版本(要新增版號3)：複製修改前最新檔案，如：<code>title-v2.md</code>，另存暫時檔案<code>title-draft.md</code>。</li>
 </ul>
 </li>
@@ -1301,7 +1301,7 @@
 </ol>
 <h4 id="_5">流程圖</h4>
 <pre class="mermaid"><code>flowchart TD
-    subgraph prep["1. 前製作業"]
+    subgraph prep["1. 前置作業"]
         A0{"文件類型？"}
         A0 -- 新文件 --&gt; A1["新增暫時檔案&lt;br/&gt;new-draft.md"]
         A0 -- 新增版本&lt;br/&gt;（如版號3） --&gt; A2["複製修改前最新檔案&lt;br/&gt;title-v2.md"] --&gt; A3["另存暫時檔案為&lt;br/&gt;title-draft.md"]
@@ -1319,7 +1319,7 @@
     subgraph final["3. 定版"]
         F1["通知 TBIA 技術總監&lt;br/&gt;請秘書處確認是否發佈"] --&gt; F2["秘書處確認後&lt;br/&gt;由文件工作小組接續以下工作"]
         F2 --&gt; F3["文件工作小組請TBIA入口網&lt;br/&gt;根據該文件網址產出ARK永久網址&lt;br/&gt;（Persistent URL）"]
-        F3 --&gt; F4["文件工作小組將最新版版號的 ARK 網址填回&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位&lt;br/&gt;並於「文件版本控制」章節&lt;br/&gt;以超連結語法加上每個版本的 URL"]
+        F3 --&gt; F4["文件工作小組將最新版版號的ARK網址填回&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位&lt;br/&gt;並於「文件版本控制」章節&lt;br/&gt;以超連結語法加上每個版本的 URL"]
     end
 
     F4 --&gt; P0
@@ -1571,7 +1571,7 @@ text content 內文
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。</p>
+<p>沒有中間對齊，因為這邊Markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。</p>
 </div>
 <h5 id="_26">表格</h5>
 <table>
@@ -1612,7 +1612,7 @@ text content 內文
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
-<li>或可參考<a href="https://tableconvert.com/excel-to-markdown">表格產生小工具</a>，將表格內容匯入後自動產出對應markdown語法。</li>
+<li>或可參考<a href="https://tableconvert.com/excel-to-markdown">表格產生小工具</a>，將表格內容匯入後自動產出對應Markdown語法。</li>
 <li>不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。</li>
 <li>表格內文若有 <code>|</code> 或 <code>-</code>，須在前方加上跳脫字元 <code>\</code> 。</li>
 </ul>
