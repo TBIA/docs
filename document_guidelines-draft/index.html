@@ -1318,8 +1318,8 @@
     W1 --&gt; F1
 
     subgraph final["3. 定版"]
-        F1["通知 TBIA 技術總監&lt;br/&gt;請秘書處確認是否發佈"] --&gt; F2["秘書處確認後&lt;br/&gt;由文件工作小組接續以下工作"]
-        F2 --&gt; F3["文件工作小組請TBIA入口網&lt;br/&gt;根據該文件網址產出ARK永久網址&lt;br/&gt;（Persistent URL）"]
+        F1["通知 TBIA 技術總監&lt;br/&gt;請秘書處確認是否發佈"] --&gt; F2["秘書處確認後&lt;br/&gt;由文件工作小組接續&lt;br/&gt;以下工作"]
+        F2 --&gt; F3["文件工作小組請TBIA入口網&lt;br/&gt;根據該文件網址&lt;br/&gt;產出ARK永久網址&lt;br/&gt;（Persistent URL）"]
         F3 --&gt; F4["文件工作小組將最新版版號的ARK網址填回&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位&lt;br/&gt;並於「文件版本控制」章節&lt;br/&gt;以超連結語法加上每個版本的 URL"]
     end
 
@@ -1328,11 +1328,11 @@
     subgraph publish["4. 發佈"]
         P0{"文件類型？"}
         P0 -- 全新檔案 --&gt; P1["new-draft.md&lt;br/&gt;改名為 title-v1.md&lt;br/&gt;同時另存新檔案 title.md"]
-        P0 -- 新增版本 --&gt; P2["title-draft.md&lt;br/&gt;改名為 title-v3.md&lt;br/&gt;同時將 title.md 更新為最新版內容&lt;br/&gt;（包含填回的 ARK URL）"]
+        P0 -- 新增版本 --&gt; P2["title-draft.md&lt;br/&gt;改名為 title-v3.md&lt;br/&gt;同時將 title.md 更新為&lt;br/&gt;最新版內容&lt;br/&gt;（包含填回的 ARK URL）"]
         P1 --&gt; Z0
         P2 --&gt; Z0
 
-        Z0["文件工作小組將文件正式發佈至文件網站&lt;br/&gt;（修改 mkdocs.yml）"]
+        Z0["文件工作小組將文件&lt;br/&gt;正式發佈至文件網站&lt;br/&gt;（修改 mkdocs.yml）"]
 
     end
 
