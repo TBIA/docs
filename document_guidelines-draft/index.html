@@ -1269,15 +1269,15 @@
 <p>舉例使用的的 <code>new</code> 與 <code>title</code> 可以替換成自行定義的名稱，但要符合以上指引原則。</p>
 <p><strong>前製作業</strong> 
    * 新文件：先新增1個暫時的markdown檔案。<code>new-draft.md</code>。
-   * 新增版本(要新增版號3)：複製修改前最新檔案，如：<code>title-v2.md</code>，另存暫時檔案<code>title-draft.md</code>。
-<strong>撰寫</strong> 
-   * 根據本指引與文件模板撰寫該文件檔案。
-<strong>定版</strong>
+   * 新增版本(要新增版號3)：複製修改前最新檔案，如：<code>title-v2.md</code>，另存暫時檔案<code>title-draft.md</code>。</p>
+<p><strong>撰寫</strong> 
+   * 根據本指引與文件模板撰寫該文件檔案。</p>
+<p><strong>定版</strong>
    1. 通知TBIA技術總監，請秘書處確認是否發佈。
    2. 秘書處確認後，由文件工作小組接續以下工作。
    3. 文件工作小組請TBIA入口網根據該文件網址，產出ARK永久網址（Persistent URL）。
-   4. 文件工作小組將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。
-<strong>發佈</strong>
+   4. 文件工作小組將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。</p>
+<p><strong>發佈</strong>
    * 全新檔案：改檔案名稱，把 <code>new-draft.md</code> 改成 <code>title-v1.md</code>，同時另存一個新檔案 <code>title.md</code>。
    * 新增版本：把 <code>title-draft.md</code> 改成 <code>title-v3.md</code>，同時也把 <code>title.md</code> 更新成最新版的內容（包含後來填回的ARK URL）。
    * 文件工作小組將文件正式發佈至文件網站（修改mkdocs.yml）。</p>
@@ -1299,9 +1299,9 @@
     W1 --&gt; F1
 
     subgraph final["3. 定版"]
-        F1["通知 TBIA 技術總監&lt;br/&gt;請秘書處確認是否發佈"] --&gt; F2["TBIA 入口網依文件網址&lt;br/&gt;產出 ARK 永久網址（Persistent URL）"]
-        F2 --&gt; F3["秘書處確認後&lt;br/&gt;文件工作小組發佈至文件網站&lt;br/&gt;（修改 mkdocs.yml）"]
-        F3 --&gt; F4["將最新版版號的 ARK 網址填回&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位&lt;br/&gt;並於「文件版本控制」章節&lt;br/&gt;以超連結語法加上每個版本的 URL"]
+        F1["通知 TBIA 技術總監&lt;br/&gt;請秘書處確認是否發佈"] --&gt; F2["秘書處確認後&lt;br/&gt;由文件工作小組接續以下工作"]
+        F2 --&gt; F3["文件工作小組請TBIA入口網&lt;br/&gt;根據該文件網址產出ARK永久網址&lt;br/&gt;（Persistent URL）"]
+        F3 --&gt; F4["文件工作小組將最新版版號的 ARK 網址填回&lt;br/&gt;「永久統一資源標籤 Persistent URI」欄位&lt;br/&gt;並於「文件版本控制」章節&lt;br/&gt;以超連結語法加上每個版本的 URL"]
     end
 
     F4 --&gt; P0
