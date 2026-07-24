@@ -14,9 +14,11 @@ TBIA文件工作小組為本文件的這個版本做出了貢獻。
 本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/c165joui/v1](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
+[https://pid.tbiadata.tw/ark:/35232/c165joui/v2](https://pid.tbiadata.tw/ark:/35232/c165joui/v2)
 
 ### 文件版本控制 Document Control
+[第二版，2026年7月。](https://pid.tbiadata.tw/ark:/35232/c165joui/v2)
+
 [第一版，2024年2月。](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
 
 ---
