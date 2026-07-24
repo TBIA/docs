@@ -1260,8 +1260,8 @@
 <ul>
 <li>每個文件正式發布後，至少會有2份檔案，一個是最新（沒有版號）檔案<code>title.md</code>，一個是帶版號內容固定不變的檔案 <code>title-v1.md</code>。</li>
 <li>有新增版本時，結果會產生一個新的檔案，例如文件版號是3的話，就會有 <code>title-v1.md</code>、<code>title-v2.md</code> <code>title-v3.md</code>和<code>title.md</code> 4個檔案，其中 <code>title-v3.md</code> 跟 <code>title.md</code> 除了 <a href="https://docs.tbiadata.tw/document_guidelines-draft/#persistent-uri">ARK永久網址（persistent URL）</a>會不同，其他文字內容是一模一樣的。</li>
-<li>檔檔名的版本號是用dash標示，v也是用小寫v，例如「biodiversity_data_standard-v1」。</li>
-<li>文件正式發佈後，md檔的名稱不可更動（否則ark連結會失效）。</li>
+<li>md檔檔名的版本號是用dash標示，v也是用小寫v，例如「biodiversity_data_standard-v1」。</li>
+<li>文件正式發佈後，md檔的名稱不可更動（否則ark連結會失效，若真的需要更動需再請文件小組調整）。</li>
 <li>「沒有版本號」的md檔，內容是最新版的文件，但內文的Persistent URI的ark要放最新版的版本號。「文件版本控制」章節，要加上每個版本，且要用超連結語法加上URL。</li>
 <li>文件修改過程（還未定版前）使用草稿markdown檔案：<code>title-draft.md</code>。</li>
 </ul>
@@ -1272,9 +1272,10 @@
 <li><strong>撰寫</strong> 根據本指引與文件模板撰寫該文件檔案。</li>
 <li><strong>定版</strong></li>
 <li>通知TBIA技術總監，請秘書處確認是否發佈。</li>
-<li>TBIA入口網根據該文件網址，產出ARK永久網址（Persistent URL）。</li>
-<li>秘書處確認後，由文件工作小組發佈至文件網站（修改mkdocs.yml）。</li>
-<li>將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。</li>
+<li>秘書處確認後，由文件工作小組接續以下工作。</li>
+<li>文件工作小組請TBIA入口網根據該文件網址，產出ARK永久網址（Persistent URL）。</li>
+<li>文件工作小組將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。</li>
+<li>文件工作小組將文件正式發佈至文件網站（修改mkdocs.yml）。</li>
 <li><strong>發布</strong> 全新檔案：改檔案名稱，把 <code>new-draft.md</code> 改成 <code>title-v1.md</code>，同時另存一個新檔案 <code>title.md</code>。新增版本：把 <code>title-draft.md</code> 改成 <code>title-v3.md</code>，同時也把 <code>title.md</code> 更新成最新版的內容（包含後來填回的ARK URL）。</li>
 </ol>
 <h2 id="_5">流程圖</h2>
