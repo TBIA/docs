@@ -95,19 +95,19 @@ flowchart TD
 
     subgraph publish["4. 發佈"]
         P0{"文件類型？"}
-        P0 -- 全新檔案 --> P1["new-draft.md 改名為 title-v1.md<br/>同時另存新檔案 title.md"]
-        P0 -- 新增版本 --> P2["title-draft.md 改名為 title-v3.md<br/>同時將 title.md 更新為最新版內容<br/>（包含填回的 ARK URL）"]
+        P0 -- 全新檔案 --> P1["new-draft.md<br/>改名為 title-v1.md<br/>同時另存新檔案 title.md"]
+        P0 -- 新增版本 --> P2["title-draft.md<br/>改名為 title-v3.md<br/>同時將 title.md 更新為最新版內容<br/>（包含填回的 ARK URL）"]
         P1 --> Z0
         P2 --> Z0
 
-        Z0["文件工作小組將文件正式發佈至文件網站（修改mkdocs.yml）"]
+        Z0["文件工作小組將文件正式發佈至文件網站<br/>（修改mkdocs.yml）"]
 
     end
 
     
 
     classDef staff fill:#ffe0b2,stroke:#e65100,color:#333
-    class F2,F3 staff
+    class F2,F3,F4,Z0 staff
 ```
 
 !!! Note
