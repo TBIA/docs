@@ -822,12 +822,12 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        完成一個文件的步驟
+        完成一個文件的原則與步驟
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="完成一個文件的步驟">
+    <nav class="md-nav" aria-label="完成一個文件的原則與步驟">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1255,7 +1255,7 @@
 <h2 id="guidelines-for-document-authors">給文件作者們的指引 Guidelines for document authors</h2>
 <p>我們在這個系統採用的文件編碼語法是<a href="https://python-markdown.github.io/#goals">Python-Markdown語法</a>。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。</p>
 <p>我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。</p>
-<h3 id="_2">完成一個文件的步驟</h3>
+<h3 id="_2">完成一個文件的原則與步驟</h3>
 <h4 id="_3">原則</h4>
 <ul>
 <li>每個文件正式發布後，至少會有2份檔案，一個是最新（沒有版號）檔案<code>title.md</code>，一個是帶版號內容固定不變的檔案 <code>title-v1.md</code>。</li>
@@ -1268,15 +1268,20 @@
 <h4 id="_4">步驟</h4>
 <p>舉例使用的的 <code>new</code> 與 <code>title</code> 可以替換成自行定義的名稱，但要符合以上指引原則。</p>
 <ol>
-<li><strong>前製作業</strong> 新文件：先新增1個暫時的markdown檔案。<code>new-draft.md</code>。新增版本(要新增版號3)：複製修改前最新檔案，如：<code>title-v2.md</code>，另存暫時檔案<code>title-draft.md</code>。</li>
-<li><strong>撰寫</strong> 根據本指引與文件模板撰寫該文件檔案。</li>
+<li><strong>前製作業</strong> </li>
+<li>新文件：先新增1個暫時的markdown檔案。<code>new-draft.md</code>。</li>
+<li>新增版本(要新增版號3)：複製修改前最新檔案，如：<code>title-v2.md</code>，另存暫時檔案<code>title-draft.md</code>。</li>
+<li><strong>撰寫</strong> </li>
+<li>根據本指引與文件模板撰寫該文件檔案。</li>
 <li><strong>定版</strong></li>
 <li>通知TBIA技術總監，請秘書處確認是否發佈。</li>
 <li>秘書處確認後，由文件工作小組接續以下工作。</li>
 <li>文件工作小組請TBIA入口網根據該文件網址，產出ARK永久網址（Persistent URL）。</li>
 <li>文件工作小組將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。</li>
+<li><strong>發布</strong></li>
+<li>全新檔案：改檔案名稱，把 <code>new-draft.md</code> 改成 <code>title-v1.md</code>，同時另存一個新檔案 <code>title.md</code>。</li>
+<li>新增版本：把 <code>title-draft.md</code> 改成 <code>title-v3.md</code>，同時也把 <code>title.md</code> 更新成最新版的內容（包含後來填回的ARK URL）。</li>
 <li>文件工作小組將文件正式發佈至文件網站（修改mkdocs.yml）。</li>
-<li><strong>發布</strong> 全新檔案：改檔案名稱，把 <code>new-draft.md</code> 改成 <code>title-v1.md</code>，同時另存一個新檔案 <code>title.md</code>。新增版本：把 <code>title-draft.md</code> 改成 <code>title-v3.md</code>，同時也把 <code>title.md</code> 更新成最新版的內容（包含後來填回的ARK URL）。</li>
 </ol>
 <h4 id="_5">流程圖</h4>
 <pre class="mermaid"><code>flowchart TD
