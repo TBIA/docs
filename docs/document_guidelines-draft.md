@@ -88,8 +88,8 @@ flowchart TD
     W1 --> F1
 
     subgraph final["3. 定版"]
-        F1["通知 TBIA 技術總監<br/>請秘書處確認是否發佈"] --> F2["秘書處確認後<br/>由文件工作小組接續以下工作"]
-        F2 --> F3["文件工作小組請TBIA入口網<br/>根據該文件網址產出ARK永久網址<br/>（Persistent URL）"]
+        F1["通知 TBIA 技術總監<br/>請秘書處確認是否發佈"] --> F2["秘書處確認後<br/>由文件工作小組接續<br/>以下工作"]
+        F2 --> F3["文件工作小組請TBIA入口網<br/>根據該文件網址<br/>產出ARK永久網址<br/>（Persistent URL）"]
         F3 --> F4["文件工作小組將最新版版號的ARK網址填回<br/>「永久統一資源標籤 Persistent URI」欄位<br/>並於「文件版本控制」章節<br/>以超連結語法加上每個版本的 URL"]
     end
 
@@ -98,11 +98,11 @@ flowchart TD
     subgraph publish["4. 發佈"]
         P0{"文件類型？"}
         P0 -- 全新檔案 --> P1["new-draft.md<br/>改名為 title-v1.md<br/>同時另存新檔案 title.md"]
-        P0 -- 新增版本 --> P2["title-draft.md<br/>改名為 title-v3.md<br/>同時將 title.md 更新為最新版內容<br/>（包含填回的 ARK URL）"]
+        P0 -- 新增版本 --> P2["title-draft.md<br/>改名為 title-v3.md<br/>同時將 title.md 更新為<br/>最新版內容<br/>（包含填回的 ARK URL）"]
         P1 --> Z0
         P2 --> Z0
 
-        Z0["文件工作小組將文件正式發佈至文件網站<br/>（修改 mkdocs.yml）"]
+        Z0["文件工作小組將文件<br/>正式發佈至文件網站<br/>（修改 mkdocs.yml）"]
 
     end
 
