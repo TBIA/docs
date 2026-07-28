@@ -2,7 +2,7 @@
 
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-臺灣生物多樣性資訊聯盟文件工作小組。2024。TBIA文件指引。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+臺灣生物多樣性資訊聯盟文件工作小組。2026。TBIA文件指引。第二版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 柯智仁、李金穎、李思賢、張俊怡
@@ -14,10 +14,12 @@ TBIA文件工作小組為本文件的這個版本做出了貢獻。
 本文件《TBIA文件指引》採用 創用CC 姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)。
 
 ### 永久統一資源標籤 Persistent URI
-[https://pid.tbiadata.tw/ark:/35232/c165joui/v1](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
+[https://pid.tbiadata.tw/ark:/35232/r1hgik4n/v2](https://pid.tbiadata.tw/ark:/35232/r1hgik4n/v2)
 
 ### 文件版本控制 Document Control
-[第一版，2024年2月。](https://pid.tbiadata.tw/ark:/35232/c165joui/v1)
+[第二版，2026年7月。](https://pid.tbiadata.tw/ark:/35232/r1hgik4n/v2)
+
+[第一版，2024年2月。](https://pid.tbiadata.tw/ark:/35232/r1hgik4n/v1)
 
 ---
 
@@ -26,24 +28,93 @@ TBIA文件指由TBIA撰寫，並以開放授權發佈的文件。TBIA撰寫與�
 
 本指引的目標則是提供撰寫TBIA文件的綱要與素材。透過提供一套具有一致性（consistent）、可靠性（reliable）、可再用性（reusable），以及版本管理特性（versioned）的綱要與素材，讓TBIA文件的建立與更新流程變得簡易順暢。藉此並逐步建立社群對文件的信任，以促成更廣大的採納與使用。
 
-### 現有文件
-臺灣生物多樣性資訊聯盟秘書處。2022。[臺灣生物多樣性資訊聯盟章程](https://tbia.github.io/docs/articles_of_association/)。第一版。臺灣生物多樣性資訊聯盟：臺北。
-
-中央研究院生物多樣性研究中心、內政部營建署、行政院農業委員會林務局、行政院農業委員會林業試驗所、行政院農業委員會特有生物研究保育中心、海洋委員會海洋保育署。2021。[生物多樣性領域資料標準](https://tbia.github.io/docs/biodiversity_data_standard/)。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
-
-柯智仁。2021。[生物多樣性敏感資料開放作業原則](https://tbia.github.io/docs/restricted_access_species_data/)。草案版。臺灣生物多樣性資訊聯盟秘書處：臺北。
-
-臺灣生物多樣性資訊聯盟願景工作小組。2020。[TBIA共同願景](https://tbia.github.io/docs/alliance_vision/)。草案。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ## 給文件作者們的指引 Guidelines for document authors
 
-我們在這個系統採用的文件編碼語法是[Python-Markdown語法](https://python-markdown.github.io/#goals)。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。
+我們在這個系統採用的文件編碼語法是[Python-Markdown語法](https://python-Markdown.github.io/#goals)。我們採用這個語法的原因是因為TBIA文件是以Python語法撰寫，而Python Markdown語法可以用多種方式將Markdown文字轉成HTML。
 
 我們建議文件的作者欄位，優先以人名填寫（較不建議以單位名稱作為作者）。
 
+### 完成一個文件的原則與步驟
 
-## 舊文件的「去任務化」 'Decommissioning' old documents
-> （本程序待建立）
+#### 原則
+
+- 每個文件正式發佈後，至少會有2份檔案，一個是最新（沒有版號）檔案`title.md`，一個是帶版號內容固定不變的檔案 `title-v1.md`。
+- 新增版本時，需產生一個新的檔案，例如新增文件版本3，總共會有`title-v1.md`、`title-v2.md`、`title-v3.md`和`title.md`4個檔案，其中最新新增的版本`title-v3.md`跟`title.md`文字內容會是一模一樣的。
+- md檔檔名的版本號以dash標示，版本v統一用小寫v，例如「biodiversity_data_standard-v1」。
+- 文件正式發佈後，md檔的名稱不可更動，否則ARK連結會失效，若真的需要更動需再請文件小組調整。
+- 「沒有版本號」的md檔，內容是最新版的文件，但內文的Persistent URI的ARK須為最新版的版本號。「文件版本控制」章節，需加上每個版本，並以超連結語法加上URL。
+- 文件修改過程中（還未定版前）使用草稿Markdown檔案：`title-draft.md`。
+
+#### 步驟
+
+舉例使用的 `new` 與 `title` 可以替換成自行定義的名稱，但要符合以上指引原則。
+
+1. **前置作業** 
+     * 新文件：先新增1個暫時的Markdown檔案。`new-draft.md`。
+     * 新增版本(要新增版號3)：複製修改前最新檔案，如：`title-v2.md`，另存暫時檔案`title-draft.md`。
+
+2. **撰寫** 
+     * 根據本指引與文件模板撰寫該文件檔案。
+
+3. **定版**
+     * 通知TBIA技術總監，請秘書處確認是否發佈。
+     * 秘書處確認後，由文件工作小組接續以下工作。
+     * 文件工作小組請TBIA入口網根據該文件網址，產出ARK永久網址（Persistent URL）。
+     * 文件工作小組將最新版版號的ARK網址填回文件md檔之「永久統一資源標籤 Persistent URI」欄位。「文件版本控制」章節，加上每個版本，用超連結語法加上URL。
+
+4. **發佈**
+     * 全新檔案：改檔案名稱，把 `new-draft.md` 改成 `title-v1.md`，同時另存一個新檔案 `title.md`。
+     * 新增版本：把 `title-draft.md` 改成 `title-v3.md`，同時也把 `title.md` 更新成最新版的內容（包含後來填回的ARK URL）。
+     * 文件工作小組將文件正式發佈至文件網站（修改`mkdocs.yml`）。
+
+#### 流程圖
+
+```mermaid
+flowchart TD
+    subgraph prep["1. 前置作業"]
+        A0{"文件類型？"}
+        A0 -- 新文件 --> A1["新增暫時檔案<br/>new-draft.md"]
+        A0 -- 新增版本<br/>（如版號3） --> A2["複製修改前最新檔案<br/>title-v2.md"] --> A3["另存暫時檔案為<br/>title-draft.md"]
+    end
+
+    A1 --> W1
+    A3 --> W1
+
+    subgraph write["2. 撰寫"]
+        W1["依本指引與文件模板<br/>撰寫文件內容"]
+    end
+
+    W1 --> F1
+
+    subgraph final["3. 定版"]
+        F1["通知 TBIA 技術總監<br/>請秘書處確認是否發佈"] --> F2["秘書處確認後<br/>由文件工作小組接續<br/>以下工作"]
+        F2 --> F3["文件工作小組請TBIA入口網<br/>根據該文件網址<br/>產出ARK永久網址<br/>（Persistent URL）"]
+        F3 --> F4["文件工作小組將最新版版號的ARK網址填回<br/>「永久統一資源標籤 Persistent URI」欄位<br/>並於「文件版本控制」章節<br/>以超連結語法加上每個版本的 URL"]
+    end
+
+    F4 --> P0
+
+    subgraph publish["4. 發佈"]
+        P0{"文件類型？"}
+        P0 -- 全新檔案 --> P1["new-draft.md<br/>改名為 title-v1.md<br/>同時另存新檔案 title.md"]
+        P0 -- 新增版本 --> P2["title-draft.md<br/>改名為 title-v3.md<br/>同時將 title.md 更新為<br/>最新版內容<br/>（包含填回的 ARK URL）"]
+        P1 --> Z0
+        P2 --> Z0
+
+        Z0["文件工作小組將文件<br/>正式發佈至文件網站<br/>（修改 mkdocs.yml）"]
+
+    end
+
+    
+
+    classDef staff fill:#ffe0b2,stroke:#e65100,color:#333
+    class F2,F3,F4,Z0 staff
+```
+
+!!! Note
+    橘紅色區塊為TBIA 秘書處／文件工作小組處理
+
 
 ## 技術指引 Technical guidance
 > 這裡要教學的就是用什麼語法寫以及如何做簡易的文件目錄編輯，以我們目前來說就是MD語法簡易教學以及GitHub的Mkdocs的編輯教學。參考並修改於[MarkDown語法大全
@@ -326,7 +397,7 @@ text content 內文
 ```
 !!! note
 
-    沒有中間對齊，因為這邊markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。
+    沒有中間對齊，因為這邊Markdown語法是對映CSS的float: left/right。如果需置中的話，可以用上面圖片置中的語法。
 
 ##### 表格
 
@@ -345,7 +416,7 @@ text content 內文
 
 !!! note
 
-    * 或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應markdown語法。
+    * 或可參考[表格產生小工具](https://tableconvert.com/excel-to-markdown)，將表格內容匯入後自動產出對應Markdown語法。
     * 不接受使用合併儲存格。若是將其他非Markdown文件轉成本網站的MD格式遇到合併儲存格，則建議以截圖方式處理。
     * 表格內文若有 `|` 或 `-`，須在前方加上跳脫字元 `\` 。
 
