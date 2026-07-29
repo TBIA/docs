@@ -1,6 +1,6 @@
 # 生物多樣性敏感資料開放作業原則
 
-本文件亦有[PDF版本](./assets/3_%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A8%A3%E6%80%A7%E6%95%8F%E6%84%9F%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E4%BD%9C%E6%A5%AD%E5%8E%9F%E5%89%87%EF%BC%88%E8%8D%89%E6%A1%88%EF%BC%89.pdf)。
+本文件亦有[PDF版本](https://pid.tbiadata.tw/ark:/35232/r13f15gv/v1.file)。
 
 ![image](https://github.com/TBIA/docs/assets/31880136/bc4ae3c7-051c-49f8-80a4-5f5b5222d275)
 
