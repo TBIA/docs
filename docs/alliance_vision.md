@@ -1,4 +1,4 @@
-# TBIA 共同願景（草案）
+# TBIA 共同願景
 
 本文件亦有[PDF版本](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1.file)。
 
@@ -6,7 +6,7 @@
 
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-臺灣生物多樣性資訊聯盟願景工作小組。2020。TBIA共同願景。草案。臺灣生物多樣性資訊聯盟秘書處：臺北。
+臺灣生物多樣性資訊聯盟願景工作小組。2020。TBIA共同願景。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 臺灣生物多樣性資訊聯盟願景工作小組
@@ -22,9 +22,9 @@
 [https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1)
 
 ### 文件版本控制 Document Control
-[草案版第二版，2020年7月2日更新，並透過2020年7月6日的第33次TBIA例會確認。](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1)
+[第一版，2020年7月2日更新，並透過2020年7月6日的第33次TBIA例會確認。](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1)
 
-草案版第一版，2020年7月1日建立。
+草案版，2020年7月1日建立。
 
 ### 封面圖片
 TBIA 共同願景。作者：劉璟儀，採用 CC BY-SA 4.0 授權。
