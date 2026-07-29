@@ -2,7 +2,7 @@
 
 ## **版權說明 Colophon**
 ### 建議引用方式 Suggested Citation
-王浥璋、劉璟儀。2025。生態檢核資料交換參考模板。第2.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+王浥璋、劉璟儀。2025。生態檢核資料交換參考模板。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 王浥璋、劉璟儀
@@ -17,9 +17,9 @@ TBIA聯盟夥伴單位、內政部國家公園署太魯閣國家公園管理處�
 [https://pid.tbiadata.tw/ark:/35232/r1oklmgk/v1](https://pid.tbiadata.tw/ark:/35232/r1oklmgk/v1)
 
 ### 文件版本控制 Document Control
-[第2.0版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r1oklmgk/v1)
+[第1.0版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r1oklmgk/v1)
 
-第1.0版，2024年10月。
+草案版，2024年10月。
 
 最初基於行政院公共工程委員會《[公共工程生態檢核資訊公開作業指引](https://www.pcc.gov.tw/content/index?eid=9010&type=C&lang=1)》。
 
