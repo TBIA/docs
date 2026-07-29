@@ -1,6 +1,6 @@
 # TBIA 共同願景（草案）
 
-本文件亦有[PDF版本](https://tbiadata.tw/media/resources/TBIA%20%E5%85%B1%E5%90%8C%E9%A1%98%E6%99%AF(%E8%8D%89%E6%A1%88).pdf)。
+本文件亦有[PDF版本](https://pid.tbiadata.tw/ark:/35232/r1wtauzn/v1.file)。
 
 ![](https://hackmd.io/_uploads/HJI1q9pUh.png)
 
