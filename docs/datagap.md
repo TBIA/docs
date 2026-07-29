@@ -1,7 +1,7 @@
 # TBIA資料空缺概況整理文件
 
 <center>
-![ascidian](<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/f9c6fa67-dc04-4ac8-8da9-3e81ad5776f4" />
+(<img alt="image" src="https://github.com/user-attachments/assets/f9c6fa67-dc04-4ac8-8da9-3e81ad5776f4" />
 )
 </center>
 
