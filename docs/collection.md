@@ -3,7 +3,7 @@
 ## **版權說明 Colophon**
 
 ### 建議引用方式 Suggested Citation
-楊富鈞、劉璟儀、王浥璋。2025。自然史典藏資料交換參考模板。第1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+楊富鈞、劉璟儀、王浥璋。2025。自然史典藏資料交換參考模板。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 楊富鈞、劉璟儀、王浥璋
@@ -18,7 +18,7 @@ TBIA 典藏資料標準工作小組為本文件的這個版本做出了貢獻。
 [https://pid.tbiadata.tw/ark:/35232/r140rmm3/v1](https://pid.tbiadata.tw/ark:/35232/r140rmm3/v1)
 
 ### 文件版本控制 Document Control
-[第1.0版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r140rmm3/v1)
+[第一版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r140rmm3/v1)
 
 草案版，2024年9月。
 
