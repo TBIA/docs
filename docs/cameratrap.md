@@ -20,7 +20,7 @@ TBIA 機器觀測資料開放標準工作小組為本文件的這個版本做出
 ### 文件版本控制 Document Control
 [第1.0版，2025年11月。](https://pid.tbiadata.tw/ark:/35232/r1zupu9e/v1)
 
-草稿版，2025年9月。
+草案版，2025年9月。
 
 最初基於TBIA機器觀測資料開放標準工作小組的《[自動相機資料開放標準](https://hackmd.io/LuP69zHvQ5-2Is6X4C1Q5A?view)》
 
