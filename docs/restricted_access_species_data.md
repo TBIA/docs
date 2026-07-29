@@ -6,7 +6,7 @@
 
 ## 版權說明 Colophon
 ### 建議引用方式 Suggested Citation
-柯智仁。2021。生物多樣性敏感資料開放作業原則。1.0版。臺灣生物多樣性資訊聯盟秘書處：臺北。
+柯智仁。2021。生物多樣性敏感資料開放作業原則。第一版。臺灣生物多樣性資訊聯盟秘書處：臺北。
 
 ### 作者 Authors
 柯智仁
@@ -21,7 +21,7 @@ TBIA 2020年7月6日的第33次例會到2021年7月23日的第44次例會參與�
 [https://pid.tbiadata.tw/ark:/35232/r13f15gv/v1](https://pid.tbiadata.tw/ark:/35232/r13f15gv/v1)
 
 ### 文件版本控制 Document Control
-[1.0版，2024年9月20日透過TBIA委員會公告轉為正式文件。](https://pid.tbiadata.tw/ark:/35232/r13f15gv/v1)
+[第一版，2024年9月20日透過TBIA委員會公告轉為正式文件。](https://pid.tbiadata.tw/ark:/35232/r13f15gv/v1)
 
 草案版，2021年2月5日透過TBIA例會確認。
 
