@@ -86,7 +86,7 @@ scientificName、latitude、longitude 和 year。
 **文件公開：**<br>
 此文件中所使用的入口網20231212版本資料因包含去模糊化敏感資料，所以不開放下載。若有興趣使用此資料請洽[TBIA秘書處](mailto:tbianoti@gmail.com)。我們已將此次分析所使用的R程式碼與此分析中所生成的圖與圖層開放在[GitHub](https://github.com/daphnehoh/TBIA-dataReview20231212)中。
 
-我們將資料在空間上的空缺填補指引以[我的Google地圖](https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F)和優先填補網格中中間點經緯度座標點位輸出成[CSV表](../assets/gap/data_gap_5km_centerpoint.csv)的方式呈現，提供大家直接在安排調查時做瀏覽與參考。
+我們將資料在空間上的空缺填補指引以[我的Google地圖](https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F)和優先填補網格中心點經緯度座標點位輸出成[CSV表](../assets/gap/data_gap_5km_centerpoint.csv)的方式呈現，提供大家直接在安排調查時做瀏覽與參考。
 
 
 ## **2\. 資料統計**
@@ -213,7 +213,7 @@ scientificName、latitude、longitude 和 year。
 | 動物界           | 刺胞動物門     | 2,809      | 0.02   |
 | 動物界           | 其他脊索動物   | 1,394      | 0.01   |
 | 原生生物界       | 原生生物界     | 525        | 0.00   |
-| 動物界           | 投足綱         | 416        | 0.00   |
+| 動物界           | 頭足綱         | 416        | 0.00   |
 | 真菌界           | 其他真菌       | 133        | 0.00   |
 |                  | **Total**      | **18,307,455** | **100.00** |
 
@@ -243,7 +243,7 @@ scientificName、latitude、longitude 和 year。
 | 裸子植物   | 10,901      | 0.06    | 藻類植物   | 790         | 0.37    |
 | 藻類植物   | 6,572       | 0.04    | 苔蘚植物   | 526         | 0.25    |
 | 雙殼綱     | 5,822       | 0.03    | 兩生綱     | 355         | 0.17    |
-| 子囊菌門   | 4,869       | 0.03    | 投足綱     | 260         | 0.12    |
+| 子囊菌門   | 4,869       | 0.03    | 頭足綱     | 260         | 0.12    |
 | 其他節肢動物| 4,579       | 0.03    | 鞘翅目     | 259         | 0.12    |
 | 魚類       | 3,313       | 0.02    | 其他軟體動物| 168        | 0.08    |
 | 擔子菌門   | 3,182       | 0.02    | 蛛形綱     | 160         | 0.07    |
@@ -253,7 +253,7 @@ scientificName、latitude、longitude 和 year。
 | 棘皮動物門 | 1,213       | 0.01    | 原生生物界 | 41          | 0.02    |
 | 原生生物界 | 484         | 0.003   | 裸子植物   | 29          | 0.01    |
 | 其他軟體動物| 390         | 0.002   | 子囊菌門   | 13          | 0.01    |
-| 投足綱     | 156         | 0.001   |            |             |         |
+| 頭足綱     | 156         | 0.001   |            |             |         |
 | 其他真菌   | 133         | 0.001   |            |             |         |
 | ==**陸域 Total**== | **18,093,527**  | **100.00**  | ==**海域 Total**==  | **213,928** | **100.00** |
 
@@ -308,7 +308,7 @@ TBIA在台灣境內的資料筆數接近1,800萬筆觀測紀錄，假設這些�
 ![gap5km](../assets/gap/gap5km.png)
 <br>
 
-我們以上圖資訊準備了[我的Google地圖](https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F)，也在這些優先填補網格中中間點經緯度座標點位輸出成[CSV表](../assets/gap/data_gap_5km_centerpoint.csv)，方便大家直接在安排調查時做瀏覽與參考。
+我們以上圖資訊準備了[我的Google地圖](https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F)，也在這些優先填補網格中心點經緯度座標點位輸出成[CSV表](../assets/gap/data_gap_5km_centerpoint.csv)，方便大家直接在安排調查時做瀏覽與參考。
 
 <iframe src="https://www.google.com/maps/d/embed?mid=14Jc2whR7JVU-EqFHqSGaed-EksSxFGs&ehbc=2E312F" width="800" height="800"></iframe>
 
@@ -320,7 +320,7 @@ TBIA在台灣境內的資料筆數接近1,800萬筆觀測紀錄，假設這些�
 ### 3.2 其他建議
 這次的資料空缺填補如上面所說的，我們優先專注於填補5公里網格空間上的資料空缺。不過在各方面資料概況的圖表中也可以清楚的看見一些明顯資料空缺，其中一些包括：
 
-1\. 圖七：海域資料在海域海域與陸域上的月份分布。6月相比前後的5、7月少了大概一萬筆左右。<br>
+1\. 圖七：海域資料在海域與陸域上的月份分布。6月相比前後的5、7月少了大概一萬筆左右。<br>
 2\. 表三：物種類群在界的階層。除了動植物界以外，資料量都非常的少。非常鼓勵大家提供細菌、原生生物與古菌界的資料！<br>
 3\. 表五：魚類。不管是淡或海水域，魚類會是該環境的重要指標之一。目前入口網的總魚類筆數比預期來得少。
 
@@ -357,7 +357,7 @@ TBIA在台灣境內的資料筆數接近1,800萬筆觀測紀錄，假設這些�
 | 24  | 其他節肢動物         | (other Arthropoda) | Phylum | |
 | 25  | 雙殼綱               | Bivalvia    | Class        | |
 | 26  | 腹足綱               | Gastropoda  | Class        | 蝸牛與貝類 |
-| 27  | 投足綱               | Cephalopoda | Class        | |
+| 27  | 頭足綱               | Cephalopoda | Class        | |
 | 28  | 其他軟體動物         | (other Mollusca) | Phylum   | |
 | 29  | 刺胞動物門           | Cnidaria    | Phylum       | |
 | 30  | 棘皮動物門           | Echinodermata | Phylum    | |
